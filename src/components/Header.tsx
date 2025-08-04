@@ -1,0 +1,41 @@
+import { Button } from "@/components/ui/button";
+import { Phone } from "lucide-react";
+
+export const Header = () => {
+  return (
+    <header className="w-full bg-background border-b border-border/50 sticky top-0 z-50 backdrop-blur-sm">
+      <div className="container mx-auto px-6 py-4">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center space-x-8">
+            <h1 className="text-2xl font-bold text-primary">
+              Xcllusive Business Valuations
+            </h1>
+            <nav className="hidden md:flex items-center space-x-6">
+              <a href="#about" className="text-foreground hover:text-primary transition-colors">
+                About Us
+              </a>
+              <a href="#services" className="text-foreground hover:text-primary transition-colors">
+                Our Services
+              </a>
+              <a href="#process" className="text-foreground hover:text-primary transition-colors">
+                Process
+              </a>
+              <a href="#contact" className="text-foreground hover:text-primary transition-colors">
+                Contact Us
+              </a>
+            </nav>
+          </div>
+          <div className="flex items-center space-x-4">
+            <div className="hidden lg:flex items-center space-x-2 text-primary font-semibold">
+              <Phone className="h-4 w-4" />
+              <span>Call - 1800 825 831</span>
+            </div>
+            <Button variant="hero" size="sm">
+              Get Started
+            </Button>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};

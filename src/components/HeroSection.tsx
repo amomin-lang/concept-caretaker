@@ -1,0 +1,28 @@
+import { Button } from "@/components/ui/button";
+import heroImage from "@/assets/hero-business.jpg";
+
+export const HeroSection = () => {
+  return (
+    <section 
+      className="relative min-h-[600px] flex items-center justify-center bg-cover bg-center"
+      style={{ backgroundImage: `linear-gradient(rgba(33, 150, 243, 0.8), rgba(21, 101, 192, 0.9)), url(${heroImage})` }}
+    >
+      <div className="container mx-auto px-6 text-center text-primary-foreground">
+        <h1 className="text-5xl lg:text-7xl font-bold mb-6 drop-shadow-lg">
+          Australia Wide Business Valuations
+        </h1>
+        <p className="text-xl lg:text-2xl mb-8 max-w-3xl mx-auto opacity-95">
+          Expert business valuations with court-tested methodology and real-world precision
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Button variant="accent" size="lg" className="text-lg px-8">
+            Book Free Consultation
+          </Button>
+          <Button variant="outline" size="lg" className="text-lg px-8 border-white text-white hover:bg-white hover:text-primary">
+            Learn More
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+};
