@@ -1,0 +1,175 @@
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+
+const AboutUs = () => {
+  const teamMembers = [
+    {
+      name: "Zoran Sarabaca",
+      title: "Registered Business Valuer (RBV®) – AIBV",
+      subtitle: "Certified Practicing Business Broker (CPBB®) – AIBB",
+      experience: ""
+    },
+    {
+      name: "Bernetta Lee",
+      title: "CPA",
+      subtitle: "Certified Public Accountant – CPA Australia",
+      experience: ""
+    },
+    {
+      name: "Adeel Momin",
+      title: "M.com (UNSW), MBA (UCP)",
+      subtitle: "Registered Business Valuer (RBV®) – AIBV",
+      experience: "Experience in the Industry = 11 years, Professional Experience = 48 Years"
+    },
+    {
+      name: "Choon Ng",
+      title: "AIBV RBV",
+      subtitle: "Bachelors of Engineering, Masters of Business",
+      experience: "Registered Business Valuer (RBV®) – AIBV, Certified Practicing Business Broker (CPBB®) – AIBB"
+    },
+    {
+      name: "Fred Fareau",
+      title: "Master of Business Management",
+      subtitle: "Registered Business Valuer (RBV®) – AIBV",
+      experience: "Certified Practicing Business Broker (CPBB®) – AIBB, Certified Business Coach, Experience in the Industry = 12 Years"
+    },
+    {
+      name: "AAJ",
+      title: "Bachelors of Training and Development",
+      subtitle: "Masters, Entrepreneurship and Innovation",
+      experience: "Certified Business Valuer - Australian Valuers Institute Coop Limited, Certified Practicing Business Broker (CPBB®) – AIBB"
+    }
+  ];
+
+  const scenarios = [
+    "Family law settlements",
+    "Partnership disputes", 
+    "Tax restructures",
+    "Litigation support",
+    "Strategic planning",
+    "Business sales"
+  ];
+
+  return (
+    <div className="min-h-screen">
+      <Header />
+      
+      <main className="pt-20">
+        {/* Hero Section */}
+        <section className="py-16 bg-gradient-hero text-white">
+          <div className="container mx-auto px-6">
+            <div className="max-w-4xl mx-auto text-center">
+              <h1 className="text-5xl font-bold mb-6">About Us</h1>
+              <p className="text-xl opacity-90">A Team of Diverse Experts</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Main Content */}
+        <section className="py-16">
+          <div className="container mx-auto px-6">
+            <div className="max-w-4xl mx-auto">
+              
+              {/* Team Overview */}
+              <div className="mb-16">
+                <h2 className="text-3xl font-bold text-primary mb-6">A Team of Diverse Experts</h2>
+                <div className="prose prose-lg max-w-none text-muted-foreground">
+                  <p className="mb-6">
+                    Our team comprises over 40 professionals across Australia, including registered 
+                    business valuers, mergers and acquisitions specialists, business sales experts, MBAs, 
+                    Commerce Graduates and CPAs. This diverse blend of academic knowledge and hands-
+                    on experience ensures that our valuations are both precise and practical.
+                  </p>
+                </div>
+              </div>
+
+              {/* Bridging Theory and Reality */}
+              <div className="mb-16">
+                <h2 className="text-3xl font-bold text-primary mb-6">
+                  From Business Sales to Valuations: Bridging the Gap Between Theory and Reality
+                </h2>
+                <div className="prose prose-lg max-w-none text-muted-foreground">
+                  <p className="mb-6">
+                    Our journey began with a focus on business sales, where we identified a significant gap 
+                    in the market: the need for business valuations that are not only academically sound but 
+                    also grounded in real-world market conditions. Traditional valuations often relied heavily 
+                    on theoretical models, sometimes producing figures that didn't align with actual sale 
+                    prices. Recognising this disconnect, we established a dedicated business valuation 
+                    division to provide assessments that truly reflect market realities.
+                  </p>
+                </div>
+              </div>
+
+              {/* Extensive Experience */}
+              <div className="mb-16">
+                <h2 className="text-3xl font-bold text-primary mb-6">Extensive Experience Across Various Scenarios</h2>
+                <p className="text-muted-foreground mb-6">
+                  To date, we've completed over 500 business valuations for a wide range of purposes, including:
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                  {scenarios.map((scenario, index) => (
+                    <div key={index} className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-gradient-accent rounded-full"></div>
+                      <span className="text-muted-foreground">{scenario}</span>
+                    </div>
+                  ))}
+                </div>
+                <p className="text-muted-foreground">
+                  Our valuations are tailored to meet the specific needs of each scenario, ensuring 
+                  relevance and reliability.
+                </p>
+              </div>
+
+              {/* Court-tested */}
+              <div className="mb-16">
+                <h2 className="text-3xl font-bold text-primary mb-6">Court-tested and Defensible Valuations</h2>
+                <p className="text-muted-foreground">
+                  Our valuations have stood up in court, with our experts serving as credible witnesses in 
+                  legal proceedings. This track record underscores our commitment to delivering 
+                  assessments that are not only accurate but also defensible under scrutiny.
+                </p>
+              </div>
+
+              {/* Meet Our Team */}
+              <div className="mb-16">
+                <h2 className="text-3xl font-bold text-primary mb-8 text-center">
+                  Meet Our Key Valuation Professionals
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  {teamMembers.map((member, index) => (
+                    <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
+                      <CardContent className="p-6">
+                        <div className="flex items-start space-x-4">
+                          <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center text-white text-lg font-bold flex-shrink-0">
+                            {member.name.split(' ').map(n => n[0]).join('')}
+                          </div>
+                          <div className="flex-1">
+                            <h3 className="font-bold text-foreground text-lg mb-2">{member.name}</h3>
+                            <Badge variant="outline" className="mb-2">{member.title}</Badge>
+                            {member.subtitle && (
+                              <p className="text-sm text-muted-foreground mb-2">{member.subtitle}</p>
+                            )}
+                            {member.experience && (
+                              <p className="text-xs text-muted-foreground">{member.experience}</p>
+                            )}
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default AboutUs;

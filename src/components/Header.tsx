@@ -11,7 +11,7 @@ export const Header = () => {
               Xcllusive Business Valuations
             </h1>
             <nav className="hidden md:flex items-center space-x-6">
-              <a href="#about" className="text-foreground hover:text-primary transition-colors">
+              <a href="/about" className="text-foreground hover:text-primary transition-colors">
                 About Us
               </a>
               <a href="#services" className="text-foreground hover:text-primary transition-colors">
