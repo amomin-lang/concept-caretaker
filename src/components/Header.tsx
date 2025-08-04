@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -7,18 +8,18 @@ export const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-8">
-            <h1 className="text-2xl font-bold text-primary">
+            <Link to="/" className="text-2xl font-bold text-primary">
               Xcllusive Business Valuations
-            </h1>
+            </Link>
             <nav className="hidden md:flex items-center space-x-6">
-              <a href="/about" className="text-foreground hover:text-primary transition-colors">
+              <Link to="/about" className="text-foreground hover:text-primary transition-colors">
                 About Us
-              </a>
+              </Link>
+              <Link to="/process" className="text-foreground hover:text-primary transition-colors">
+                Process
+              </Link>
               <a href="#services" className="text-foreground hover:text-primary transition-colors">
                 Our Services
-              </a>
-              <a href="#process" className="text-foreground hover:text-primary transition-colors">
-                Process
               </a>
               <a href="#contact" className="text-foreground hover:text-primary transition-colors">
                 Contact Us

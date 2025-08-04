@@ -1,0 +1,168 @@
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { BookingForm } from "@/components/BookingForm";
+
+const Process = () => {
+  const processSteps = [
+    {
+      number: 1,
+      title: "Clear Setup & Next Steps",
+      description: "It all starts with clarity - the scope, purpose, timeframes, and exactly what's needed.",
+      benefit: "What's in it for you: No confusion. No delays. Just a clear roadmap from day one."
+    },
+    {
+      number: 2,
+      title: "Financial Info Collected - Clean or Not",
+      description: "The process begins by gathering key business documents - profit and loss statements, balance sheets, and whatever else is available.",
+      benefit: "What's in it for you: Even if records are incomplete, the right questions help fill the gaps and avoid misinterpretation."
+    },
+    {
+      number: 3,
+      title: "Numbers Reviewed - Gaps Identified",
+      description: "Financials are reviewed thoroughly. Trends are benchmarked against industry standards, and any red flags or missing pieces are flagged early.",
+      benefit: "What's in it for you: A valuation that sees what others might miss - and tells the real story behind the numbers."
+    },
+    {
+      number: 4,
+      title: "Business Interview - Focused & Insightful",
+      description: "An interview follows with the owner or key personnel. By this point, the business and its industry have already been researched, so the discussion goes straight into the value drivers, risks, dependencies, and operational realities.",
+      benefit: "What's in it for you: A tailored conversation that cuts through generic questions and focuses on what actually influences the business's value."
+    },
+    {
+      number: 5,
+      title: "Supporting Documents - Only What Matters",
+      description: "Additional documents like key contracts, staff arrangements, or client relationships may be requested, depending on what's uncovered.",
+      benefit: "What's in it for you: A valuation that reflects the actual structure and strengths/weaknesses of the business, not just surface-level financials."
+    },
+    {
+      number: 6,
+      title: "Clarifications - Where Needed",
+      description: "If something doesn't add up or more context is required, a quick follow-up with the right person - whether it's a manager, bookkeeper, or advisor - keeps things on track.",
+      benefit: "What's in it for you: The end result is accurate and balanced, not rushed or assumptive."
+    },
+    {
+      number: 7,
+      title: "Best-Method Valuation - Not One-Size-Fits-All",
+      description: "The valuation approach is selected based on the purpose and the type of business. This may include:",
+      methods: [
+        "Market-based comparisons",
+        "Future maintainable earnings",
+        "Discounted cash flow",
+        "Net asset value"
+      ],
+      additionalInfo: "Sometimes multiple methods are used to ensure accuracy. Real-world sales data is used - from within the same industry - and often directly from deals handled across the country.",
+      benefit: "What's in it for you: A valuation that's not just theoretically correct - but relevant, defensible, and matched to real-world outcomes."
+    },
+    {
+      number: 8,
+      title: "Draft Review (If Strategic)",
+      description: "In case of strategic planning scenarios, a draft version may be shared first. Feedback is welcomed, and minor clarifications are addressed before finalising.",
+      benefit: "What's in it for you: No surprises. Just confidence that the final result aligns with the facts and the purpose behind it."
+    },
+    {
+      number: 9,
+      title: "Final Valuation Delivered",
+      description: "A complete, clearly structured report is delivered - whether for legal use, tax planning, negotiation, or internal decision-making.",
+      benefit: "What's in it for you: A valuation that does the job it's meant to - one you can rely on, defend, and move forward with."
+    }
+  ];
+
+  return (
+    <div className="min-h-screen">
+      <Header />
+      
+      <main className="pt-20">
+        {/* Hero Section */}
+        <section className="py-16 bg-gradient-hero text-white">
+          <div className="container mx-auto px-6">
+            <div className="max-w-4xl mx-auto text-center">
+              <h1 className="text-5xl font-bold mb-6">Process</h1>
+              <p className="text-xl opacity-90">A Structured Process That Delivers Real, Defendable Business Value</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Main Content */}
+        <section className="py-16 relative">
+          <div className="container mx-auto px-6">
+            <div className="flex gap-8">
+              <div className="flex-1 max-w-4xl">
+              
+                {/* Introduction */}
+                <div className="mb-16">
+                  <h2 className="text-3xl font-bold text-primary mb-6">The Valuation Process - What to Expect</h2>
+                  <div className="prose prose-lg max-w-none text-muted-foreground">
+                    <p className="mb-6">
+                      Step by step, you'll be guided through a thorough, proven approach designed to uncover the true 
+                      value of your business - with clarity, confidence, and purpose.
+                    </p>
+                    <p className="mb-6">
+                      Structured for clarity. Designed to deliver results.
+                    </p>
+                    <p className="mb-6">
+                      A business valuation should do more than estimate a number - it should give confidence, 
+                      reduce uncertainty, and help moving forward with clarity. Here's what to expect from a valuation 
+                      process that's trusted by lawyers, accountants, and business owners, nationwide.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Process Steps */}
+                <div className="space-y-8">
+                  {processSteps.map((step, index) => (
+                    <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
+                      <CardContent className="p-8">
+                        <div className="flex items-start space-x-6">
+                          <div className="w-12 h-12 bg-gradient-hero rounded-full flex items-center justify-center text-white text-lg font-bold flex-shrink-0">
+                            {step.number}
+                          </div>
+                          <div className="flex-1">
+                            <h3 className="font-bold text-foreground text-xl mb-4">{step.title}</h3>
+                            <p className="text-muted-foreground mb-4">{step.description}</p>
+                            
+                            {step.methods && (
+                              <div className="mb-4">
+                                <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
+                                  {step.methods.map((method, methodIndex) => (
+                                    <li key={methodIndex}>{method}</li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
+                            
+                            {step.additionalInfo && (
+                              <p className="text-muted-foreground mb-4">{step.additionalInfo}</p>
+                            )}
+                            
+                            <div className="bg-gradient-subtle p-4 rounded-lg border-l-4 border-primary">
+                              <p className="text-foreground font-medium">{step.benefit}</p>
+                            </div>
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+
+              </div>
+              
+              {/* Sliding Form */}
+              <div className="hidden lg:block w-80">
+                <div className="sticky top-24 transform transition-transform duration-300 ease-out">
+                  <BookingForm />
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default Process;
