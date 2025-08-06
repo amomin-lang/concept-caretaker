@@ -52,7 +52,7 @@ export const TrustSection = () => {
           <div className="w-24 h-1 bg-gradient-accent mx-auto"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 gap-8 max-w-4xl mx-auto">
           {trustFactors.map((factor, index) => {
             const Icon = factor.icon;
             return (
