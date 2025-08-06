@@ -12,7 +12,7 @@ export const HeroSection = () => {
           Australia Wide Business Valuations
         </h1>
         <p className="text-xl lg:text-2xl mb-8 max-w-3xl mx-auto opacity-95">
-          Expert business valuations with court-tested methodology and real-world precision
+          Trusted by 500+ businesses across Australia
         </p>
         <div className="flex justify-center">
           <Button variant="accent" size="lg" className="text-lg px-8">
