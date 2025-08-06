@@ -76,26 +76,26 @@ export const TrustSection = () => {
         </div>
 
         {/* Trust factors grid */}
-        <div className="grid grid-cols-1 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 gap-6 max-w-6xl mx-auto">
           {trustFactors.map((factor, index) => {
             const Icon = factor.icon;
             return (
-              <div key={index} className="group">
-                <div className="p-8">
+              <div key={index} className="group bg-background/80 backdrop-blur-sm rounded-xl border border-border/50 shadow-sm hover:shadow-md transition-all duration-300 hover:border-primary/20">
+                <div className="p-6 md:p-8">
                   <div className="flex items-start gap-6">
                     {/* Icon section */}
                     <div className="flex-shrink-0">
-                       <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary-dark rounded-lg flex items-center justify-center group-hover:scale-105 group-hover:shadow-lg transition-all duration-300 shadow-sm">
-                         <Icon className="h-8 w-8 text-primary-foreground drop-shadow-sm" />
+                       <div className="w-14 h-14 bg-gradient-to-br from-primary to-primary/80 rounded-xl flex items-center justify-center group-hover:scale-105 group-hover:shadow-lg transition-all duration-300 shadow-sm">
+                         <Icon className="h-7 w-7 text-primary-foreground drop-shadow-sm" />
                        </div>
                     </div>
                     
                     {/* Text content */}
                     <div className="flex-1">
-                      <h3 className="text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors duration-300">
+                      <h3 className="text-lg md:text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors duration-300 leading-tight">
                         {factor.title}
                       </h3>
-                      <p className="text-muted-foreground leading-relaxed">
+                      <p className="text-base text-foreground/80 leading-relaxed font-medium">
                         {factor.description}
                       </p>
                     </div>
