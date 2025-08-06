@@ -20,7 +20,7 @@ export const HeroSection = () => {
                 Trusted by 500+ businesses across Australia
               </p>
             </div>
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center">
               <Button variant="accent" size="lg" className="text-lg px-8">
                 Call us on 1800 825 831
               </Button>
