@@ -43,50 +43,91 @@ export const TrustSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-background via-secondary/30 to-background">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6">
-            Why Clients Trust us with their Business Valuations
-          </h2>
-          <div className="w-24 h-1 bg-gradient-accent mx-auto mb-4"></div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our proven methodology and expert team deliver valuations you can confidently rely on
+    <section className="py-24 bg-gradient-trust relative overflow-hidden">
+      {/* Background decoration */}
+      <div className="absolute inset-0">
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl"></div>
+      </div>
+      
+      <div className="container mx-auto px-6 relative">
+        <div className="text-center mb-20">
+          <div className="inline-block">
+            <h2 className="text-5xl lg:text-6xl font-bold bg-gradient-to-r from-primary via-primary-dark to-accent bg-clip-text text-transparent mb-6">
+              Why Clients Trust us with their Business Valuations
+            </h2>
+          </div>
+          <div className="flex items-center justify-center gap-4 mb-6">
+            <div className="h-px w-20 bg-gradient-to-r from-transparent to-primary"></div>
+            <div className="w-3 h-3 rounded-full bg-primary animate-pulse"></div>
+            <div className="h-px w-20 bg-gradient-to-l from-transparent to-primary"></div>
+          </div>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            Our proven methodology and expert team deliver valuations you can confidently rely on for any business decision
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 gap-8 max-w-6xl mx-auto">
           {trustFactors.map((factor, index) => {
             const Icon = factor.icon;
             return (
               <div 
                 key={index} 
-                className="group relative overflow-hidden rounded-2xl bg-card border border-border/50 hover:border-primary/20 transition-all duration-300 hover:shadow-elegant"
+                className="group relative overflow-hidden rounded-3xl bg-card/80 backdrop-blur-sm border border-border/30 hover:border-primary/30 transition-all duration-500 hover:shadow-glow animate-slide-in-left"
+                style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="relative p-8 flex items-start gap-6">
+                {/* Gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/3 via-transparent to-accent/3 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                
+                {/* Content */}
+                <div className="relative p-10 flex items-center gap-8">
+                  {/* Icon container */}
                   <div className="flex-shrink-0">
-                    <div className="w-16 h-16 bg-gradient-hero rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                      <Icon className="h-8 w-8 text-primary-foreground" />
+                    <div className="relative">
+                      <div className="w-20 h-20 bg-gradient-icon rounded-2xl flex items-center justify-center shadow-hero group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 animate-float">
+                        <Icon className="h-10 w-10 text-primary-foreground" />
+                      </div>
+                      {/* Floating particles effect */}
+                      <div className="absolute -inset-2 bg-gradient-icon rounded-2xl opacity-20 blur-xl group-hover:opacity-40 transition-opacity duration-500"></div>
                     </div>
                   </div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors duration-300">
+                  
+                  {/* Text content */}
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-2xl font-bold text-foreground mb-4 group-hover:text-primary transition-colors duration-300">
                       {factor.title}
                     </h3>
-                    <p className="text-muted-foreground leading-relaxed">
+                    <p className="text-lg text-muted-foreground leading-relaxed group-hover:text-foreground/90 transition-colors duration-300">
                       {factor.description}
                     </p>
                   </div>
-                  <div className="flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
-                      <div className="w-2 h-2 rounded-full bg-primary"></div>
+                  
+                  {/* Progress indicator */}
+                  <div className="flex-shrink-0 opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-x-4 group-hover:translate-x-0">
+                    <div className="flex flex-col items-center space-y-2">
+                      <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-lg">
+                        <div className="w-6 h-6 rounded-full bg-primary-foreground flex items-center justify-center">
+                          <div className="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
+                        </div>
+                      </div>
+                      <div className="text-xs font-medium text-primary">#{String(index + 1).padStart(2, '0')}</div>
                     </div>
                   </div>
                 </div>
+                
+                {/* Bottom accent line */}
+                <div className="absolute bottom-0 left-0 h-1 w-0 bg-gradient-accent group-hover:w-full transition-all duration-700 ease-out"></div>
               </div>
             );
           })}
+        </div>
+        
+        {/* Bottom CTA section */}
+        <div className="text-center mt-16">
+          <div className="inline-flex items-center gap-2 px-6 py-3 bg-primary/10 rounded-full border border-primary/20">
+            <div className="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
+            <span className="text-primary font-medium">Trusted by 500+ businesses across Australia</span>
+          </div>
         </div>
       </div>
     </section>
