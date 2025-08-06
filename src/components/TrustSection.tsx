@@ -47,7 +47,7 @@ export const TrustSection = () => {
       <div className="container mx-auto px-6">
         {/* Header section */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-6 leading-tight whitespace-nowrap">
             Why Clients Trust Us with Their Business Valuations
           </h2>
           
