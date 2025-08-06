@@ -91,18 +91,6 @@ export const TrustSection = () => {
             );
           })}
         </div>
-        
-        {/* Bottom stats */}
-        <div className="text-center mt-16">
-          <div className="inline-flex items-center gap-8 px-8 py-4 bg-card border rounded-lg shadow-sm">
-            <div className="flex items-center gap-3">
-              <div className="w-3 h-3 rounded-full bg-primary"></div>
-              <span className="text-lg font-semibold text-foreground">
-                Trusted by 500+ businesses across Australia
-              </span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
