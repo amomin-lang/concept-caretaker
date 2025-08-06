@@ -11,7 +11,7 @@ export const HeroSection = () => {
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[600px]">
           {/* Left side - Hero content */}
-          <div className="text-center text-primary-foreground">
+          <div className="text-center lg:text-left text-primary-foreground">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">
               Australia Wide Business Valuations
             </h1>
