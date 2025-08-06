@@ -1,42 +1,34 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { 
-  Target, 
-  TrendingUp, 
-  Shield, 
-  CheckCircle, 
-  BarChart3, 
-  Globe 
-} from "lucide-react";
+import { Check } from "lucide-react";
 
 export const TrustSection = () => {
   const trustFactors = [
     {
-      icon: Target,
+      icon: Check,
       title: "Tailored to Your Purpose",
       description: "Whether for legal proceedings, succession planning, exit strategy, or tax purposes – you'll receive a valuation that's precise, relevant, and ready to be relied on."
     },
     {
-      icon: BarChart3,
+      icon: Check,
       title: "Backed by Real Market Data",
       description: "Your valuation is grounded in current, comparable sales from across Australia – powered by insights from 200+ years of combined sales experience across Australia."
     },
     {
-      icon: TrendingUp,
+      icon: Check,
       title: "Gives You Clarity on What Really Matters",
       description: "Understand not just the numbers, but the story behind them. We uncover the value drivers, hidden risks, and opportunities that most overlook."
     },
     {
-      icon: CheckCircle,
+      icon: Check,
       title: "Proven, Trusted, Respected",
       description: "Over 500 valuations delivered. Trusted by lawyers, accountants, and business owners who need clarity, accuracy, and results."
     },
     {
-      icon: Shield,
+      icon: Check,
       title: "Built to Hold Up — in Court, in Negotiation, in Strategy",
       description: "From legal disputes to boardroom decisions, our valuations are independent, logical, and confidently defensible. We've been there as expert witnesses."
     },
     {
-      icon: Globe,
+      icon: Check,
       title: "More Than Valuers — Business Sales Experts",
       description: "With deep experience in selling businesses, we bring live market understanding to every valuation – not just theory."
     }
