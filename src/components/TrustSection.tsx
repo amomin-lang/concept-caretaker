@@ -65,15 +65,15 @@ export const TrustSection = () => {
             return (
               <Card 
                 key={index} 
-                className="group hover:shadow-lg transition-all duration-300 border-l-4 border-l-primary bg-card/80 backdrop-blur-sm"
+                className="group hover:shadow-xl transition-all duration-300 border border-border/50 bg-gradient-to-br from-card via-card/95 to-secondary/30 hover:from-primary/5 hover:via-card hover:to-primary/10 relative overflow-hidden"
               >
                 <CardContent className="p-8">
                   <div className="flex items-start gap-6">
                     {/* Icon section */}
                     <div className="flex-shrink-0">
-                      <div className="w-16 h-16 bg-primary rounded-lg flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                        <Icon className="h-8 w-8 text-primary-foreground" />
-                      </div>
+                       <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary-dark rounded-lg flex items-center justify-center group-hover:scale-105 group-hover:shadow-lg transition-all duration-300 shadow-sm">
+                         <Icon className="h-8 w-8 text-primary-foreground drop-shadow-sm" />
+                       </div>
                     </div>
                     
                     {/* Text content */}
