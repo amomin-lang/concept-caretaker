@@ -5,7 +5,7 @@ export const Footer = () => {
     "Brisbane",
     "Adelaide",
     "Perth",
-    "ACT"
+    "Canberra"
   ];
 
   return (
