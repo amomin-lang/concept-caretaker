@@ -6,7 +6,9 @@ import {
   ShoppingBag, 
   TrendingUp, 
   Calculator, 
-  FileText 
+  FileText,
+  RefreshCw,
+  AlertTriangle
 } from "lucide-react";
 
 export const ServicesSection = () => {
@@ -40,6 +42,16 @@ export const ServicesSection = () => {
       icon: FileText,
       title: "Tax Reasons",
       description: "Compliant valuations for tax and regulatory purposes"
+    },
+    {
+      icon: RefreshCw,
+      title: "Restructuring",
+      description: "Professional valuations for business restructuring scenarios"
+    },
+    {
+      icon: AlertTriangle,
+      title: "Insolvency",
+      description: "Expert valuations for insolvency and liquidation proceedings"
     }
   ];
 
