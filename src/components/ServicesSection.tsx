@@ -1,5 +1,4 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { BookingForm } from "./BookingForm";
 import { 
   HandHeart, 
   Home, 
@@ -58,37 +57,27 @@ export const ServicesSection = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-3 gap-12 items-start">
-          <div className="lg:col-span-2">
-            <div className="mb-16">
-              <h2 className="text-3xl font-bold text-center text-primary mb-8">
-                Valuations for
-              </h2>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {services.map((service, index) => {
-                  const Icon = service.icon;
-                  return (
-                    <Card key={index} className="text-center shadow-card hover:shadow-elegant transition-all duration-300 transform hover:-translate-y-1">
-                      <CardHeader className="pb-4">
-                        <div className="w-16 h-16 bg-gradient-hero rounded-full mx-auto mb-4 flex items-center justify-center">
-                          <Icon className="h-8 w-8 text-primary-foreground" />
-                        </div>
-                        <CardTitle className="text-lg text-primary">{service.title}</CardTitle>
-                      </CardHeader>
-                      <CardContent className="pt-0">
-                        <p className="text-muted-foreground">{service.description}</p>
-                      </CardContent>
-                    </Card>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-
-          <div className="lg:col-span-1">
-            <div className="lg:mt-16">
-              <BookingForm />
-            </div>
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold text-center text-primary mb-8">
+            Valuations for
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {services.map((service, index) => {
+              const Icon = service.icon;
+              return (
+                <Card key={index} className="text-center shadow-card hover:shadow-elegant transition-all duration-300 transform hover:-translate-y-1">
+                  <CardHeader className="pb-4">
+                    <div className="w-16 h-16 bg-gradient-hero rounded-full mx-auto mb-4 flex items-center justify-center">
+                      <Icon className="h-8 w-8 text-primary-foreground" />
+                    </div>
+                    <CardTitle className="text-lg text-primary">{service.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent className="pt-0">
+                    <p className="text-muted-foreground">{service.description}</p>
+                  </CardContent>
+                </Card>
+              );
+            })}
           </div>
         </div>
       </div>
