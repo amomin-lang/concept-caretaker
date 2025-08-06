@@ -46,7 +46,7 @@ export const ServicesSection = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-3 gap-12">
+        <div className="grid lg:grid-cols-3 gap-12 items-start">
           <div className="lg:col-span-2">
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-center text-primary mb-8">
@@ -74,7 +74,9 @@ export const ServicesSection = () => {
           </div>
 
           <div className="lg:col-span-1">
-            <BookingForm />
+            <div className="lg:mt-16">
+              <BookingForm />
+            </div>
           </div>
         </div>
       </div>
