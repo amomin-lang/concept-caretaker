@@ -63,11 +63,8 @@ export const TrustSection = () => {
           {trustFactors.map((factor, index) => {
             const Icon = factor.icon;
             return (
-              <Card 
-                key={index} 
-                className="group hover:shadow-xl transition-all duration-300 border border-border/50 bg-gradient-to-br from-trust-blue via-trust-blue/95 to-trust-blue/80 hover:from-trust-blue hover:via-trust-blue/90 hover:to-primary/20 relative overflow-hidden"
-              >
-                <CardContent className="p-8">
+              <div key={index} className="group">
+                <div className="p-8">
                   <div className="flex items-start gap-6">
                     {/* Icon section */}
                     <div className="flex-shrink-0">
@@ -86,8 +83,8 @@ export const TrustSection = () => {
                       </p>
                     </div>
                   </div>
-                </CardContent>
-              </Card>
+                </div>
+              </div>
             );
           })}
         </div>
