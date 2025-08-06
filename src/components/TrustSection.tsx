@@ -5,17 +5,17 @@ export const TrustSection = () => {
     {
       icon: Check,
       title: "Tailored to Your Purpose",
-      description: "Whether for legal proceedings, succession planning, exit strategy, or tax purposes – you'll receive a valuation that's precise, relevant, and ready to be relied on."
+      description: "Whether for legal proceedings, succession planning, exit strategy, or tax purposes - you'll receive a valuation that's precise, relevant, and ready to be relied on."
     },
     {
       icon: Check,
       title: "Backed by Real Market Data",
-      description: "Your valuation is grounded in current, comparable sales from across Australia – powered by insights from 200+ years of combined sales experience across Australia."
+      description: "Your valuation is grounded in current, comparable sales from across Australia - powered by insights from 200+ business sales we handle every year, combined with access to a comprehensive national database of business transactions across Australia."
     },
     {
       icon: Check,
       title: "Gives You Clarity on What Really Matters",
-      description: "Understand not just the numbers, but the story behind them. We uncover the value drivers, hidden risks, and opportunities that most overlook."
+      description: "Understand not just the numbers, but the story behind them. We uncover the value drivers, hidden risks, and future potential that most overlook."
     },
     {
       icon: Check,
@@ -24,13 +24,38 @@ export const TrustSection = () => {
     },
     {
       icon: Check,
-      title: "Built to Hold Up — in Court, in Negotiation, in Strategy",
-      description: "From legal disputes to boardroom decisions, our valuations are independent, logical, and confidently defensible. We've been there as expert witnesses."
+      title: "Built to Hold Up — In Court, in Negotiation, in Strategy",
+      description: "From legal disputes to boardroom decisions, our valuations are independent, logical, and confidently defendable. We've stood by them as expert witnesses."
     },
     {
       icon: Check,
       title: "More Than Valuers — Business Sales Experts",
-      description: "With deep experience in selling businesses, we bring live market understanding to every valuation – not just theory."
+      description: "With deep experience in selling businesses, we bring live market understanding to every valuation - not static theory."
+    },
+    {
+      icon: Check,
+      title: "Academic Knowledge + Real-World Business Experience",
+      description: "You benefit from a team that blends CPAs, MBAs, Commerce Graduates, Registered Business Valuers, and M&A professionals - combining technical precision with practical insight from real business sales."
+    },
+    {
+      icon: Check,
+      title: "Australia-Wide Reach, Specialist Insight",
+      description: "You benefit from a team of 8 in-house valuers across the country, each with specialist knowledge in diverse industries and niches."
+    },
+    {
+      icon: Check,
+      title: "Supports Smoother Resolutions in Family Law",
+      description: "When emotions run high and one party owns the business, our fair, independent valuations help both sides reach agreement faster and with less stress."
+    },
+    {
+      icon: Check,
+      title: "Works Even When Records Aren't Perfect",
+      description: "No clean data? No problem. We ask the right questions, reconstruct where needed, and deliver a valuation that moves the process forward with confidence."
+    },
+    {
+      icon: Check,
+      title: "We Use the Best Method for the Job",
+      description: "You get a valuation built on the method that best fits your needs - whether it's market-based, asset-based, discounted cash flow, or future maintainable earnings. Often, we apply multiple approaches to ensure accuracy and credibility."
     }
   ];
 
