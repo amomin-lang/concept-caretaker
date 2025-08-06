@@ -21,9 +21,8 @@ export const HeroSection = () => {
               </p>
             </div>
             <div className="flex justify-center lg:justify-start">
-              <Button variant="accent" size="lg" className="text-lg px-8 flex flex-col h-auto py-4">
-                <span>Call 1800 825 831</span>
-                <span className="text-sm">for a free session</span>
+              <Button variant="accent" size="lg" className="text-lg px-8">
+                Call 1800 825 831
               </Button>
             </div>
           </div>
