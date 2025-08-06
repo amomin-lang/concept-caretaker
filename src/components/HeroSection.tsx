@@ -14,12 +14,9 @@ export const HeroSection = () => {
         <p className="text-xl lg:text-2xl mb-8 max-w-3xl mx-auto opacity-95">
           Expert business valuations with court-tested methodology and real-world precision
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex justify-center">
           <Button variant="accent" size="lg" className="text-lg px-8">
             Book Free Consultation
-          </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 border-white text-white hover:bg-white hover:text-primary">
-            Learn More
           </Button>
         </div>
       </div>
