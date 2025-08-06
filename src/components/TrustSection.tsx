@@ -65,7 +65,7 @@ export const TrustSection = () => {
             return (
               <Card 
                 key={index} 
-                className="group hover:shadow-xl transition-all duration-300 border border-border/50 bg-gradient-to-br from-card via-card/95 to-secondary/30 hover:from-primary/5 hover:via-card hover:to-primary/10 relative overflow-hidden"
+                className="group hover:shadow-xl transition-all duration-300 border border-border/50 bg-gradient-to-br from-trust-blue via-trust-blue/95 to-trust-blue/80 hover:from-trust-blue hover:via-trust-blue/90 hover:to-primary/20 relative overflow-hidden"
               >
                 <CardContent className="p-8">
                   <div className="flex items-start gap-6">
