@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { BookingForm } from "@/components/BookingForm";
+import heroImage from "@/assets/hero-business.jpg";
 
 const Process = () => {
   const processSteps = [
@@ -75,11 +76,16 @@ const Process = () => {
       
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="py-16 bg-gradient-hero text-white">
+        <section 
+          className="relative min-h-[400px] flex items-center justify-center bg-cover bg-center"
+          style={{ backgroundImage: `linear-gradient(rgba(33, 150, 243, 0.8), rgba(21, 101, 192, 0.9)), url(${heroImage})` }}
+        >
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-5xl font-bold mb-6">Process</h1>
-              <p className="text-xl opacity-90">A Structured Process That Delivers Real, Defendable Business Value</p>
+            <div className="max-w-4xl mx-auto text-center text-primary-foreground">
+              <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Process</h1>
+              <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
+                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">A Structured Process That Delivers Real, Defendable Business Value</p>
+              </div>
             </div>
           </div>
         </section>
