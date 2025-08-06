@@ -48,16 +48,6 @@ export const ServicesSection = () => {
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2">
-            <div className="mb-12">
-              <p className="text-lg leading-relaxed text-muted-foreground mb-8">
-                With over <span className="font-bold text-primary">500 valuations completed</span> across Australia, 
-                our team of certified experts combines real-world business sales experience with academic precision. 
-                Trusted by lawyers, accountants, and business owners alike, our valuations are tailored, 
-                court-tested, and grounded in current market data – giving you clarity, confidence, 
-                and results you can rely on.
-              </p>
-            </div>
-
             <div className="mb-16">
               <h2 className="text-3xl font-bold text-center text-primary mb-8">
                 Valuations for
