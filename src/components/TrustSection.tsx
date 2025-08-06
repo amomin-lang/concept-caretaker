@@ -59,7 +59,7 @@ export const TrustSection = () => {
         </div>
 
         {/* Trust factors grid */}
-        <div className="grid grid-cols-1 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 gap-8 max-w-6xl mx-auto">
           {trustFactors.map((factor, index) => {
             const Icon = factor.icon;
             return (
