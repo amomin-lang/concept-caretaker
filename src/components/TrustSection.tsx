@@ -47,11 +47,11 @@ export const TrustSection = () => {
       <div className="container mx-auto px-6">
         {/* Header section */}
         <div className="text-center mb-16">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-6 leading-tight whitespace-nowrap">
-            Why Clients Trust Us with Their Business Valuations
+          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-primary mb-6 leading-tight whitespace-nowrap">
+            Why Clients Trust us with their Business Valuations
           </h2>
           
-          <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-accent mx-auto mb-6"></div>
           
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Our proven methodology and expert team deliver valuations you can confidently rely on for any business decision
