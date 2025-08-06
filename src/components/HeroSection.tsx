@@ -11,9 +11,11 @@ export const HeroSection = () => {
         <h1 className="text-5xl lg:text-7xl font-bold mb-6 drop-shadow-lg">
           Australia Wide Business Valuations
         </h1>
-        <p className="text-2xl lg:text-3xl mb-8 max-w-3xl mx-auto font-semibold">
-          Trusted by 500+ businesses across Australia
-        </p>
+        <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-8 py-4 mb-8 border border-white/20">
+          <p className="text-2xl lg:text-3xl font-bold text-white drop-shadow-lg">
+            Trusted by 500+ businesses across Australia
+          </p>
+        </div>
         <div className="flex justify-center">
           <Button variant="accent" size="lg" className="text-lg px-8">
             Book Free Consultation
