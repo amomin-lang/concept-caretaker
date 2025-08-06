@@ -33,26 +33,6 @@ export const BookingForm = () => {
           <Input id="email" type="email" placeholder="your.email@example.com" />
         </div>
         
-        <div>
-          <Label htmlFor="inquiry">How did you hear about us?</Label>
-          <Select>
-            <SelectTrigger>
-              <SelectValue placeholder="Choose an option" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="google">Google Search</SelectItem>
-              <SelectItem value="referral">Referral</SelectItem>
-              <SelectItem value="social">Social Media</SelectItem>
-              <SelectItem value="other">Other</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-        
-        <div>
-          <Label htmlFor="message">Additional Information</Label>
-          <Textarea id="message" placeholder="Tell us about your valuation needs..." />
-        </div>
-        
         <Button variant="hero" className="w-full text-lg py-6">
           Submit Request
         </Button>
