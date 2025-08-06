@@ -85,9 +85,7 @@ export const TrustSection = () => {
                   <div className="flex items-start gap-6">
                     {/* Icon section */}
                     <div className="flex-shrink-0">
-                       <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary-dark rounded-lg flex items-center justify-center group-hover:scale-105 group-hover:shadow-lg transition-all duration-300 shadow-sm">
-                         <Icon className="h-8 w-8 text-primary-foreground drop-shadow-sm" />
-                       </div>
+                       <Icon className="h-6 w-6 text-primary" />
                     </div>
                     
                     {/* Text content */}
