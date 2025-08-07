@@ -182,7 +182,7 @@ const AboutUs = () => {
                         {member.name === "Bernetta Lee" && (
                           <div className="absolute top-4 right-4 w-12 h-12">
                             <img
-                              src="/lovable-uploads/3db7bc8d-9674-4c3a-8adf-0ddbcf968ba2.png"
+                              src="/lovable-uploads/d5a2696d-9a30-49bd-ad61-c48147b5d4a8.png"
                               alt="CPA Australia"
                               className="w-full h-full object-contain"
                             />
