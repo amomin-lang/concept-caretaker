@@ -180,7 +180,7 @@ const AboutUs = () => {
                       <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300 relative">
                         {/* CPA Logo for Bernetta Lee */}
                         {member.name === "Bernetta Lee" && (
-                          <div className="absolute top-4 right-4 w-16 h-16">
+                          <div className="absolute top-4 right-4 w-24 h-24">
                             <img
                               src="/lovable-uploads/d5a2696d-9a30-49bd-ad61-c48147b5d4a8.png"
                               alt="CPA Australia"
