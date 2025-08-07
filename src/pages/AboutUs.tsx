@@ -57,7 +57,9 @@ const AboutUs = () => {
     "Tax restructures",
     "Litigation support",
     "Strategic planning",
-    "Business sales"
+    "Business sales",
+    "Restructuring",
+    "Insolvency"
   ];
 
   return (
