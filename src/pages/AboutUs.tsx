@@ -67,36 +67,14 @@ const AboutUs = () => {
       <main className="pt-20">
         {/* Hero Section */}
         <section 
-          className="relative min-h-[600px] flex items-center justify-center bg-cover bg-center"
+          className="relative min-h-[400px] flex items-center justify-center bg-cover bg-center"
           style={{ backgroundImage: `linear-gradient(rgba(33, 150, 243, 0.8), rgba(21, 101, 192, 0.9)), url(${heroImage})` }}
         >
           <div className="container mx-auto px-6">
-            <div className="max-w-6xl mx-auto text-center text-primary-foreground">
+            <div className="max-w-4xl mx-auto text-center text-primary-foreground">
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">About Us</h1>
-              <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20 mb-12">
-                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Meet Our Key Valuation Professionals</p>
-              </div>
-              
-              {/* Team Members Grid in Banner */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-                {teamMembers.map((member, index) => (
-                  <div key={index} className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:bg-white/20 transition-all duration-300">
-                    <div className="flex flex-col items-center text-center">
-                      <img
-                        src={member.image}
-                        alt={member.name}
-                        className="w-16 h-16 rounded-full object-cover border-2 border-white shadow-lg mb-3"
-                      />
-                      <h3 className="font-bold text-white text-lg mb-2 drop-shadow">{member.name}</h3>
-                      <div className="bg-white/20 backdrop-blur-sm rounded-full px-3 py-1 mb-2">
-                        <span className="text-sm text-white font-medium">{member.title}</span>
-                      </div>
-                      {member.subtitle && (
-                        <p className="text-sm text-white/90 mb-1 drop-shadow">{member.subtitle}</p>
-                      )}
-                    </div>
-                  </div>
-                ))}
+              <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
+                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">A Team of Diverse Experts</p>
               </div>
             </div>
           </div>
@@ -168,6 +146,37 @@ const AboutUs = () => {
                   </p>
                 </div>
 
+                {/* Meet Our Team */}
+                <div className="mb-16">
+                  <h2 className="text-3xl font-bold text-primary mb-8 text-center">
+                    Meet Our Key Valuation Professionals
+                  </h2>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    {teamMembers.map((member, index) => (
+                      <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
+                        <CardContent className="p-6">
+                          <div className="flex items-start space-x-4">
+                            <img
+                              src={member.image}
+                              alt={member.name}
+                              className="w-16 h-16 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
+                            />
+                            <div className="flex-1">
+                              <h3 className="font-bold text-foreground text-lg mb-2">{member.name}</h3>
+                              <Badge variant="outline" className="mb-2">{member.title}</Badge>
+                              {member.subtitle && (
+                                <p className="text-sm text-muted-foreground mb-2">{member.subtitle}</p>
+                              )}
+                              {member.experience && (
+                                <p className="text-xs text-muted-foreground">{member.experience}</p>
+                              )}
+                            </div>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                </div>
 
               </div>
               
