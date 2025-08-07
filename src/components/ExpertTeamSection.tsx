@@ -74,10 +74,17 @@ export const ExpertTeamSection = () => {
                   alt={member.name}
                   className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full mx-auto border-4 border-primary/20"
                 />
-                {member.certification && (
+                {member.certification && member.name !== "Bernetta Lee" && (
                   <div className="absolute -bottom-2 -right-2 bg-primary rounded-full p-2">
                     <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
                       <span className="text-xs text-primary font-bold">✓</span>
+                    </div>
+                  </div>
+                )}
+                {member.name === "Bernetta Lee" && (
+                  <div className="absolute -bottom-2 -right-2 bg-primary rounded-full p-2">
+                    <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
+                      <FontAwesomeIcon icon={faLinkedin} className="text-xs text-primary" />
                     </div>
                   </div>
                 )}
@@ -89,11 +96,6 @@ export const ExpertTeamSection = () => {
               )}
               {member.additional && (
                 <p className="text-xs text-muted-foreground">{member.additional}</p>
-              )}
-              {member.name === "Bernetta Lee" && (
-                <div className="mt-2 flex justify-center">
-                  <FontAwesomeIcon icon={faLinkedin} className="w-4 h-4 text-primary hover:text-primary/80 cursor-pointer" />
-                </div>
               )}
             </div>
           ))}
