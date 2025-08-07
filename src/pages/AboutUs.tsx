@@ -156,9 +156,11 @@ const AboutUs = () => {
                       <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
                         <CardContent className="p-6">
                           <div className="flex items-start space-x-4">
-                            <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center text-white text-lg font-bold flex-shrink-0">
-                              {member.name.split(' ').map(n => n[0]).join('')}
-                            </div>
+                            <img
+                              src={member.image}
+                              alt={member.name}
+                              className="w-16 h-16 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
+                            />
                             <div className="flex-1">
                               <h3 className="font-bold text-foreground text-lg mb-2">{member.name}</h3>
                               <Badge variant="outline" className="mb-2">{member.title}</Badge>
