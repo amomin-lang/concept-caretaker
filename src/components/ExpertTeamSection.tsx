@@ -76,11 +76,21 @@ export const ExpertTeamSection = () => {
                 />
                 {member.certification && (
                   <div className="absolute -bottom-2 -right-2 bg-white rounded-full p-2">
-                    <img 
-                      src="/lovable-uploads/91d0d7ff-b4d4-4f8c-89fb-a30d3f58cbea.png" 
-                      alt="LinkedIn" 
-                      className="w-8 h-8 object-contain"
-                    />
+                    {member.name === "Adeel Momin" ? (
+                      <a href="https://www.linkedin.com/in/adeelmomin" target="_blank" rel="noopener noreferrer">
+                        <img 
+                          src="/lovable-uploads/91d0d7ff-b4d4-4f8c-89fb-a30d3f58cbea.png" 
+                          alt="LinkedIn" 
+                          className="w-8 h-8 object-contain hover:opacity-80 transition-opacity"
+                        />
+                      </a>
+                    ) : (
+                      <img 
+                        src="/lovable-uploads/91d0d7ff-b4d4-4f8c-89fb-a30d3f58cbea.png" 
+                        alt="LinkedIn" 
+                        className="w-8 h-8 object-contain"
+                      />
+                    )}
                   </div>
                 )}
               </div>
