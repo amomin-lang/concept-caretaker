@@ -190,7 +190,7 @@ const AboutUs = () => {
                         )}
                         {/* RBV Logo for Adeel Momin */}
                         {member.name === "Adeel Momin" && (
-                          <div className="absolute top-4 right-4 w-32 h-32">
+                          <div className="absolute top-4 right-4 w-24 h-24">
                             <img
                               src="/lovable-uploads/83487612-3fb6-4afa-8538-3edceebb2578.png"
                               alt="Registered Business Valuer"
@@ -203,9 +203,9 @@ const AboutUs = () => {
                             <img
                               src={member.image}
                               alt={member.name}
-                              className="w-32 h-32 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
+                              className="w-24 h-24 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
                             />
-                            <div className={`flex-1 ${(member.name === "Bernetta Lee" || member.name === "Adeel Momin") ? "pr-40" : ""}`}>
+                            <div className={`flex-1 ${(member.name === "Bernetta Lee" || member.name === "Adeel Momin") ? "pr-28" : ""}`}>
                               <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
                               <Badge variant="outline" className="mb-2 text-base">{member.title}</Badge>
                               {member.subtitle && (
