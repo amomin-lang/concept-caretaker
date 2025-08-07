@@ -1,3 +1,5 @@
+import { Linkedin } from "lucide-react";
+
 // import teamChoon from "@/assets/team-choon.jpg";        
 // import teamAdeel from "@/assets/team-adeel.jpg";
 // import teamZoran from "@/assets/team-zoran.jpg";
@@ -86,6 +88,11 @@ export const ExpertTeamSection = () => {
               )}
               {member.additional && (
                 <p className="text-xs text-muted-foreground">{member.additional}</p>
+              )}
+              {member.name === "Bernetta Lee" && (
+                <div className="mt-2 flex justify-center">
+                  <Linkedin className="w-4 h-4 text-primary hover:text-primary/80 cursor-pointer" />
+                </div>
               )}
             </div>
           ))}
