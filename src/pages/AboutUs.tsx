@@ -90,7 +90,7 @@ const AboutUs = () => {
                 <div className="mb-16">
                   <h2 className="text-3xl font-bold text-primary mb-6">A Team of Diverse Experts</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
-                    <p className="mb-6">
+                    <p className="mb-6 text-xl">
                       Our team comprises over 40 professionals across Australia, including registered 
                       business valuers, mergers and acquisitions specialists, business sales experts, MBAs, 
                       Commerce Graduates and CPAs. This diverse blend of academic knowledge and hands-
