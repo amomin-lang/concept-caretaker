@@ -203,7 +203,7 @@ const AboutUs = () => {
                             <img
                               src={member.image}
                               alt={member.name}
-                              className="w-16 h-16 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
+                              className="w-24 h-24 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
                             />
                             <div className="flex-1">
                               <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
