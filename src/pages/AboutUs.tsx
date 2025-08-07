@@ -139,7 +139,7 @@ const AboutUs = () => {
                 {/* Court-tested */}
                 <div className="mb-16">
                   <h2 className="text-3xl font-bold text-primary mb-6">Court-tested and Defensible Valuations</h2>
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground text-xl">
                     Our valuations have stood up in court, with our experts serving as credible witnesses in 
                     legal proceedings. This track record underscores our commitment to delivering 
                     assessments that are not only accurate but also defensible under scrutiny.
