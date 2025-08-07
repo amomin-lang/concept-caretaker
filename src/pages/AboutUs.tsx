@@ -9,7 +9,7 @@ const AboutUs = () => {
   const teamMembers = [
   {
     name: "Zoran Sarabaca",
-    title: "Registered Business Valuer (RBV®) – AIBV",
+    title: "Principal",
     subtitle: "Certified Practicing Business Broker (CPBB®) – AIBB",
     experience: "",
     image: "/team/team-zoran.png",
