@@ -177,7 +177,17 @@ const AboutUs = () => {
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {teamMembers.map((member, index) => (
-                      <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
+                      <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300 relative">
+                        {/* CPA Logo for Bernetta Lee */}
+                        {member.name === "Bernetta Lee" && (
+                          <div className="absolute top-4 right-4 w-12 h-12">
+                            <img
+                              src="/lovable-uploads/3db7bc8d-9674-4c3a-8adf-0ddbcf968ba2.png"
+                              alt="CPA Australia"
+                              className="w-full h-full object-contain"
+                            />
+                          </div>
+                        )}
                         <CardContent className="p-6">
                           <div className="flex items-start space-x-4">
                             <img
