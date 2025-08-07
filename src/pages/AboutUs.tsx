@@ -105,7 +105,7 @@ const AboutUs = () => {
                     From Business Sales to Valuations: Bridging the Gap Between Theory and Reality
                   </h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
-                    <p className="mb-6">
+                    <p className="mb-6 text-xl">
                       Our journey began with a focus on business sales, where we identified a significant gap 
                       in the market: the need for business valuations that are not only academically sound but 
                       also grounded in real-world market conditions. Traditional valuations often relied heavily 
