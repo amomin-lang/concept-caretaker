@@ -12,7 +12,7 @@ export const Header = () => {
               <img 
                 src="/lovable-uploads/300a8c6d-7f41-4ebb-a026-38c30f636ecc.png" 
                 alt="Xcllusive Business Valuations Logo" 
-                className="h-8 w-8 object-contain"
+                className="h-12 w-12 object-contain"
               />
               <span className="text-2xl font-bold text-primary">
                 Xcllusive Business Valuations
