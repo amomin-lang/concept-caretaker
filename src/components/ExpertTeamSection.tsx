@@ -90,6 +90,15 @@ export const ExpertTeamSection = () => {
               {member.additional && (
                 <p className="text-xs text-muted-foreground">{member.additional}</p>
               )}
+              {member.name === "Zoran Sarabaca" && (
+                <div className="mt-2 flex justify-center">
+                  <img 
+                    src="/lovable-uploads/65551761-68ad-47ff-a965-f71c6e76527a.png" 
+                    alt="LinkedIn" 
+                    className="h-4 cursor-pointer hover:opacity-80 transition-opacity"
+                  />
+                </div>
+              )}
             </div>
           ))}
         </div>
