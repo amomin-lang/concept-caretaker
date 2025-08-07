@@ -203,7 +203,7 @@ const AboutUs = () => {
                             <img
                               src={member.image}
                               alt={member.name}
-                              className="w-24 h-24 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
+                              className="w-32 h-32 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
                             />
                             <div className={`flex-1 ${(member.name === "Bernetta Lee" || member.name === "Adeel Momin") ? "pr-28" : ""}`}>
                               <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
