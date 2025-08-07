@@ -101,11 +101,11 @@ const Process = () => {
                 <div className="mb-16">
                   <h2 className="text-3xl font-bold text-primary mb-6">The Valuation Process - Interactive Flow</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
-                    <p className="mb-6">
+                    <p className="mb-6 text-xl">
                       Step by step, you'll be guided through a thorough, proven approach designed to uncover the true 
                       value of your business - with clarity, confidence, and purpose.
                     </p>
-                    <p className="mb-6">
+                    <p className="mb-6 text-xl">
                       Use the interactive flowchart below to explore the process. You can zoom, pan, and see how each step connects to the next.
                     </p>
                   </div>
