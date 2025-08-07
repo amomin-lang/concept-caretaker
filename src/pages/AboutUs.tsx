@@ -15,18 +15,18 @@ const AboutUs = () => {
     image: "/team/team-zoran.png",
   },
   {
-    name: "Bernetta Lee",
-    title: "CPA",
-    subtitle: "Certified Public Accountant – CPA Australia",
-    experience: "",
-    image: "/team/team-bernetta.png",
-  },
-  {
     name: "Adeel Momin",
     title: "M.com (UNSW), MBA (UCP)",
     subtitle: "Registered Business Valuer (RBV®) – AIBV",
     experience: "Experience in the Industry = 11 years, Professional Experience = 48 Years",
     image: "/team/team-adeel.png",
+  },
+  {
+    name: "Bernetta Lee",
+    title: "CPA",
+    subtitle: "Certified Public Accountant – CPA Australia",
+    experience: "",
+    image: "/team/team-bernetta.png",
   },
   {
     name: "Choon Ng",
