@@ -69,7 +69,7 @@ export const ExpertTeamSection = () => {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-32 md:h-40 object-cover rounded-full mx-auto border-4 border-primary/20"
+                  className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full mx-auto border-4 border-primary/20"
                 />
                 {member.certification && (
                   <div className="absolute -bottom-2 -right-2 bg-primary rounded-full p-2">
