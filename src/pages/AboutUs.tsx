@@ -190,7 +190,7 @@ const AboutUs = () => {
                         )}
                         {/* RBV Logo for Adeel Momin */}
                         {member.name === "Adeel Momin" && (
-                          <div className="absolute top-4 right-4 w-24 h-24">
+                          <div className="absolute top-4 right-4 w-32 h-32">
                             <img
                               src="/lovable-uploads/83487612-3fb6-4afa-8538-3edceebb2578.png"
                               alt="Registered Business Valuer"
