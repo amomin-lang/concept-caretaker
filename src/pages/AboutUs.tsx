@@ -162,13 +162,13 @@ const AboutUs = () => {
                               className="w-16 h-16 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
                             />
                             <div className="flex-1">
-                              <h3 className="font-bold text-foreground text-lg mb-2">{member.name}</h3>
-                              <Badge variant="outline" className="mb-2">{member.title}</Badge>
+                              <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
+                              <Badge variant="outline" className="mb-2 text-base">{member.title}</Badge>
                               {member.subtitle && (
-                                <p className="text-sm text-muted-foreground mb-2">{member.subtitle}</p>
+                                <p className="text-base text-muted-foreground mb-2">{member.subtitle}</p>
                               )}
                               {member.experience && (
-                                <p className="text-xs text-muted-foreground">{member.experience}</p>
+                                <p className="text-sm text-muted-foreground">{member.experience}</p>
                               )}
                             </div>
                           </div>
