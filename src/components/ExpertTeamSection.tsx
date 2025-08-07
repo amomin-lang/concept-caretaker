@@ -1,9 +1,9 @@
-import teamChoon from "@/assets/team-choon.jpg";
-import teamAdeel from "@/assets/team-adeel.jpg";
-import teamZoran from "@/assets/team-zoran.jpg";
-import teamBernetta from "@/assets/team-bernetta.jpg";
-import teamDenise from "@/assets/team-denise.jpg";
-import teamFred from "@/assets/team-fred.jpg";
+// import teamChoon from "@/assets/team-choon.jpg";        
+// import teamAdeel from "@/assets/team-adeel.jpg";
+// import teamZoran from "@/assets/team-zoran.jpg";
+// import teamBernetta from "@/assets/team-bernetta.jpg";
+// import teamDenise from "@/assets/team-denise.jpg";
+// import teamFred from "@/assets/team-fred.jpg";
 
 const teamMembers = [
   {
@@ -11,28 +11,28 @@ const teamMembers = [
     name: "Choon Ng",
     credentials: "B.E, MBus",
     certification: "AIBB RBV",
-    image: teamChoon,
+    image: "/workspaces/concept-caretaker/public/team/team-choon.png",
   },
   {
     id: 2,
     name: "Adeel Momin",
     credentials: "M.Com, MBA",
     certification: "AIBB RBV",
-    image: teamAdeel,
+    image: "/workspaces/concept-caretaker/public/team/team-adeel.png",
   },
   {
     id: 3,
     name: "Zoran Sarabaca",
     credentials: "Principal",
     certification: "AIBB RBV",
-    image: teamZoran,
+    image: "/workspaces/concept-caretaker/public/team/team-zoran.png",
   },
   {
     id: 4,
     name: "Bernetta Lee",
     credentials: "CPA",
     certification: "",
-    image: teamBernetta,
+    image: "/workspaces/concept-caretaker/public/team/team-bernetta.png",
   },
   {
     id: 5,
@@ -40,14 +40,14 @@ const teamMembers = [
     credentials: "B.Train & Dev",
     certification: "M.Entrep & Innov",
     additional: "CBV (AAVI)",
-    image: teamDenise,
+    image: "/workspaces/concept-caretaker/public/team/team-denise.png",
   },
   {
     id: 6,
     name: "Fred Fardeman",
     credentials: "M.Bus.Mgt.",
     certification: "AIBB RBV",
-    image: teamFred,
+    image: "/workspaces/concept-caretaker/public/team/team-fred.png",
   },
 ];
 
