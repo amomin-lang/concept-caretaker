@@ -190,7 +190,7 @@ const AboutUs = () => {
                         )}
                         {/* RBV Logo for Adeel Momin */}
                         {member.name === "Adeel Momin" && (
-                          <div className="absolute top-4 right-4 w-24 h-24">
+                          <div className="absolute top-4 right-4 w-32 h-32">
                             <img
                               src="/lovable-uploads/83487612-3fb6-4afa-8538-3edceebb2578.png"
                               alt="Registered Business Valuer"
@@ -198,21 +198,29 @@ const AboutUs = () => {
                             />
                           </div>
                         )}
-                        <CardContent className="p-6">
+                        <CardContent className={`p-6 ${(member.name === "Bernetta Lee" || member.name === "Adeel Momin") ? "pr-40" : ""}`}>
                           <div className="flex items-start space-x-4">
                             <img
                               src={member.image}
                               alt={member.name}
-                              className="w-24 h-24 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
+                              className="w-32 h-32 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
                             />
-                            <div className="flex-1">
+                            <div className="flex-1 min-w-0">
                               <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
-                              <Badge variant="outline" className="mb-2 text-base">{member.title}</Badge>
+                              <Badge variant="outline" className="mb-3 text-base">{member.title}</Badge>
                               {member.subtitle && (
-                                <div className="text-base text-muted-foreground mb-2 whitespace-pre-line">{member.subtitle}</div>
+                                <div className="text-base text-muted-foreground mb-3 leading-relaxed">
+                                  {member.subtitle.split('\n').map((line, i) => (
+                                    <div key={i} className="mb-1">{line}</div>
+                                  ))}
+                                </div>
                               )}
                               {member.experience && (
-                                <div className="text-sm text-muted-foreground whitespace-pre-line">{member.experience}</div>
+                                <div className="text-sm text-muted-foreground leading-relaxed">
+                                  {member.experience.split('\n').map((line, i) => (
+                                    <div key={i} className="mb-1">{line}</div>
+                                  ))}
+                                </div>
                               )}
                             </div>
                           </div>
