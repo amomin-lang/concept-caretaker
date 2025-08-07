@@ -8,8 +8,15 @@ export const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-8">
-            <Link to="/" className="text-2xl font-bold text-primary">
-              Xcllusive Business Valuations
+            <Link to="/" className="flex items-center space-x-3">
+              <img 
+                src="/lovable-uploads/300a8c6d-7f41-4ebb-a026-38c30f636ecc.png" 
+                alt="Xcllusive Business Valuations Logo" 
+                className="h-12 w-12 object-contain"
+              />
+              <span className="text-2xl font-bold text-primary">
+                Xcllusive Business Valuations
+              </span>
             </Link>
             <nav className="hidden md:flex items-center space-x-6">
               <Link to="/" className="text-foreground hover:text-primary transition-colors">

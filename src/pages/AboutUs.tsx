@@ -9,10 +9,17 @@ const AboutUs = () => {
   const teamMembers = [
   {
     name: "Zoran Sarabaca",
-    title: "Registered Business Valuer (RBV®) – AIBV",
+    title: "Principal",
     subtitle: "Certified Practicing Business Broker (CPBB®) – AIBB",
     experience: "",
     image: "/team/team-zoran.png",
+  },
+  {
+    name: "Adeel Momin",
+    title: "Chief Valuations Officer",
+    subtitle: "Registered Business Valuer (RBV®) – AIBV",
+    experience: "Experience in the Industry = 11 years, Professional Experience = 48 Years",
+    image: "/team/team-adeel.png",
   },
   {
     name: "Bernetta Lee",
@@ -20,13 +27,6 @@ const AboutUs = () => {
     subtitle: "Certified Public Accountant – CPA Australia",
     experience: "",
     image: "/team/team-bernetta.png",
-  },
-  {
-    name: "Adeel Momin",
-    title: "M.com (UNSW), MBA (UCP)",
-    subtitle: "Registered Business Valuer (RBV®) – AIBV",
-    experience: "Experience in the Industry = 11 years, Professional Experience = 48 Years",
-    image: "/team/team-adeel.png",
   },
   {
     name: "Choon Ng",
@@ -90,7 +90,7 @@ const AboutUs = () => {
                 <div className="mb-16">
                   <h2 className="text-3xl font-bold text-primary mb-6">A Team of Diverse Experts</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
-                    <p className="mb-6">
+                    <p className="mb-6 text-xl">
                       Our team comprises over 40 professionals across Australia, including registered 
                       business valuers, mergers and acquisitions specialists, business sales experts, MBAs, 
                       Commerce Graduates and CPAs. This diverse blend of academic knowledge and hands-
@@ -105,7 +105,7 @@ const AboutUs = () => {
                     From Business Sales to Valuations: Bridging the Gap Between Theory and Reality
                   </h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
-                    <p className="mb-6">
+                    <p className="mb-6 text-xl">
                       Our journey began with a focus on business sales, where we identified a significant gap 
                       in the market: the need for business valuations that are not only academically sound but 
                       also grounded in real-world market conditions. Traditional valuations often relied heavily 
@@ -119,7 +119,7 @@ const AboutUs = () => {
                 {/* Extensive Experience */}
                 <div className="mb-16">
                   <h2 className="text-3xl font-bold text-primary mb-6">Extensive Experience Across Various Scenarios</h2>
-                  <p className="text-muted-foreground mb-6">
+                  <p className="text-muted-foreground mb-6 text-xl">
                     To date, we've completed over 500 business valuations for a wide range of purposes, including:
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -130,7 +130,7 @@ const AboutUs = () => {
                       </div>
                     ))}
                   </div>
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground text-xl">
                     Our valuations are tailored to meet the specific needs of each scenario, ensuring 
                     relevance and reliability.
                   </p>
@@ -139,7 +139,7 @@ const AboutUs = () => {
                 {/* Court-tested */}
                 <div className="mb-16">
                   <h2 className="text-3xl font-bold text-primary mb-6">Court-tested and Defensible Valuations</h2>
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground text-xl">
                     Our valuations have stood up in court, with our experts serving as credible witnesses in 
                     legal proceedings. This track record underscores our commitment to delivering 
                     assessments that are not only accurate but also defensible under scrutiny.
@@ -162,13 +162,13 @@ const AboutUs = () => {
                               className="w-16 h-16 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
                             />
                             <div className="flex-1">
-                              <h3 className="font-bold text-foreground text-lg mb-2">{member.name}</h3>
-                              <Badge variant="outline" className="mb-2">{member.title}</Badge>
+                              <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
+                              <Badge variant="outline" className="mb-2 text-base">{member.title}</Badge>
                               {member.subtitle && (
-                                <p className="text-sm text-muted-foreground mb-2">{member.subtitle}</p>
+                                <p className="text-base text-muted-foreground mb-2">{member.subtitle}</p>
                               )}
                               {member.experience && (
-                                <p className="text-xs text-muted-foreground">{member.experience}</p>
+                                <p className="text-sm text-muted-foreground">{member.experience}</p>
                               )}
                             </div>
                           </div>
