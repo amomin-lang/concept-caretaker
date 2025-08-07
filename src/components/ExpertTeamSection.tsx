@@ -1,4 +1,5 @@
-import { Linkedin } from "lucide-react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 // import teamChoon from "@/assets/team-choon.jpg";        
 // import teamAdeel from "@/assets/team-adeel.jpg";
@@ -91,7 +92,7 @@ export const ExpertTeamSection = () => {
               )}
               {member.name === "Bernetta Lee" && (
                 <div className="mt-2 flex justify-center">
-                  <Linkedin className="w-4 h-4 text-primary hover:text-primary/80 cursor-pointer" />
+                  <FontAwesomeIcon icon={faLinkedin} className="w-4 h-4 text-primary hover:text-primary/80 cursor-pointer" />
                 </div>
               )}
             </div>
