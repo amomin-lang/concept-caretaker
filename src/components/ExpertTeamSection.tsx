@@ -75,11 +75,11 @@ export const ExpertTeamSection = () => {
                   className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full mx-auto border-4 border-primary shadow-lg"
                 />
                 {member.certification && (
-                  <div className="absolute -bottom-2 -right-2 bg-white rounded-full p-1">
+                  <div className="absolute -bottom-2 -right-2 bg-white rounded-full p-2">
                     <img 
                       src="/lovable-uploads/91d0d7ff-b4d4-4f8c-89fb-a30d3f58cbea.png" 
                       alt="LinkedIn" 
-                      className="w-5 h-5 object-contain"
+                      className="w-8 h-8 object-contain"
                     />
                   </div>
                 )}
