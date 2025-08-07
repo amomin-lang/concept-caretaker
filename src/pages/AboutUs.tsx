@@ -7,43 +7,49 @@ import heroImage from "@/assets/hero-business.jpg";
 
 const AboutUs = () => {
   const teamMembers = [
-    {
-      name: "Zoran Sarabaca",
-      title: "Registered Business Valuer (RBV®) – AIBV",
-      subtitle: "Certified Practicing Business Broker (CPBB®) – AIBB",
-      experience: ""
-    },
-    {
-      name: "Bernetta Lee",
-      title: "CPA",
-      subtitle: "Certified Public Accountant – CPA Australia",
-      experience: ""
-    },
-    {
-      name: "Adeel Momin",
-      title: "M.com (UNSW), MBA (UCP)",
-      subtitle: "Registered Business Valuer (RBV®) – AIBV",
-      experience: "Experience in the Industry = 11 years, Professional Experience = 48 Years"
-    },
-    {
-      name: "Choon Ng",
-      title: "AIBV RBV",
-      subtitle: "Bachelors of Engineering, Masters of Business",
-      experience: "Registered Business Valuer (RBV®) – AIBV, Certified Practicing Business Broker (CPBB®) – AIBB"
-    },
-    {
-      name: "Fred Fareau",
-      title: "Master of Business Management",
-      subtitle: "Registered Business Valuer (RBV®) – AIBV",
-      experience: "Certified Practicing Business Broker (CPBB®) – AIBB, Certified Business Coach, Experience in the Industry = 12 Years"
-    },
-    {
-      name: "AAJ",
-      title: "Bachelors of Training and Development",
-      subtitle: "Masters, Entrepreneurship and Innovation",
-      experience: "Certified Business Valuer - Australian Valuers Institute Coop Limited, Certified Practicing Business Broker (CPBB®) – AIBB"
-    }
-  ];
+  {
+    name: "Zoran Sarabaca",
+    title: "Registered Business Valuer (RBV®) – AIBV",
+    subtitle: "Certified Practicing Business Broker (CPBB®) – AIBB",
+    experience: "",
+    image: "/team/team-zoran.png",
+  },
+  {
+    name: "Bernetta Lee",
+    title: "CPA",
+    subtitle: "Certified Public Accountant – CPA Australia",
+    experience: "",
+    image: "/team/team-bernetta.png",
+  },
+  {
+    name: "Adeel Momin",
+    title: "M.com (UNSW), MBA (UCP)",
+    subtitle: "Registered Business Valuer (RBV®) – AIBV",
+    experience: "Experience in the Industry = 11 years, Professional Experience = 48 Years",
+    image: "/team/team-adeel.png",
+  },
+  {
+    name: "Choon Ng",
+    title: "AIBV RBV",
+    subtitle: "Bachelors of Engineering, Masters of Business",
+    experience: "Registered Business Valuer (RBV®) – AIBV, Certified Practicing Business Broker (CPBB®) – AIBB",
+    image: "/team/team-choon.png",
+  },
+  {
+    name: "Fred Fareau",
+    title: "Master of Business Management",
+    subtitle: "Registered Business Valuer (RBV®) – AIBV",
+    experience: "Certified Practicing Business Broker (CPBB®) – AIBB, Certified Business Coach, Experience in the Industry = 12 Years",
+    image: "/team/team-fred.png",
+  },
+  {
+    name: "AAJ",
+    title: "Bachelors of Training and Development",
+    subtitle: "Masters, Entrepreneurship and Innovation",
+    experience: "Certified Business Valuer - Australian Valuers Institute Coop Limited, Certified Practicing Business Broker (CPBB®) – AIBB",
+    image: "/team/team-denise.png",
+  }
+];
 
   const scenarios = [
     "Family law settlements",
@@ -150,9 +156,11 @@ const AboutUs = () => {
                       <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
                         <CardContent className="p-6">
                           <div className="flex items-start space-x-4">
-                            <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center text-white text-lg font-bold flex-shrink-0">
-                              {member.name.split(' ').map(n => n[0]).join('')}
-                            </div>
+                            <img
+                              src={member.image}
+                              alt={member.name}
+                              className="w-16 h-16 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
+                            />
                             <div className="flex-1">
                               <h3 className="font-bold text-foreground text-lg mb-2">{member.name}</h3>
                               <Badge variant="outline" className="mb-2">{member.title}</Badge>
