@@ -17,8 +17,8 @@ const AboutUs = () => {
   {
     name: "Adeel Momin",
     title: "Chief Valuations Officer",
-    subtitle: "",
-    experience: "",
+    subtitle: "Masters of Commerce - M.Com (UNSW), Masters of Business Administration - MBA (UCP)",
+    experience: "Experience in the Industry = 11 years, Professional Experience = 28 Years",
     image: "/team/team-adeel.png",
   },
   {
