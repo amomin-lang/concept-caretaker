@@ -16,7 +16,7 @@ const AboutUs = () => {
   },
   {
     name: "Adeel Momin",
-    title: "CVO - Chief Valuations Officer",
+    title: "Chief Valuations officer",
     subtitle: "Registered Business Valuer (RBV®) – AIBV",
     experience: "Experience in the Industry = 11 years, Professional Experience = 48 Years",
     image: "/team/team-adeel.png",
