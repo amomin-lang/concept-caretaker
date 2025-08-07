@@ -17,8 +17,8 @@ const AboutUs = () => {
   {
     name: "Adeel Momin",
     title: "Chief Valuations Officer",
-    subtitle: "Masters of Commerce - M.Com (UNSW), Masters of Business Administration - MBA (UCP)",
-    experience: "Experience in the Industry = 11 years, Professional Experience = 28 Years",
+    subtitle: "- Masters of Commerce - M.Com (UNSW)\n- Masters of Business Administration - MBA (UCP)",
+    experience: "- Experience in the Industry = 11 years\n- Professional Experience = 28 Years",
     image: "/team/team-adeel.png",
   },
   {
@@ -209,10 +209,10 @@ const AboutUs = () => {
                               <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
                               <Badge variant="outline" className="mb-2 text-base">{member.title}</Badge>
                               {member.subtitle && (
-                                <p className="text-base text-muted-foreground mb-2">{member.subtitle}</p>
+                                <div className="text-base text-muted-foreground mb-2 whitespace-pre-line">{member.subtitle}</div>
                               )}
                               {member.experience && (
-                                <p className="text-sm text-muted-foreground">{member.experience}</p>
+                                <div className="text-sm text-muted-foreground whitespace-pre-line">{member.experience}</div>
                               )}
                             </div>
                           </div>
