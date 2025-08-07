@@ -74,11 +74,20 @@ export const ExpertTeamSection = () => {
                   alt={member.name}
                   className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full mx-auto border-4 border-primary/20"
                 />
-                {member.certification && (
+                {member.certification && member.name !== "Zoran Sarabaca" && (
                   <div className="absolute -bottom-2 -right-2 bg-primary rounded-full p-2">
                     <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
                       <span className="text-xs text-primary font-bold">✓</span>
                     </div>
+                  </div>
+                )}
+                {member.name === "Zoran Sarabaca" && (
+                  <div className="absolute -bottom-2 -right-2 bg-white rounded-full p-1">
+                    <img 
+                      src="/lovable-uploads/008f944d-dcac-4089-b910-f9fa289abe8f.png" 
+                      alt="LinkedIn" 
+                      className="w-5 h-5 object-contain"
+                    />
                   </div>
                 )}
               </div>
