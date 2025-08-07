@@ -12,6 +12,9 @@ export const Header = () => {
               Xcllusive Business Valuations
             </Link>
             <nav className="hidden md:flex items-center space-x-6">
+              <Link to="/" className="text-foreground hover:text-primary transition-colors">
+                Home
+              </Link>
               <Link to="/about" className="text-foreground hover:text-primary transition-colors">
                 About Us
               </Link>

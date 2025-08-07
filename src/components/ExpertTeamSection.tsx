@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 // import teamChoon from "@/assets/team-choon.jpg";        
 // import teamAdeel from "@/assets/team-adeel.jpg";
 // import teamZoran from "@/assets/team-zoran.jpg";
@@ -31,7 +34,7 @@ const teamMembers = [
     id: 4,
     name: "Bernetta Lee",
     credentials: "CPA",
-    certification: "",
+    certification: "CPA",
     image: "/team/team-bernetta.png",
   },
   {
@@ -69,7 +72,7 @@ export const ExpertTeamSection = () => {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-32 md:h-40 object-cover rounded-full mx-auto border-4 border-primary/20"
+                  className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full mx-auto border-4 border-primary/20"
                 />
                 {member.certification && (
                   <div className="absolute -bottom-2 -right-2 bg-primary rounded-full p-2">
