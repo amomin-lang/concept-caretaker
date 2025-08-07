@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { BookingForm } from "@/components/BookingForm";
+import { ProcessFlowChart } from "@/components/ProcessFlowChart";
 import heroImage from "@/assets/hero-business.jpg";
 
 const Process = () => {
@@ -98,58 +99,117 @@ const Process = () => {
               
                 {/* Introduction */}
                 <div className="mb-16">
-                  <h2 className="text-3xl font-bold text-primary mb-6">The Valuation Process - What to Expect</h2>
+                  <h2 className="text-3xl font-bold text-primary mb-6">The Valuation Process - Interactive Flow</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
                     <p className="mb-6">
                       Step by step, you'll be guided through a thorough, proven approach designed to uncover the true 
                       value of your business - with clarity, confidence, and purpose.
                     </p>
                     <p className="mb-6">
-                      Structured for clarity. Designed to deliver results.
-                    </p>
-                    <p className="mb-6">
-                      A business valuation should do more than estimate a number - it should give confidence, 
-                      reduce uncertainty, and help moving forward with clarity. Here's what to expect from a valuation 
-                      process that's trusted by lawyers, accountants, and business owners, nationwide.
+                      Use the interactive flowchart below to explore the process. You can zoom, pan, and see how each step connects to the next.
                     </p>
                   </div>
                 </div>
 
-                {/* Process Steps */}
-                <div className="space-y-8">
-                  {processSteps.map((step, index) => (
-                    <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
-                      <CardContent className="p-8">
-                        <div className="flex items-start space-x-6">
-                          <div className="w-12 h-12 bg-gradient-hero rounded-full flex items-center justify-center text-white text-lg font-bold flex-shrink-0">
-                            {step.number}
-                          </div>
-                          <div className="flex-1">
-                            <h3 className="font-bold text-foreground text-xl mb-4">{step.title}</h3>
-                            <p className="text-muted-foreground mb-4">{step.description}</p>
-                            
-                            {step.methods && (
-                              <div className="mb-4">
-                                <ul className="list-disc list-inside space-y-1 text-muted-foreground ml-4">
-                                  {step.methods.map((method, methodIndex) => (
-                                    <li key={methodIndex}>{method}</li>
-                                  ))}
-                                </ul>
-                              </div>
-                            )}
-                            
-                            {step.additionalInfo && (
-                              <p className="text-muted-foreground mb-4">{step.additionalInfo}</p>
-                            )}
-                            
-                            <div className="bg-gradient-subtle p-4 rounded-lg border-l-4 border-primary">
-                              <p className="text-foreground font-medium">{step.benefit}</p>
-                            </div>
-                          </div>
+                {/* Interactive Flowchart */}
+                <div className="mb-16">
+                  <ProcessFlowChart />
+                </div>
+
+                {/* Process Details */}
+                <div className="mb-16">
+                  <h3 className="text-2xl font-bold text-primary mb-6">Process Details</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+                      <CardContent className="p-6">
+                        <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
+                          1
                         </div>
+                        <h4 className="font-bold text-foreground mb-2">Clear Setup & Next Steps</h4>
+                        <p className="text-sm text-muted-foreground">It all starts with clarity - the scope, purpose, timeframes, and exactly what's needed.</p>
                       </CardContent>
                     </Card>
-                  ))}
+
+                    <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+                      <CardContent className="p-6">
+                        <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
+                          2
+                        </div>
+                        <h4 className="font-bold text-foreground mb-2">Financial Info Collected</h4>
+                        <p className="text-sm text-muted-foreground">Gathering key business documents - profit and loss statements, balance sheets, and available records.</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+                      <CardContent className="p-6">
+                        <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
+                          3
+                        </div>
+                        <h4 className="font-bold text-foreground mb-2">Numbers Reviewed</h4>
+                        <p className="text-sm text-muted-foreground">Thorough review of financials, benchmarking against industry standards, identifying gaps.</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+                      <CardContent className="p-6">
+                        <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
+                          4
+                        </div>
+                        <h4 className="font-bold text-foreground mb-2">Business Interview</h4>
+                        <p className="text-sm text-muted-foreground">Focused discussion on value drivers, risks, dependencies, and operational realities.</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+                      <CardContent className="p-6">
+                        <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
+                          5
+                        </div>
+                        <h4 className="font-bold text-foreground mb-2">Supporting Documents</h4>
+                        <p className="text-sm text-muted-foreground">Additional documents like contracts, staff arrangements, or client relationships as needed.</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+                      <CardContent className="p-6">
+                        <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
+                          6
+                        </div>
+                        <h4 className="font-bold text-foreground mb-2">Clarifications</h4>
+                        <p className="text-sm text-muted-foreground">Quick follow-ups for additional context or clarification where needed.</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+                      <CardContent className="p-6">
+                        <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
+                          7
+                        </div>
+                        <h4 className="font-bold text-foreground mb-2">Best-Method Valuation</h4>
+                        <p className="text-sm text-muted-foreground">Selecting the appropriate valuation approach: market-based, earnings-based, DCF, or asset-based.</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+                      <CardContent className="p-6">
+                        <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
+                          8
+                        </div>
+                        <h4 className="font-bold text-foreground mb-2">Draft Review</h4>
+                        <p className="text-sm text-muted-foreground">For strategic planning scenarios, draft review and feedback incorporation.</p>
+                      </CardContent>
+                    </Card>
+
+                    <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+                      <CardContent className="p-6">
+                        <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
+                          9
+                        </div>
+                        <h4 className="font-bold text-foreground mb-2">Final Valuation Delivered</h4>
+                        <p className="text-sm text-muted-foreground">Complete, clearly structured report delivered for your specific purpose.</p>
+                      </CardContent>
+                    </Card>
+                  </div>
                 </div>
 
               </div>
