@@ -25,11 +25,11 @@ const initialNodes: Node[] = [
       color: 'white',
       border: '2px solid hsl(var(--primary))',
       borderRadius: '12px',
-      padding: '12px',
-      minWidth: '220px',
+      padding: '15px',
+      minWidth: '240px',
       textAlign: 'center',
-      fontSize: '14px',
-      fontWeight: '600'
+      fontSize: '16px',
+      fontWeight: '700'
     },
   },
   {
@@ -40,11 +40,11 @@ const initialNodes: Node[] = [
       background: 'hsl(var(--card))',
       border: '2px solid hsl(var(--border))',
       borderRadius: '12px',
-      padding: '12px',
-      minWidth: '220px',
+      padding: '15px',
+      minWidth: '240px',
       textAlign: 'center',
-      fontSize: '14px',
-      fontWeight: '600'
+      fontSize: '16px',
+      fontWeight: '700'
     },
   },
   {
@@ -55,11 +55,11 @@ const initialNodes: Node[] = [
       background: 'hsl(var(--card))',
       border: '2px solid hsl(var(--border))',
       borderRadius: '12px',
-      padding: '12px',
-      minWidth: '220px',
+      padding: '15px',
+      minWidth: '240px',
       textAlign: 'center',
-      fontSize: '14px',
-      fontWeight: '600'
+      fontSize: '16px',
+      fontWeight: '700'
     },
   },
   {
@@ -70,11 +70,11 @@ const initialNodes: Node[] = [
       background: 'hsl(var(--card))',
       border: '2px solid hsl(var(--border))',
       borderRadius: '12px',
-      padding: '12px',
-      minWidth: '220px',
+      padding: '15px',
+      minWidth: '240px',
       textAlign: 'center',
-      fontSize: '14px',
-      fontWeight: '600'
+      fontSize: '16px',
+      fontWeight: '700'
     },
   },
   {
@@ -85,11 +85,11 @@ const initialNodes: Node[] = [
       background: 'hsl(var(--card))',
       border: '2px solid hsl(var(--border))',
       borderRadius: '12px',
-      padding: '12px',
-      minWidth: '220px',
+      padding: '15px',
+      minWidth: '240px',
       textAlign: 'center',
-      fontSize: '14px',
-      fontWeight: '600'
+      fontSize: '16px',
+      fontWeight: '700'
     },
   },
   {
@@ -100,11 +100,11 @@ const initialNodes: Node[] = [
       background: 'hsl(var(--card))',
       border: '2px solid hsl(var(--border))',
       borderRadius: '12px',
-      padding: '12px',
-      minWidth: '220px',
+      padding: '15px',
+      minWidth: '240px',
       textAlign: 'center',
-      fontSize: '14px',
-      fontWeight: '600'
+      fontSize: '16px',
+      fontWeight: '700'
     },
   },
   {
@@ -115,11 +115,11 @@ const initialNodes: Node[] = [
       background: 'hsl(var(--secondary))',
       border: '2px solid hsl(var(--secondary))',
       borderRadius: '12px',
-      padding: '12px',
-      minWidth: '220px',
+      padding: '15px',
+      minWidth: '240px',
       textAlign: 'center',
-      fontSize: '14px',
-      fontWeight: '600'
+      fontSize: '16px',
+      fontWeight: '700'
     },
   },
   {
@@ -130,11 +130,11 @@ const initialNodes: Node[] = [
       background: 'hsl(var(--card))',
       border: '2px solid hsl(var(--border))',
       borderRadius: '12px',
-      padding: '12px',
-      minWidth: '220px',
+      padding: '15px',
+      minWidth: '240px',
       textAlign: 'center',
-      fontSize: '14px',
-      fontWeight: '600'
+      fontSize: '16px',
+      fontWeight: '700'
     },
   },
   {
@@ -147,11 +147,11 @@ const initialNodes: Node[] = [
       color: 'white',
       border: '2px solid hsl(var(--primary))',
       borderRadius: '12px',
-      padding: '12px',
-      minWidth: '220px',
+      padding: '15px',
+      minWidth: '240px',
       textAlign: 'center',
-      fontSize: '14px',
-      fontWeight: '600'
+      fontSize: '16px',
+      fontWeight: '700'
     },
   },
 ];
