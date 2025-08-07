@@ -119,7 +119,7 @@ const AboutUs = () => {
                 {/* Extensive Experience */}
                 <div className="mb-16">
                   <h2 className="text-3xl font-bold text-primary mb-6">Extensive Experience Across Various Scenarios</h2>
-                  <p className="text-muted-foreground mb-6">
+                  <p className="text-muted-foreground mb-6 text-xl">
                     To date, we've completed over 500 business valuations for a wide range of purposes, including:
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -130,7 +130,7 @@ const AboutUs = () => {
                       </div>
                     ))}
                   </div>
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground text-xl">
                     Our valuations are tailored to meet the specific needs of each scenario, ensuring 
                     relevance and reliability.
                   </p>
