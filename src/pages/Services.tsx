@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookingForm } from "@/components/BookingForm";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-business.jpg";
 
 const Services = () => {
@@ -132,8 +133,8 @@ const Services = () => {
                         </div>
                         
                         <div className="mt-auto">
-                          <Button variant="outline" className="w-full">
-                            Learn More
+                          <Button variant="outline" className="w-full" asChild>
+                            <Link to="/services/legal-proceedings">Learn More</Link>
                           </Button>
                         </div>
                       </CardContent>
