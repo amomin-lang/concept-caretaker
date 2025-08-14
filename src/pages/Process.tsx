@@ -236,7 +236,10 @@ const Process = () => {
                         <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
                           7
                         </div>
-                        <h4 className="font-bold text-foreground mb-2">Best-Method Valuation</h4>
+                        <h4 className="font-bold text-foreground mb-2">
+                          Best-Method Valuation<br />
+                          <span className="text-sm font-bold text-muted-foreground">(Not One-Size-Fits-All)</span>
+                        </h4>
                         <p className="text-sm text-muted-foreground mb-3">Selecting the appropriate valuation approach: market-based, earnings-based, DCF, or asset-based.</p>
                         <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
                           <p className="text-sm">
