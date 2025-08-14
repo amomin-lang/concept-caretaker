@@ -138,6 +138,7 @@ const Services = () => {
                                index === 0 ? "/services/legal-proceedings" : 
                                index === 1 ? "/services/succession-planning" : 
                                index === 2 ? "/services/exit-strategy" :
+                               index === 3 ? "/services/tax-purposes" :
                                "#"
                              }>
                                Learn More
