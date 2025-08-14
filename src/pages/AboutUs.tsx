@@ -188,6 +188,16 @@ const AboutUs = () => {
                             />
                           </div>
                         )}
+                        {/* AVI Logo for AAJ */}
+                        {member.name === "AAJ" && (
+                          <div className="absolute top-4 right-4 w-24 h-16">
+                            <img
+                              src="/lovable-uploads/59bfffa4-4329-4413-8181-4f6e614c9962.png"
+                              alt="Australian Valuers Institute"
+                              className="w-full h-full object-contain"
+                            />
+                          </div>
+                        )}
                         {/* RBV Logo for multiple members */}
                         {(member.name === "Adeel Momin" || member.name === "Zoran Sarabaca" || member.name === "Choon Ng" || member.name === "Fred Fareau") && (
                           <div className="absolute top-4 right-4 w-24 h-24">
