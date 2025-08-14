@@ -188,25 +188,23 @@ const AboutUs = () => {
                             />
                           </div>
                         )}
+                        {/* RBV Logo for Adeel Momin */}
+                        {member.name === "Adeel Momin" && (
+                          <div className="absolute top-4 right-4 w-24 h-24">
+                            <img
+                              src="/lovable-uploads/83487612-3fb6-4afa-8538-3edceebb2578.png"
+                              alt="Registered Business Valuer"
+                              className="w-full h-full object-contain"
+                            />
+                          </div>
+                        )}
                         <CardContent className="p-6">
                           <div className="text-center">
-                            <div className="relative inline-block mb-4">
-                              <img
-                                src={member.image}
-                                alt={member.name}
-                                className="w-32 h-32 rounded-full object-cover border-2 border-primary shadow"
-                              />
-                              {/* RBV Logo for Adeel Momin - positioned on photo */}
-                              {member.name === "Adeel Momin" && (
-                                <div className="absolute bottom-0 right-0 w-12 h-12 bg-white rounded-full p-1 shadow-md">
-                                  <img
-                                    src="/lovable-uploads/83487612-3fb6-4afa-8538-3edceebb2578.png"
-                                    alt="Registered Business Valuer"
-                                    className="w-full h-full object-contain"
-                                  />
-                                </div>
-                              )}
-                            </div>
+                            <img
+                              src={member.image}
+                              alt={member.name}
+                              className="w-32 h-32 rounded-full object-cover border-2 border-primary shadow mx-auto mb-4"
+                            />
                             <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
                             <Badge variant="outline" className="mb-4 text-base">{member.title}</Badge>
                             {member.subtitle && (
