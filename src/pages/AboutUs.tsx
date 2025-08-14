@@ -188,12 +188,12 @@ const AboutUs = () => {
                             />
                           </div>
                         )}
-                        {/* RBV Logo for Adeel Momin */}
+                        {/* CPBB Logo for Adeel Momin */}
                         {member.name === "Adeel Momin" && (
-                          <div className="absolute top-4 right-4 w-24 h-24">
+                          <div className="absolute top-4 left-4 w-20 h-20">
                             <img
-                              src="/lovable-uploads/83487612-3fb6-4afa-8538-3edceebb2578.png"
-                              alt="Registered Business Valuer"
+                              src="/lovable-uploads/7c701c1c-f37b-4216-980c-90e7ee6cd7c4.png"
+                              alt="Certified Professional Business Broker"
                               className="w-full h-full object-contain"
                             />
                           </div>
