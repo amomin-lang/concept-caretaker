@@ -44,7 +44,7 @@ const AboutUs = () => {
   },
   {
     name: "AAJ",
-    title: "Bachelors of Training and Development",
+    title: "Certified Business Valuer - AVI",
     subtitle: "Masters, Entrepreneurship and Innovation",
     experience: "Certified Business Valuer - Australian Valuers Institute Coop Limited, Certified Practicing Business Broker (CPBB®) – AIBB",
     image: "/team/team-denise.png",
