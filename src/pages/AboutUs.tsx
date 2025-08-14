@@ -43,7 +43,7 @@ const AboutUs = () => {
     image: "/team/team-fred.png",
   },
   {
-    name: "AAJ",
+    name: "Denise Hall",
     title: "Certified Business Valuer - AVI",
     subtitle: "Masters, Entrepreneurship and Innovation",
     experience: "Certified Business Valuer - Australian Valuers Institute Coop Limited, Certified Practicing Business Broker (CPBB®) – AIBB",
@@ -189,7 +189,7 @@ const AboutUs = () => {
                           </div>
                         )}
                         {/* AVI Logo for AAJ */}
-                        {member.name === "AAJ" && (
+                        {member.name === "Denise Hall" && (
                           <div className="absolute top-4 right-4 w-32 h-24">
                             <img
                               src="/lovable-uploads/59bfffa4-4329-4413-8181-4f6e614c9962.png"
