@@ -188,8 +188,8 @@ const AboutUs = () => {
                             />
                           </div>
                         )}
-                        {/* RBV Logo for Adeel Momin */}
-                        {member.name === "Adeel Momin" && (
+                        {/* RBV Logo for multiple members */}
+                        {(member.name === "Adeel Momin" || member.name === "Zoran Sarabaca" || member.name === "Choon Ng" || member.name === "Fred Fareau") && (
                           <div className="absolute top-4 right-4 w-24 h-24">
                             <img
                               src="/lovable-uploads/83487612-3fb6-4afa-8538-3edceebb2578.png"
