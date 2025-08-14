@@ -132,11 +132,17 @@ const Services = () => {
                           </div>
                         </div>
                         
-                        <div className="mt-auto">
-                          <Button variant="outline" className="w-full" asChild>
-                            <Link to="/services/legal-proceedings">Learn More</Link>
-                          </Button>
-                        </div>
+                         <div className="mt-auto">
+                           <Button variant="outline" className="w-full" asChild>
+                             <Link to={
+                               index === 0 ? "/services/legal-proceedings" : 
+                               index === 1 ? "/services/succession-planning" : 
+                               "#"
+                             }>
+                               Learn More
+                             </Link>
+                           </Button>
+                         </div>
                       </CardContent>
                     </Card>
                   ))}
