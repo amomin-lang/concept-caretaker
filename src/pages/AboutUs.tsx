@@ -199,22 +199,20 @@ const AboutUs = () => {
                           </div>
                         )}
                         <CardContent className="p-6">
-                          <div className="flex items-start space-x-4">
+                          <div className="text-center">
                             <img
                               src={member.image}
                               alt={member.name}
-                              className="w-24 h-24 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
+                              className="w-24 h-24 rounded-full object-cover border-2 border-primary shadow mx-auto mb-4"
                             />
-                            <div className="flex-1">
-                              <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
-                              <Badge variant="outline" className="mb-2 text-base">{member.title}</Badge>
-                              {member.subtitle && (
-                                <div className="text-base text-muted-foreground mb-4 whitespace-pre-line">{member.subtitle}</div>
-                              )}
-                              {member.experience && (
-                                <div className="text-sm text-muted-foreground whitespace-pre-line">{member.experience}</div>
-                              )}
-                            </div>
+                            <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
+                            <Badge variant="outline" className="mb-4 text-base">{member.title}</Badge>
+                            {member.subtitle && (
+                              <div className="text-base text-muted-foreground mb-4 whitespace-pre-line text-left">{member.subtitle}</div>
+                            )}
+                            {member.experience && (
+                              <div className="text-sm text-muted-foreground whitespace-pre-line text-left">{member.experience}</div>
+                            )}
                           </div>
                         </CardContent>
                       </Card>
