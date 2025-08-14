@@ -32,7 +32,7 @@ const AboutUs = () => {
     name: "Choon Ng",
     title: "Registered Business Valuer - AIBB",
     subtitle: "- Masters of Business, Bachelors of Engineering\n- Certified Practicing Business Broker (CPBB®) – AIBB",
-    experience: "- Experience in the Industry = \n- Professional Experience = 30 Years",
+    experience: "- Experience in the Industry = 21 Years\n- Professional Experience = 30 Years",
     image: "/team/team-choon.png",
   },
   {
