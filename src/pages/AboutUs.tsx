@@ -38,8 +38,8 @@ const AboutUs = () => {
   {
     name: "Fred Fareau",
     title: "Registered Business Valuer - AIBB",
-    subtitle: "Registered Business Valuer (RBV®) – AIBV",
-    experience: "Certified Practicing Business Broker (CPBB®) – AIBB, Certified Business Coach, Experience in the Industry = 12 Years",
+    subtitle: "- Master of Business Management\n- Registered Business Valuer (RBV®) – AIBB\n- Certified Practicing Business Broker (CPBB®) – AIBB\n- Certified Business Coach",
+    experience: "- Experience in the industry = 4 Years\n- Professional Experience = 25 Years",
     image: "/team/team-fred.png",
   },
   {
