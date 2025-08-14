@@ -137,6 +137,7 @@ const Services = () => {
                              <Link to={
                                index === 0 ? "/services/legal-proceedings" : 
                                index === 1 ? "/services/succession-planning" : 
+                               index === 2 ? "/services/exit-strategy" :
                                "#"
                              }>
                                Learn More
