@@ -143,7 +143,7 @@ const Process = () => {
                         </div>
                         <h4 className="font-bold text-foreground mb-2">
                           Financial Info Collected<br />
-                          <span className="text-sm font-normal text-muted-foreground">(Clean or Not)</span>
+                          <span className="text-sm font-bold text-muted-foreground">(Clean or Not)</span>
                         </h4>
                         <p className="text-sm text-muted-foreground mb-3">Gathering key business documents - profit and loss statements, balance sheets, and available records.</p>
                         <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
