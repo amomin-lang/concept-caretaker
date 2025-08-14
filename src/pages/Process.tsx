@@ -127,7 +127,9 @@ const Process = () => {
                         </div>
                         <h4 className="font-bold text-foreground mb-2">Clear Setup & Next Steps</h4>
                         <p className="text-sm text-muted-foreground mb-3">It all starts with clarity - the scope, purpose, timeframes, and exactly what's needed.</p>
-                        <p className="text-sm text-primary font-medium">What's in it for you: No confusion. No delays. Just a clear roadmap from day one.</p>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm text-primary font-medium">What's in it for you: No confusion. No delays. Just a clear roadmap from day one.</p>
+                        </div>
                       </CardContent>
                     </Card>
 
