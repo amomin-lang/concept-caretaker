@@ -202,7 +202,7 @@ const Process = () => {
                           Supporting Documents<br />
                           <span className="text-sm font-bold text-muted-foreground">(Only What Matters)</span>
                         </h4>
-                        <p className="text-sm text-muted-foreground mb-3">Additional documents like contracts, staff arrangements, or client relationships as needed.</p>
+                        <p className="text-sm text-muted-foreground mb-3">Additional documents like key contracts, staff arrangements, or client relationships may be requested, depending on what's uncovered.</p>
                         <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
                           <p className="text-sm">
                             <span className="text-primary font-medium">What's in it for you: </span>
