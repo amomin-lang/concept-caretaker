@@ -213,7 +213,7 @@ const AboutUs = () => {
                             <img
                               src={member.image}
                               alt={member.name}
-                              className="w-24 h-24 rounded-full object-cover border-2 border-primary shadow mx-auto mb-4"
+                              className="w-32 h-32 rounded-full object-cover border-2 border-primary shadow mx-auto mb-4"
                             />
                             <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
                             <Badge variant="outline" className="mb-4 text-base">{member.title}</Badge>
