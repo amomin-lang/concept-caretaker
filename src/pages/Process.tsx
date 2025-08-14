@@ -240,7 +240,16 @@ const Process = () => {
                           Best-Method Valuation<br />
                           <span className="text-sm font-bold text-muted-foreground">(Not One-Size-Fits-All)</span>
                         </h4>
-                        <p className="text-sm text-muted-foreground mb-3">Selecting the appropriate valuation approach: market-based, earnings-based, DCF, or asset-based.</p>
+                        <div className="text-sm text-muted-foreground mb-3">
+                          <p className="mb-2">The valuation approach is selected based on the purpose and the type of business. This may include:</p>
+                          <ul className="list-disc list-inside mb-2 space-y-1">
+                            <li>Market-based comparisons</li>
+                            <li>Future maintainable earnings</li>
+                            <li>Discounted cash flow</li>
+                            <li>Net asset value</li>
+                          </ul>
+                          <p>Sometimes multiple methods are used to ensure accuracy. Real-world sales data is used - from within the same industry - and often directly from deals handled across the country.</p>
+                        </div>
                         <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
                           <p className="text-sm">
                             <span className="text-primary font-medium">What's in it for you: </span>
