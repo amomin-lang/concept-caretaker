@@ -218,7 +218,17 @@ const AboutUs = () => {
                             <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
                             <Badge variant="outline" className="mb-4 text-base">{member.title}</Badge>
                             {member.subtitle && (
-                              <div className="text-base text-muted-foreground mb-4 whitespace-pre-line text-left">{member.subtitle}</div>
+                              <div className="text-base mb-4 text-left">
+                                {member.subtitle.split('\n').map((line, lineIndex) => (
+                                  <div key={lineIndex} className={
+                                    line.includes('Registered Business Valuer (RBV®)') 
+                                      ? 'text-primary font-medium' 
+                                      : 'text-muted-foreground'
+                                  }>
+                                    {line}
+                                  </div>
+                                ))}
+                              </div>
                             )}
                             {member.experience && (
                               <div className="text-sm text-muted-foreground whitespace-pre-line text-left">{member.experience}</div>
