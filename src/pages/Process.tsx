@@ -238,7 +238,13 @@ const Process = () => {
                           8
                         </div>
                         <h4 className="font-bold text-foreground mb-2">Draft Review</h4>
-                        <p className="text-sm text-muted-foreground">For strategic planning scenarios, draft review and feedback incorporation.</p>
+                        <p className="text-sm text-muted-foreground mb-3">For strategic planning scenarios, draft review and feedback incorporation.</p>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm">
+                            <span className="text-primary font-medium">What's in it for you: </span>
+                            <span className="text-foreground">No surprises. Just confidence that the final result aligns with the facts and the purpose behind it.</span>
+                          </p>
+                        </div>
                       </CardContent>
                     </Card>
 
