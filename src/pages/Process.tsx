@@ -284,7 +284,7 @@ const Process = () => {
                           9
                         </div>
                         <h4 className="font-bold text-foreground mb-2">Final Valuation Delivered</h4>
-                        <p className="text-sm text-muted-foreground mb-3">Complete, clearly structured report delivered for your specific purpose.</p>
+                        <p className="text-sm text-muted-foreground mb-3">A complete, clearly structured report is delivered - whether for legal use, tax planning, negotiation, or internal decision-making.</p>
                         <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
                           <p className="text-sm">
                             <span className="text-primary font-medium">What's in it for you: </span>
