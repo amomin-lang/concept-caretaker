@@ -142,7 +142,13 @@ const Process = () => {
                           2
                         </div>
                         <h4 className="font-bold text-foreground mb-2">Financial Info Collected</h4>
-                        <p className="text-sm text-muted-foreground">Gathering key business documents - profit and loss statements, balance sheets, and available records.</p>
+                        <p className="text-sm text-muted-foreground mb-3">Gathering key business documents - profit and loss statements, balance sheets, and available records.</p>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm">
+                            <span className="text-primary font-medium">What's in it for you: </span>
+                            <span className="text-foreground">Even if records are incomplete, the right questions help fill the gaps and avoid misinterpretation.</span>
+                          </p>
+                        </div>
                       </CardContent>
                     </Card>
 
