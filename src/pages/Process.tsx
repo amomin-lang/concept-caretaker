@@ -198,7 +198,10 @@ const Process = () => {
                         <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
                           5
                         </div>
-                        <h4 className="font-bold text-foreground mb-2">Supporting Documents</h4>
+                        <h4 className="font-bold text-foreground mb-2">
+                          Supporting Documents<br />
+                          <span className="text-sm font-bold text-muted-foreground">(Only What Matters)</span>
+                        </h4>
                         <p className="text-sm text-muted-foreground mb-3">Additional documents like contracts, staff arrangements, or client relationships as needed.</p>
                         <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
                           <p className="text-sm">
