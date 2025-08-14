@@ -45,8 +45,8 @@ const AboutUs = () => {
   {
     name: "Denise Hall",
     title: "Certified Business Valuer - AVI",
-    subtitle: "Masters, Entrepreneurship and Innovation",
-    experience: "Certified Business Valuer - Australian Valuers Institute Coop Limited, Certified Practicing Business Broker (CPBB®) – AIBB",
+    subtitle: "- Masters, Entrepreneurship and Innovation\n- Bachelors of Training and Development\n- Certified Business Valuer - Australian Valuers Institute\n- Certified Practicing Business Broker (CPBB®) – AIBB",
+    experience: "- Experience in the Industry = \n- Professional Experience = ",
     image: "/team/team-denise.png",
   }
 ];
