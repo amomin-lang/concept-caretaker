@@ -198,16 +198,6 @@ const AboutUs = () => {
                             />
                           </div>
                         )}
-                        {/* CPBB Logo for Adeel Momin */}
-                        {member.name === "Adeel Momin" && (
-                          <div className="absolute top-4 left-4 w-20 h-20">
-                            <img
-                              src="/lovable-uploads/7c701c1c-f37b-4216-980c-90e7ee6cd7c4.png"
-                              alt="Certified Professional Business Broker"
-                              className="w-full h-full object-contain"
-                            />
-                          </div>
-                        )}
                         <CardContent className="p-6">
                           <div className="text-center">
                             <img
