@@ -183,7 +183,7 @@ const Process = () => {
                           Business Interview<br />
                           <span className="text-sm font-bold text-muted-foreground">(Focused & Insightful)</span>
                         </h4>
-                        <p className="text-sm text-muted-foreground mb-3">Focused discussion on value drivers, risks, dependencies, and operational realities.</p>
+                        <p className="text-sm text-muted-foreground mb-3">An interview follows with the owner or key personnel. By this point, the business and its industry have already been researched, so the discussion goes straight into the value drivers, risks, dependencies, and operational realities.</p>
                         <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
                           <p className="text-sm">
                             <span className="text-primary font-medium">What's in it for you: </span>
