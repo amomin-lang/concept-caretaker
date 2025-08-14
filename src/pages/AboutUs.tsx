@@ -17,7 +17,7 @@ const AboutUs = () => {
   {
     name: "Adeel Momin",
     title: "Chief Valuations Officer",
-    subtitle: "- M.Com (UNSW), MBA (UCP)\n- Registered Business Valuer (RBV®) – AIBB\n- Certified Practicing Business Broker (CPBB®) – AIBB",
+    subtitle: "- M.Com (UNSW), MBA (UCP), BBA (UCP)\n- Registered Business Valuer (RBV®) – AIBB\n- Certified Practicing Business Broker (CPBB®) – AIBB",
     experience: "- Experience in the Industry = 11 years\n- Professional Experience = 28 Years",
     image: "/team/team-adeel.png",
   },
