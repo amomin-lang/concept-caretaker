@@ -30,7 +30,7 @@ const AboutUs = () => {
   },
   {
     name: "Choon Ng",
-    title: "AIBV RBV",
+    title: "Registered Business Valuer - AIBB",
     subtitle: "Bachelors of Engineering, Masters of Business",
     experience: "Registered Business Valuer (RBV®) – AIBV, Certified Practicing Business Broker (CPBB®) – AIBB",
     image: "/team/team-choon.png",
