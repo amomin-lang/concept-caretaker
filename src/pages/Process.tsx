@@ -174,7 +174,13 @@ const Process = () => {
                           4
                         </div>
                         <h4 className="font-bold text-foreground mb-2">Business Interview</h4>
-                        <p className="text-sm text-muted-foreground">Focused discussion on value drivers, risks, dependencies, and operational realities.</p>
+                        <p className="text-sm text-muted-foreground mb-3">Focused discussion on value drivers, risks, dependencies, and operational realities.</p>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm">
+                            <span className="text-primary font-medium">What's in it for you: </span>
+                            <span className="text-foreground">A tailored conversation that cuts through generic questions and focuses on what actually influences the business's value.</span>
+                          </p>
+                        </div>
                       </CardContent>
                     </Card>
 
