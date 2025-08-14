@@ -23,7 +23,7 @@ const AboutUs = () => {
   },
   {
     name: "Bernetta Lee",
-    title: "CPA",
+    title: "CPA - Certified Public Accountant",
     subtitle: "Certified Public Accountant – CPA Australia",
     experience: "",
     image: "/team/team-bernetta.png",
