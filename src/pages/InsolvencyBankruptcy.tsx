@@ -86,9 +86,9 @@ const InsolvencyBankruptcy = () => {
                   <span>Back to All Services</span>
                 </Link>
               </div>
-              <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Insolvency & Bankruptcy</h1>
+              <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Business Valuations for Insolvency & Bankruptcy</h1>
               <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
-                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Accurate valuations in challenging circumstances</p>
+                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Accurate business valuations in challenging circumstances</p>
               </div>
             </div>
           </div>
