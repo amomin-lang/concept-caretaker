@@ -43,7 +43,7 @@ const Services = () => {
       description: "Comply with tax requirements while optimising your position. Our tax-purpose valuations meet ATO standards and help you make informed decisions about capital gains, restructuring, and tax planning.",
       benefits: [
         "ATO compliance assurance",
-        "Tax optimization strategies",
+        "Tax optimisation strategies",
         "Capital gains planning",
         "Restructuring support"
       ]
