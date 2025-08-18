@@ -109,7 +109,7 @@ const ContactUs = () => {
                 {/* Main Contact Information */}
                 <div className="mb-16">
                   <div className="bg-gradient-hero text-primary-foreground rounded-lg p-8 text-center">
-                    <h3 className="text-2xl font-bold mb-6">Main Contact Details</h3>
+                    <h3 className="text-2xl font-bold mb-6">Main Contact Details for Business Valuations Australia Wide</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
                         <h4 className="font-bold mb-2">Phone:</h4>
