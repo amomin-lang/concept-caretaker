@@ -76,11 +76,12 @@ export const ExpertTeamSection = () => {
                 />
                 {member.certification && (
                   <div className="absolute -bottom-2 -right-2 bg-white rounded-full p-2">
-                    {(member.name === "Adeel Momin" || member.name === "Choon Ng" || member.name === "Zoran Sarabaca") ? (
+                    {(member.name === "Adeel Momin" || member.name === "Choon Ng" || member.name === "Zoran Sarabaca" || member.name === "Bernetta Lee") ? (
                       <a href={
                         member.name === "Adeel Momin" ? "https://www.linkedin.com/in/adeelmomin" : 
                         member.name === "Choon Ng" ? "https://au.linkedin.com/in/choonng" :
-                        "https://au.linkedin.com/in/zoran-sarabaca-bba2a38"
+                        member.name === "Zoran Sarabaca" ? "https://au.linkedin.com/in/zoran-sarabaca-bba2a38" :
+                        "https://au.linkedin.com/in/bsylee"
                       } target="_blank" rel="noopener noreferrer">
                         <img 
                           src="/lovable-uploads/91d0d7ff-b4d4-4f8c-89fb-a30d3f58cbea.png" 
