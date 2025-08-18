@@ -45,7 +45,7 @@ export const TeamSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary mb-4">
-            Team of Certified Expert Valuers
+            Team of Certified Expert Business Valuers
           </h2>
           <div className="w-24 h-1 bg-gradient-accent mx-auto"></div>
         </div>
