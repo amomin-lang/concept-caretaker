@@ -30,7 +30,7 @@ export const ServicesSection = () => {
     {
       icon: TrendingUp,
       title: "Business Valuations for Selling a Business",
-      description: "Maximize value with professional business appraisals"
+      description: "Maximise value with professional business valuations"
     },
     {
       icon: Calculator,
