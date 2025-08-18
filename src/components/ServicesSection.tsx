@@ -35,7 +35,7 @@ export const ServicesSection = () => {
     {
       icon: Calculator,
       title: "Business Valuations for Business Planning",
-      description: "Strategic valuations for business growth and planning"
+      description: "Strategic business valuations for business growth and planning"
     },
     {
       icon: FileText,
