@@ -31,9 +31,9 @@ export const Header = () => {
               <Link to="/services" className="text-foreground hover:text-primary transition-colors">
                 Our Services
               </Link>
-              <a href="#contact" className="text-foreground hover:text-primary transition-colors">
+              <Link to="/contact" className="text-foreground hover:text-primary transition-colors">
                 Contact Us
-              </a>
+              </Link>
             </nav>
           </div>
           <div className="flex items-center space-x-4">
