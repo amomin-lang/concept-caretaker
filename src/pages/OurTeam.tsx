@@ -84,7 +84,7 @@ const OurTeam = () => {
             <div className="max-w-4xl mx-auto text-center text-primary-foreground">
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Our Team</h1>
               <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
-                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Meet Our Key Valuation Professionals</p>
+                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Meet Our Key Business Valuation Professionals</p>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ const OurTeam = () => {
                 
                 {/* Introduction */}
                 <div className="mb-16 text-center">
-                  <h2 className="text-3xl font-bold text-primary mb-6">Meet Our Key Valuation Professionals</h2>
+                  <h2 className="text-3xl font-bold text-primary mb-6">Meet Our Key Business Valuation Professionals</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
                     <p className="text-xl mb-6">
                       Our team of qualified business valuation professionals brings extensive industry experience 
