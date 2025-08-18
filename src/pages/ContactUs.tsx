@@ -15,48 +15,52 @@ import {
 import heroImage from "@/assets/hero-business.jpg";
 
 const ContactUs = () => {
-  const contactInfo = [
-    {
-      icon: Phone,
-      title: "Phone",
-      details: "1300 520 121",
-      description: "Call us for immediate assistance"
-    },
-    {
-      icon: Mail,
-      title: "Email",
-      details: "info@xcllusivevaluation.com.au",
-      description: "Send us your enquiry anytime"
-    },
-    {
-      icon: MapPin,
-      title: "Location",
-      details: "Australia Wide",
-      description: "Serving businesses across Australia"
-    },
-    {
-      icon: Clock,
-      title: "Business Hours",
-      details: "Monday - Friday: 9AM - 5PM",
-      description: "Weekend consultations available"
-    }
-  ];
+  const mainContact = {
+    phone: "(02) 9817 3331",
+    fax: "02 8212 5899",
+    email: "info@xcllusive.com.au"
+  };
 
-  const whyChooseUs = [
+  const offices = [
     {
-      icon: Award,
-      title: "Expert Team",
-      description: "Qualified business valuation professionals with extensive industry experience"
+      name: "Sydney Office",
+      phone: "(02) 9817 3331",
+      address: "G14, 1-15 Barr Street, Balmain NSW 2041 Australia"
     },
     {
-      icon: Users,
-      title: "Personalized Service",
-      description: "Dedicated support throughout your valuation journey"
+      name: "Melbourne Office", 
+      phone: "(03) 8560 0524",
+      address: "Suite 7, 1153 Burke Road, Kew, VIC 3101 Australia"
     },
     {
-      icon: CheckCircle,
-      title: "Australia Wide",
-      description: "Comprehensive coverage across all Australian states and territories"
+      name: "Brisbane Office",
+      phone: "(07) 3088 6639", 
+      address: "Spring Hill, Qld 4004"
+    },
+    {
+      name: "Adelaide Office",
+      phone: "(08) 8472 3331",
+      address: "Westpac House Level 30, 91 King William Street, Adelaide SA 5000"
+    },
+    {
+      name: "ACT Office",
+      phone: "(02) 6249 8486",
+      address: "Canberra, NSW 2601"
+    },
+    {
+      name: "Regional Office (Central West NSW)",
+      phone: "(02) 6699 3339",
+      address: "Bathurst, Orange, Dubbo NSW"
+    },
+    {
+      name: "Central Coast Office (and Newcastle & Surrounds)",
+      phone: "(02) 4323 3433",
+      address: "Gosford NSW 2250"
+    },
+    {
+      name: "Perth Office",
+      phone: "(08) 6311 3331",
+      address: ""
     }
   ];
 
@@ -95,45 +99,77 @@ const ContactUs = () => {
                 
                 {/* Introduction */}
                 <div className="mb-16 text-center">
-                  <h2 className="text-3xl font-bold text-primary mb-6">Get in Touch Today</h2>
+                  <h2 className="text-3xl font-bold text-primary mb-6">Contact Information</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
                     <p className="text-xl mb-6">
-                      Ready to get your business valued? Our team of qualified professionals is here to help. 
-                      We provide comprehensive business valuation services across Australia, ensuring you receive 
-                      accurate, defensible valuations for your specific needs.
+                      For information about buying or selling or any other questions, please feel free to contact us any day 24/7.
                     </p>
                   </div>
                 </div>
 
-                {/* Contact Information */}
+                {/* Main Contact Information */}
                 <div className="mb-16">
-                  <h3 className="text-2xl font-bold text-primary mb-8">Contact Information</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {contactInfo.map((contact, index) => {
-                      const Icon = contact.icon;
-                      return (
-                        <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
-                          <CardContent className="p-6">
-                            <div className="flex items-start space-x-4">
-                              <div className="w-12 h-12 bg-gradient-hero rounded-full flex items-center justify-center text-white flex-shrink-0">
-                                <Icon className="h-6 w-6" />
-                              </div>
-                              <div>
-                                <h4 className="font-bold text-foreground mb-1">{contact.title}</h4>
-                                <p className="text-lg text-primary font-semibold mb-1">{contact.details}</p>
-                                <p className="text-sm text-muted-foreground">{contact.description}</p>
+                  <div className="bg-gradient-hero text-primary-foreground rounded-lg p-8 text-center">
+                    <h3 className="text-2xl font-bold mb-6">Main Contact Details</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                      <div>
+                        <h4 className="font-bold mb-2">Phone:</h4>
+                        <a href={`tel:${mainContact.phone.replace(/[^\d+]/g, '')}`} className="text-lg hover:underline">
+                          {mainContact.phone}
+                        </a>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Fax:</h4>
+                        <span className="text-lg">{mainContact.fax}</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Email:</h4>
+                        <a href={`mailto:${mainContact.email}`} className="text-lg hover:underline">
+                          {mainContact.email}
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Office Locations */}
+                <div className="mb-16">
+                  <h3 className="text-2xl font-bold text-primary mb-8">Our Office Locations</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {offices.map((office, index) => (
+                      <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
+                        <CardContent className="p-6">
+                          <div className="flex items-start space-x-4">
+                            <div className="w-12 h-12 bg-gradient-hero rounded-full flex items-center justify-center text-white flex-shrink-0">
+                              <MapPin className="h-6 w-6" />
+                            </div>
+                            <div className="flex-1">
+                              <h4 className="font-bold text-foreground mb-2">{office.name}</h4>
+                              <div className="space-y-2">
+                                <div className="flex items-center space-x-2">
+                                  <Phone className="h-4 w-4 text-primary flex-shrink-0" />
+                                  <a 
+                                    href={`tel:${office.phone.replace(/[^\d+]/g, '')}`} 
+                                    className="text-primary hover:underline font-semibold"
+                                  >
+                                    {office.phone}
+                                  </a>
+                                </div>
+                                {office.address && (
+                                  <p className="text-sm text-muted-foreground">{office.address}</p>
+                                )}
                               </div>
                             </div>
-                          </CardContent>
-                        </Card>
-                      );
-                    })}
+                          </div>
+                        </CardContent>
+                      </Card>
+                    ))}
                   </div>
                 </div>
 
                 {/* Quick Contact Options */}
                 <div className="mb-16">
-                  <h3 className="text-2xl font-bold text-primary mb-8">Quick Contact Options</h3>
+                  <h3 className="text-2xl font-bold text-primary mb-8">Get In Touch</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
                       <CardContent className="p-8 text-center">
@@ -143,8 +179,8 @@ const ContactUs = () => {
                         <h4 className="font-bold text-foreground mb-4">Call Us Now</h4>
                         <p className="text-muted-foreground mb-6">Speak directly with our valuation experts</p>
                         <Button size="lg" className="w-full" asChild>
-                          <a href="tel:1300520121">
-                            Call 1300 520 121
+                          <a href="tel:0298173331">
+                            Call {mainContact.phone}
                           </a>
                         </Button>
                       </CardContent>
@@ -158,75 +194,12 @@ const ContactUs = () => {
                         <h4 className="font-bold text-foreground mb-4">Email Us</h4>
                         <p className="text-muted-foreground mb-6">Send your enquiry and we'll respond promptly</p>
                         <Button size="lg" variant="outline" className="w-full" asChild>
-                          <a href="mailto:info@xcllusivevaluation.com.au">
+                          <a href={`mailto:${mainContact.email}`}>
                             Send Email
                           </a>
                         </Button>
                       </CardContent>
                     </Card>
-                  </div>
-                </div>
-
-                {/* Why Choose Us */}
-                <div className="mb-16">
-                  <h3 className="text-2xl font-bold text-primary mb-8">Why Choose Xcllusive Business Valuations?</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {whyChooseUs.map((feature, index) => {
-                      const Icon = feature.icon;
-                      return (
-                        <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
-                          <CardContent className="p-6 text-center">
-                            <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center text-white mx-auto mb-4">
-                              <Icon className="h-8 w-8" />
-                            </div>
-                            <h4 className="font-bold text-foreground mb-3">{feature.title}</h4>
-                            <p className="text-sm text-muted-foreground">{feature.description}</p>
-                          </CardContent>
-                        </Card>
-                      );
-                    })}
-                  </div>
-                </div>
-
-                {/* Service Areas */}
-                <div className="mb-16">
-                  <h3 className="text-2xl font-bold text-primary mb-8">Service Areas</h3>
-                  <div className="bg-muted/30 rounded-lg p-8">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                      <div className="text-center">
-                        <h4 className="font-bold text-foreground mb-3">Major Cities</h4>
-                        <ul className="space-y-2 text-sm text-muted-foreground">
-                          <li>Sydney</li>
-                          <li>Melbourne</li>
-                          <li>Brisbane</li>
-                          <li>Perth</li>
-                          <li>Adelaide</li>
-                        </ul>
-                      </div>
-                      <div className="text-center">
-                        <h4 className="font-bold text-foreground mb-3">Regional Areas</h4>
-                        <ul className="space-y-2 text-sm text-muted-foreground">
-                          <li>Gold Coast</li>
-                          <li>Newcastle</li>
-                          <li>Wollongong</li>
-                          <li>Geelong</li>
-                          <li>Cairns</li>
-                        </ul>
-                      </div>
-                      <div className="text-center">
-                        <h4 className="font-bold text-foreground mb-3">All States</h4>
-                        <ul className="space-y-2 text-sm text-muted-foreground">
-                          <li>New South Wales</li>
-                          <li>Victoria</li>
-                          <li>Queensland</li>
-                          <li>Western Australia</li>
-                          <li>South Australia</li>
-                          <li>Tasmania</li>
-                          <li>Northern Territory</li>
-                          <li>ACT</li>
-                        </ul>
-                      </div>
-                    </div>
                   </div>
                 </div>
 
@@ -275,12 +248,12 @@ const ContactUs = () => {
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <Button size="lg" variant="secondary" asChild>
-                      <a href="tel:1300520121" className="inline-flex items-center">
-                        📞 Call: 1300 520 121
+                      <a href="tel:0298173331" className="inline-flex items-center">
+                        📞 Call: {mainContact.phone}
                       </a>
                     </Button>
                     <Button size="lg" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20" asChild>
-                      <a href="mailto:info@xcllusivevaluation.com.au" className="inline-flex items-center">
+                      <a href={`mailto:${mainContact.email}`} className="inline-flex items-center">
                         ✉️ Send Email
                       </a>
                     </Button>
