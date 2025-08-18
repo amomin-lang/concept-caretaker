@@ -30,7 +30,7 @@ const Services = () => {
     },
     {
       title: "Business Valuations for Exit Strategy",
-      description: "Maximize your business value before sale. Our exit strategy valuations include detailed analysis of value drivers and growth opportunities. We help you identify areas for improvement to increase your business's worth before going to market.",
+      description: "Maximise your business value before sale. Our exit strategy valuations include detailed analysis of value drivers and growth opportunities. We help you identify areas for improvement to increase your business's worth before going to market.",
       benefits: [
         "Value maximization strategies",
         "Market readiness assessment",

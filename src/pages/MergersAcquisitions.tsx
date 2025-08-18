@@ -230,7 +230,7 @@ const MergersAcquisitions = () => {
                           <h4 className="text-xl font-bold text-foreground">Sell-Side Advisory</h4>
                         </div>
                         <p className="text-muted-foreground mb-6">
-                          Strategic guidance for business owners looking to maximize value in a sale.
+                          Strategic guidance for business owners looking to maximise value in a sale.
                         </p>
                         <ul className="space-y-3">
                           {sellSideServices.map((service, index) => (

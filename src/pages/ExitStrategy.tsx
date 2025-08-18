@@ -42,7 +42,7 @@ const ExitStrategy = () => {
     },
     {
       title: "Enhancement Plan",
-      description: "Develop strategies to maximize value before exit"
+      description: "Develop strategies to maximise value before exit"
     },
     {
       title: "Timing Strategy",
@@ -119,7 +119,7 @@ const ExitStrategy = () => {
               </div>
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Exit Strategy Valuations</h1>
               <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
-                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Maximize your business value before sale</p>
+                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Maximise your business value before sale</p>
               </div>
             </div>
           </div>
@@ -226,7 +226,7 @@ const ExitStrategy = () => {
                       <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
                         💰
                       </div>
-                      <h4 className="font-bold text-foreground mb-2">Maximize Value</h4>
+                      <h4 className="font-bold text-foreground mb-2">Maximise Value</h4>
                       <p className="text-sm text-muted-foreground">Identify and implement value enhancement strategies before going to market.</p>
                     </div>
                     <div className="text-center">
@@ -250,7 +250,7 @@ const ExitStrategy = () => {
                 <div className="bg-muted/30 rounded-lg p-8 text-center">
                   <h3 className="text-2xl font-bold text-primary mb-4">Ready to Plan Your Exit Strategy?</h3>
                   <p className="text-lg text-muted-foreground mb-6">
-                    Let our experienced team help you maximize your business value and plan a successful exit. 
+                    Let our experienced team help you maximise your business value and plan a successful exit. 
                     Contact us to discuss your exit strategy and valuation needs.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">

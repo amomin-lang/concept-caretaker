@@ -42,7 +42,7 @@ const InsolvencyBankruptcy = () => {
     },
     {
       title: "Recovery Optimization",
-      description: "Strategies to maximize asset recovery for stakeholders through realistic market assessments."
+      description: "Strategies to maximise asset recovery for stakeholders through realistic market assessments."
     }
   ];
 

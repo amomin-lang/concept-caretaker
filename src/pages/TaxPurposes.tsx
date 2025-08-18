@@ -17,7 +17,7 @@ const TaxPurposes = () => {
     {
       icon: <CheckCircle className="h-6 w-6" />,
       title: "Small business CGT concessions",
-      description: "Maximize available concessions with proper valuations"
+      description: "Maximise available concessions with proper valuations"
     },
     {
       icon: <Shield className="h-6 w-6" />,
@@ -249,7 +249,7 @@ const TaxPurposes = () => {
                         <ul className="space-y-2 text-sm text-muted-foreground">
                           <li className="flex items-center">
                             <div className="w-2 h-2 bg-primary rounded-full mr-3 flex-shrink-0"></div>
-                            Maximize available tax concessions
+                            Maximise available tax concessions
                           </li>
                           <li className="flex items-center">
                             <div className="w-2 h-2 bg-primary rounded-full mr-3 flex-shrink-0"></div>
