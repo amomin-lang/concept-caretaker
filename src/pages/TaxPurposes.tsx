@@ -49,7 +49,7 @@ const TaxPurposes = () => {
   const taxScenarios = [
     {
       title: "Capital Gains Tax Events",
-      description: "Valuations for CGT purposes including business sales, share transfers, and asset disposals with proper timing and optimization."
+      description: "Valuations for CGT purposes including business sales, share transfers, and asset disposals with proper timing and optimisation."
     },
     {
       title: "Small Business Concessions",
