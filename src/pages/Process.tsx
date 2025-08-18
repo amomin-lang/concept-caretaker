@@ -99,7 +99,7 @@ const Process = () => {
               
                 {/* Introduction */}
                 <div className="mb-16">
-                  <h2 className="text-3xl font-bold text-primary mb-6">The Valuation Process - Interactive Flow</h2>
+                  <h2 className="text-3xl font-bold text-primary mb-6">The Business Valuation Process - Interactive Flow</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
                     <p className="mb-6 text-xl">
                       Step by step, you'll be guided through a thorough, proven approach designed to uncover the true 
