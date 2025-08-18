@@ -85,6 +85,16 @@ const FinancialReporting = () => {
       <Header />
       
       <main className="pt-20">
+        {/* Back to Services Link */}
+        <div className="bg-muted/30 py-4">
+          <div className="container mx-auto px-6">
+            <Button variant="ghost" asChild className="text-primary hover:text-primary/80">
+              <a href="/services" className="inline-flex items-center">
+                ← Back to All Services
+              </a>
+            </Button>
+          </div>
+        </div>
         {/* Hero Section */}
         <section 
           className="relative min-h-[400px] flex items-center justify-center bg-cover bg-center"
