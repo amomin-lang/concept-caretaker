@@ -229,26 +229,6 @@ const ContactUs = () => {
                   </div>
                 </div>
 
-                {/* Call to Action */}
-                <div className="text-center bg-gradient-hero text-primary-foreground rounded-lg p-8">
-                  <h3 className="text-2xl font-bold mb-4">Ready to Get Started?</h3>
-                  <p className="text-lg mb-6 opacity-90">
-                    Contact us today for a consultation about your business valuation needs. 
-                    Our expert team is ready to help you understand your business's true worth.
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Button size="lg" variant="secondary" asChild>
-                      <a href="tel:1800825831" className="inline-flex items-center">
-                        📞 Call: {mainContact.phone}
-                      </a>
-                    </Button>
-                    <Button size="lg" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20" asChild>
-                      <a href={`mailto:${mainContact.email}`} className="inline-flex items-center">
-                        ✉️ Send Email
-                      </a>
-                    </Button>
-                  </div>
-                </div>
 
               </div>
               
