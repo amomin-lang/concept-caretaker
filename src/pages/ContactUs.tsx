@@ -172,7 +172,7 @@ const ContactUs = () => {
                           📞
                         </div>
                         <h4 className="font-bold text-foreground mb-4">Call Us Now</h4>
-                        <p className="text-muted-foreground mb-6">Speak directly with our valuation experts</p>
+                        <p className="text-muted-foreground mb-6">Speak directly with our business valuation experts</p>
                         <Button size="lg" className="w-full" asChild>
                           <a href="tel:1800825831">
                             Call {mainContact.phone}
