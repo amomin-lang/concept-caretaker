@@ -67,6 +67,26 @@ const Services = () => {
         "Purchase price allocation",
         "Fair value measurement"
       ]
+    },
+    {
+      title: "Family Law Matters",
+      description: "Navigate family law proceedings with fair, independent valuations. Our reports help both parties understand business value in divorce settlements and ensure equitable distribution of assets. We maintain strict neutrality while providing clear, detailed explanations.",
+      benefits: [
+        "Fair and independent assessment",
+        "Equitable asset distribution",
+        "Neutral professional reports",
+        "Clear detailed explanations"
+      ]
+    },
+    {
+      title: "Insolvency & Bankruptcy",
+      description: "Get accurate valuations in challenging circumstances. Our insolvency valuations help administrators, creditors, and stakeholders make informed decisions. We provide realistic assessments based on current market conditions.",
+      benefits: [
+        "Realistic market assessments",
+        "Stakeholder decision support",
+        "Administrator guidance",
+        "Current market analysis"
+      ]
     }
   ];
 
@@ -134,15 +154,17 @@ const Services = () => {
                         
                          <div className="mt-auto">
                            <Button variant="outline" className="w-full" asChild>
-                               <Link to={
-                                 index === 0 ? "/services/legal-proceedings" : 
-                                 index === 1 ? "/services/succession-planning" : 
-                                 index === 2 ? "/services/exit-strategy" :
-                                 index === 3 ? "/services/tax-purposes" :
-                                 index === 4 ? "/services/mergers-acquisitions" :
-                                 index === 5 ? "/services/financial-reporting" :
-                                 "#"
-                               }>
+                                <Link to={
+                                  index === 0 ? "/services/legal-proceedings" : 
+                                  index === 1 ? "/services/succession-planning" : 
+                                  index === 2 ? "/services/exit-strategy" :
+                                  index === 3 ? "/services/tax-purposes" :
+                                  index === 4 ? "/services/mergers-acquisitions" :
+                                  index === 5 ? "/services/financial-reporting" :
+                                  index === 6 ? "/services/family-law" :
+                                  index === 7 ? "/services/insolvency-bankruptcy" :
+                                  "#"
+                                }>
                                Learn More
                              </Link>
                            </Button>
