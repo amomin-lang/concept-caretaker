@@ -41,7 +41,7 @@ const InsolvencyBankruptcy = () => {
       description: "Comprehensive assessment of assets and recovery prospects under different scenarios."
     },
     {
-      title: "Recovery Optimization",
+      title: "Recovery Optimisation",
       description: "Strategies to maximise asset recovery for stakeholders through realistic market assessments."
     }
   ];
