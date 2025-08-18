@@ -129,30 +129,6 @@ const FinancialReporting = () => {
                   </div>
                 </div>
 
-                {/* Key Features */}
-                <div className="mb-16">
-                  <h3 className="text-2xl font-bold text-primary mb-8">Our Financial Reporting Services</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {keyFeatures.map((feature, index) => {
-                      const Icon = feature.icon;
-                      return (
-                        <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
-                          <CardContent className="p-6">
-                            <div className="flex items-start space-x-4">
-                              <div className="w-12 h-12 bg-gradient-hero rounded-full flex items-center justify-center text-white flex-shrink-0">
-                                <Icon className="h-6 w-6" />
-                              </div>
-                              <div>
-                                <h4 className="font-bold text-foreground mb-2">{feature.title}</h4>
-                                <p className="text-sm text-muted-foreground">{feature.description}</p>
-                              </div>
-                            </div>
-                          </CardContent>
-                        </Card>
-                      );
-                    })}
-                  </div>
-                </div>
 
                 {/* Process Steps */}
                 <div className="mb-16">
