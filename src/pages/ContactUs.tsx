@@ -42,7 +42,7 @@ const ContactUs = () => {
       address: "Westpac House Level 30, 91 King William Street, Adelaide SA 5000"
     },
     {
-      name: "ACT Office",
+      name: "Canberra Office",
       phone: "(02) 6249 8486",
       address: "Canberra, NSW 2601"
     },
