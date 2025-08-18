@@ -253,10 +253,7 @@ const ExitStrategy = () => {
                     Let our experienced team help you maximise your business value and plan a successful exit. 
                     Contact us to discuss your exit strategy and valuation needs.
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Button size="lg" className="px-8">
-                      Get Started Today
-                    </Button>
+                  <div className="flex justify-center">
                     <Button variant="outline" size="lg" className="px-8" asChild>
                       <a href="tel:1800825831">📞 Call: 1800 825 831</a>
                     </Button>
