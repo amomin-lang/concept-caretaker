@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { BookingForm } from "@/components/BookingForm";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -14,7 +15,7 @@ const OurTeam = () => {
       subtitle: "- Certified Practicing Business Broker (CPBB®) – AIBB\n- Registered Business Valuer (RBV®) – AIBB\n- Board Member - AIBB",
       experience: "- Experience in the Industry = 20 Years\n- Professional Experience = ",
       image: "/team/team-zoran.png",
-      badge: "/lovable-uploads/300a8c6d-7f41-4ebb-a026-38c30f636ecc.png"
+      logo: "/lovable-uploads/300a8c6d-7f41-4ebb-a026-38c30f636ecc.png"
     },
     {
       name: "Adeel Momin",
@@ -22,7 +23,7 @@ const OurTeam = () => {
       subtitle: "- M.Com (UNSW), MBA (UCP), BBA (UCP)\n- Registered Business Valuer (RBV®) – AIBB\n- Certified Practicing Business Broker (CPBB®) – AIBB",
       experience: "- Experience in the Industry = 11 years\n- Professional Experience = 28 Years",
       image: "/team/team-adeel.png",
-      badge: "/lovable-uploads/300a8c6d-7f41-4ebb-a026-38c30f636ecc.png"
+      logo: "/lovable-uploads/300a8c6d-7f41-4ebb-a026-38c30f636ecc.png"
     },
     {
       name: "Bernetta Lee",
@@ -30,7 +31,7 @@ const OurTeam = () => {
       subtitle: "- Certified Public Accountant – CPA Australia",
       experience: "- Experience in the Industry = 13 years\n- Professional Experience = 26 Years",
       image: "/team/team-bernetta.png",
-      badge: "/lovable-uploads/65551761-68ad-47ff-a965-f71c6e76527a.png"
+      logo: "/lovable-uploads/65551761-68ad-47ff-a965-f71c6e76527a.png"
     },
     {
       name: "Choon Ng",
@@ -38,7 +39,7 @@ const OurTeam = () => {
       subtitle: "- Masters of Business, Bachelors of Engineering\n- Certified Practicing Business Broker (CPBB®) – AIBB",
       experience: "- Experience in the Industry = 21 Years\n- Professional Experience = 30 Years",
       image: "/team/team-choon.png",
-      badge: "/lovable-uploads/300a8c6d-7f41-4ebb-a026-38c30f636ecc.png"
+      logo: "/lovable-uploads/300a8c6d-7f41-4ebb-a026-38c30f636ecc.png"
     },
     {
       name: "Fred Fareau",
@@ -46,7 +47,7 @@ const OurTeam = () => {
       subtitle: "- Master of Business Management\n- Certified Practicing Business Broker (CPBB®) – AIBB\n- Certified Business Coach",
       experience: "- Experience in the industry = 4 Years\n- Professional Experience = 25 Years",
       image: "/team/team-fred.png",
-      badge: "/lovable-uploads/300a8c6d-7f41-4ebb-a026-38c30f636ecc.png"
+      logo: "/lovable-uploads/300a8c6d-7f41-4ebb-a026-38c30f636ecc.png"
     },
     {
       name: "Denise Hall",
@@ -54,7 +55,7 @@ const OurTeam = () => {
       subtitle: "- Masters, Entrepreneurship and Innovation\n- Bachelors of Training and Development\n- Certified Practicing Business Broker (CPBB®) – AIBB",
       experience: "- Experience in the Industry = \n- Professional Experience = ",
       image: "/team/team-denise.png",
-      badge: "/lovable-uploads/d5a2696d-9a30-49bd-ad61-c48147b5d4a8.png"
+      logo: "/lovable-uploads/d5a2696d-9a30-49bd-ad61-c48147b5d4a8.png"
     }
   ];
 
@@ -107,47 +108,64 @@ const OurTeam = () => {
                 </div>
 
                 {/* Team Members Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   {teamMembers.map((member, index) => (
-                    <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300 h-full">
-                      <CardContent className="p-6 h-full flex flex-col">
-                        <div className="flex flex-col items-center mb-6">
-                          <div className="relative mb-4">
-                            <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-primary/20">
-                              <img 
-                                src={member.image} 
-                                alt={member.name}
-                                className="w-full h-full object-cover"
-                              />
-                            </div>
-                            {member.badge && (
-                              <div className="absolute -top-2 -right-2 w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-lg">
-                                <img 
-                                  src={member.badge} 
-                                  alt="Professional Badge"
-                                  className="w-full h-full object-cover"
-                                />
-                              </div>
-                            )}
-                          </div>
-                          <h3 className="text-xl font-bold text-foreground text-center">{member.name}</h3>
-                          <p className="text-primary font-semibold text-center">{member.title}</p>
+                    <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300 relative">
+                      {/* CPA Logo for Bernetta Lee */}
+                      {member.name === "Bernetta Lee" && (
+                        <div className="absolute top-4 right-4 w-20 h-20">
+                          <img
+                            src="/lovable-uploads/d5a2696d-9a30-49bd-ad61-c48147b5d4a8.png"
+                            alt="CPA Australia"
+                            className="w-full h-full object-contain"
+                          />
                         </div>
-                        
-                        <div className="flex-1">
-                          <div className="mb-4">
-                            <h4 className="font-semibold text-foreground mb-2">Qualifications:</h4>
-                            <div className="text-sm text-muted-foreground whitespace-pre-line">
-                              {member.subtitle}
+                      )}
+                      {/* AVI Logo for Denise Hall */}
+                      {member.name === "Denise Hall" && (
+                        <div className="absolute top-4 right-4 w-32 h-24">
+                          <img
+                            src="/lovable-uploads/59bfffa4-4329-4413-8181-4f6e614c9962.png"
+                            alt="Australian Valuers Institute"
+                            className="w-full h-full object-contain"
+                          />
+                        </div>
+                      )}
+                      {/* RBV Logo for multiple members */}
+                      {(member.name === "Adeel Momin" || member.name === "Zoran Sarabaca" || member.name === "Choon Ng" || member.name === "Fred Fareau") && (
+                        <div className="absolute top-4 right-4 w-24 h-24">
+                          <img
+                            src="/lovable-uploads/83487612-3fb6-4afa-8538-3edceebb2578.png"
+                            alt="Registered Business Valuer"
+                            className="w-full h-full object-contain"
+                          />
+                        </div>
+                      )}
+                      <CardContent className="p-6">
+                        <div className="text-center">
+                          <img
+                            src={member.image}
+                            alt={member.name}
+                            className="w-32 h-32 rounded-full object-cover border-2 border-primary shadow mx-auto mb-4"
+                          />
+                          <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
+                          <Badge variant="outline" className="mb-4 text-base">{member.title}</Badge>
+                          {member.subtitle && (
+                            <div className="text-base mb-4 text-left">
+                              {member.subtitle.split('\n').map((line, lineIndex) => (
+                                <div key={lineIndex} className={
+                                  line.includes('Registered Business Valuer (RBV®)') 
+                                    ? 'text-primary font-medium' 
+                                    : 'text-muted-foreground'
+                                }>
+                                  {line}
+                                </div>
+                              ))}
                             </div>
-                          </div>
-                          
-                          <div>
-                            <h4 className="font-semibold text-foreground mb-2">Experience:</h4>
-                            <div className="text-sm text-muted-foreground whitespace-pre-line">
-                              {member.experience}
-                            </div>
-                          </div>
+                          )}
+                          {member.experience && (
+                            <div className="text-sm text-muted-foreground whitespace-pre-line text-left">{member.experience}</div>
+                          )}
                         </div>
                       </CardContent>
                     </Card>
