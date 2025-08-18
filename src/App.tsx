@@ -11,6 +11,7 @@ import SuccessionPlanning from "./pages/SuccessionPlanning";
 import ExitStrategy from "./pages/ExitStrategy";
 import TaxPurposes from "./pages/TaxPurposes";
 import MergersAcquisitions from "./pages/MergersAcquisitions";
+import FinancialReporting from "./pages/FinancialReporting";
 import Process from "./pages/Process";
 import NotFound from "./pages/NotFound";
 
@@ -31,6 +32,7 @@ const App = () => (
           <Route path="/services/exit-strategy" element={<ExitStrategy />} />
           <Route path="/services/tax-purposes" element={<TaxPurposes />} />
           <Route path="/services/mergers-acquisitions" element={<MergersAcquisitions />} />
+          <Route path="/services/financial-reporting" element={<FinancialReporting />} />
           <Route path="/process" element={<Process />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
