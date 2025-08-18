@@ -105,7 +105,7 @@ const LegalProceedings = () => {
                   <h2 className="text-3xl font-bold text-primary mb-6">Court-Ready Business Valuations</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
                     <p className="text-xl mb-6">
-                      Our legal valuation reports are prepared with the understanding that they may be scrutinized in court proceedings. 
+                      Our business legal valuation reports are prepared with the understanding that they may be scrutinized in court proceedings. 
                       We maintain the highest standards of documentation and methodology to ensure our valuations are defensible under cross-examination.
                     </p>
                     <p className="text-lg mb-8">
