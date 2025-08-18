@@ -50,7 +50,7 @@ export const ServicesSection = () => {
     {
       icon: AlertTriangle,
       title: "Business Valuations for Insolvency",
-      description: "Expert valuations for insolvency and liquidation proceedings"
+      description: "Expert business valuations for insolvency and liquidation proceedings"
     }
   ];
 
