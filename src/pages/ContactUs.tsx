@@ -64,7 +64,7 @@ const ContactUs = () => {
     {
       name: "Newcastle Office",
       phone: "(02) 4323 3433",
-      address: "Newcastle NSW 2300"
+      address: "Newcastle/Lake Macquarie\n2 Portside Crescent,\nMaryville NSW 2293"
     }
   ];
 
