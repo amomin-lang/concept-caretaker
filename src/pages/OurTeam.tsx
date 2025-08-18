@@ -13,7 +13,7 @@ const OurTeam = () => {
       name: "Zoran Sarabaca",
       title: "Principal",
       subtitle: "- Certified Practicing Business Broker (CPBB®) – AIBB\n- Registered Business Valuer (RBV®) – AIBB\n- Board Member - AIBB",
-      experience: "- Experience in the Industry = 20 Years\n- Professional Experience = ",
+      experience: "- Experience in the Industry = 20 Years\n- Professional Experience = 30 years",
       image: "/team/team-zoran.png",
       logo: "/lovable-uploads/300a8c6d-7f41-4ebb-a026-38c30f636ecc.png"
     },
