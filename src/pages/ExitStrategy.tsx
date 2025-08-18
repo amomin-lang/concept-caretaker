@@ -133,7 +133,7 @@ const ExitStrategy = () => {
                 
                 {/* Introduction */}
                 <div className="mb-16">
-                  <h2 className="text-3xl font-bold text-primary mb-6">Strategic Exit Planning</h2>
+                  <h2 className="text-3xl font-bold text-primary mb-6">Business Valuations for Strategic Exit Planning</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
                     <p className="text-xl mb-6">
                       A successful business exit requires careful planning and strategic preparation. Our comprehensive exit strategy valuations don't just tell you what your business is worth today—they identify specific opportunities to enhance value before you go to market.
