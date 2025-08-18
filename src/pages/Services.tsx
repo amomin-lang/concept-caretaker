@@ -9,7 +9,7 @@ import heroImage from "@/assets/hero-business.jpg";
 const Services = () => {
   const services = [
     {
-      title: "Legal Proceedings & Disputes",
+      title: "Business Valuations for Legal Proceedings & Disputes",
       description: "Expert business valuations that stand up to legal scrutiny. We provide detailed, well-documented business valuations for legal proceedings, shareholder disputes, and partnership dissolutions. Our reports are court-ready and defendable, backed by real market data and thorough analysis.",
       benefits: [
         "Court-ready documentation",
@@ -19,7 +19,7 @@ const Services = () => {
       ]
     },
     {
-      title: "Succession Planning",
+      title: "Business Valuations for Succession Planning",
       description: "Plan your business transition with confidence. Our succession planning valuations help you understand your business's true worth and establish fair terms for ownership transfers. We consider both tangible and intangible assets to ensure a comprehensive valuation.",
       benefits: [
         "Fair ownership transfer terms",
@@ -29,7 +29,7 @@ const Services = () => {
       ]
     },
     {
-      title: "Exit Strategy",
+      title: "Business Valuations for Exit Strategy",
       description: "Maximize your business value before sale. Our exit strategy valuations include detailed analysis of value drivers and growth opportunities. We help you identify areas for improvement to increase your business's worth before going to market.",
       benefits: [
         "Value maximization strategies",
@@ -39,7 +39,7 @@ const Services = () => {
       ]
     },
     {
-      title: "Tax Purposes",
+      title: "Business Valuations for Tax Purposes",
       description: "Comply with tax requirements while optimizing your position. Our tax-purpose valuations meet ATO standards and help you make informed decisions about capital gains, restructuring, and tax planning.",
       benefits: [
         "ATO compliance assurance",
@@ -49,7 +49,7 @@ const Services = () => {
       ]
     },
     {
-      title: "Mergers & Acquisitions",
+      title: "Business Valuations for Mergers & Acquisitions",
       description: "Navigate complex transactions with confidence. Our M&A valuations provide comprehensive analysis for both buyers and sellers, ensuring fair pricing and identifying potential synergies or risks in the transaction.",
       benefits: [
         "Fair transaction pricing",
@@ -59,7 +59,7 @@ const Services = () => {
       ]
     },
     {
-      title: "Financial Reporting",
+      title: "Business Valuations for Financial Reporting",
       description: "Meet accounting standards with precision. Our financial reporting valuations comply with Australian Accounting Standards and International Financial Reporting Standards for goodwill impairment, purchase price allocations, and fair value measurements.",
       benefits: [
         "Standards compliance",
@@ -69,7 +69,7 @@ const Services = () => {
       ]
     },
     {
-      title: "Family Law Matters",
+      title: "Business Valuations for Family Law Matters",
       description: "Navigate family law proceedings with fair, independent valuations. Our reports help both parties understand business value in divorce settlements and ensure equitable distribution of assets. We maintain strict neutrality while providing clear, detailed explanations.",
       benefits: [
         "Fair and independent assessment",
@@ -79,7 +79,7 @@ const Services = () => {
       ]
     },
     {
-      title: "Insolvency & Bankruptcy",
+      title: "Business Valuations for Insolvency & Bankruptcy",
       description: "Get accurate valuations in challenging circumstances. Our insolvency valuations help administrators, creditors, and stakeholders make informed decisions. We provide realistic assessments based on current market conditions.",
       benefits: [
         "Realistic market assessments",
