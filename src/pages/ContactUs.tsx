@@ -79,7 +79,7 @@ const ContactUs = () => {
                 <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Contact Us</h1>
                 <div className="bg-white/15 backdrop-blur-md rounded-2xl px-12 py-8 border-2 border-white/30 shadow-2xl">
                   <h2 className="text-2xl lg:text-4xl font-bold text-white drop-shadow-lg mb-2">
-                    Australia Wide Coverage
+                    Australia Wide Business Valuation Coverage
                   </h2>
                   <p className="text-lg lg:text-2xl text-white/95 drop-shadow-lg font-semibold">
                     by Xcllusive Business Valuations
