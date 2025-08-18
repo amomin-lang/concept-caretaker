@@ -10,7 +10,7 @@ const Services = () => {
   const services = [
     {
       title: "Legal Proceedings & Disputes",
-      description: "Expert valuations that stand up to legal scrutiny. We provide detailed, well-documented business valuations for legal proceedings, shareholder disputes, and partnership dissolutions. Our reports are court-ready and defendable, backed by real market data and thorough analysis.",
+      description: "Expert business valuations that stand up to legal scrutiny. We provide detailed, well-documented business valuations for legal proceedings, shareholder disputes, and partnership dissolutions. Our reports are court-ready and defendable, backed by real market data and thorough analysis.",
       benefits: [
         "Court-ready documentation",
         "Defendable methodologies",
