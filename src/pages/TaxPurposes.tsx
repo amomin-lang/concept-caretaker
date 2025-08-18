@@ -139,7 +139,7 @@ const TaxPurposes = () => {
                       Tax valuations require strict adherence to Australian Taxation Office guidelines and relevant tax legislation. Our experienced team understands the specific requirements for different tax scenarios and ensures your valuations meet all regulatory standards.
                     </p>
                     <p className="text-lg mb-8">
-                      We stay current with changing tax legislation and ATO rulings to provide valuations that not only comply with current requirements but also position your business advantageously for tax optimization opportunities.
+                      We stay current with changing tax legislation and ATO rulings to provide valuations that not only comply with current requirements but also position your business advantageously for tax optimisation opportunities.
                     </p>
                   </div>
                 </div>
