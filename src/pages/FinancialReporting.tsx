@@ -188,8 +188,8 @@ const FinancialReporting = () => {
                       <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
                         🌐
                       </div>
-                      <h4 className="font-bold text-foreground mb-2">IFRS Compliance</h4>
-                      <p className="text-sm text-muted-foreground">International Financial Reporting Standards adherence</p>
+                      <h4 className="font-bold text-foreground mb-2">IVS Compliant</h4>
+                      <p className="text-sm text-muted-foreground">International Valuations Standards adherence</p>
                     </div>
                     <div className="text-center">
                       <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
