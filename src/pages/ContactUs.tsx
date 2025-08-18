@@ -17,7 +17,6 @@ import heroImage from "@/assets/hero-business.jpg";
 const ContactUs = () => {
   const mainContact = {
     phone: "(02) 9817 3331",
-    fax: "02 8212 5899",
     email: "info@xcllusive.com.au"
   };
 
@@ -111,16 +110,12 @@ const ContactUs = () => {
                 <div className="mb-16">
                   <div className="bg-gradient-hero text-primary-foreground rounded-lg p-8 text-center">
                     <h3 className="text-2xl font-bold mb-6">Main Contact Details</h3>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
                         <h4 className="font-bold mb-2">Phone:</h4>
                         <a href={`tel:${mainContact.phone.replace(/[^\d+]/g, '')}`} className="text-lg hover:underline">
                           {mainContact.phone}
                         </a>
-                      </div>
-                      <div>
-                        <h4 className="font-bold mb-2">Fax:</h4>
-                        <span className="text-lg">{mainContact.fax}</span>
                       </div>
                       <div>
                         <h4 className="font-bold mb-2">Email:</h4>
