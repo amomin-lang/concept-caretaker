@@ -103,9 +103,9 @@ const FinancialReporting = () => {
         >
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center text-primary-foreground">
-              <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Financial Reporting</h1>
+              <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Business Valuations for Financial Reporting</h1>
               <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
-                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Compliant valuations for statutory reporting requirements</p>
+                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Compliant business valuations for statutory reporting requirements</p>
               </div>
             </div>
           </div>
