@@ -38,7 +38,7 @@ const TaxPurposes = () => {
     },
     {
       title: "Valuation Analysis",
-      description: "Comprehensive valuation using appropriate methodologies that meet tax requirements and optimize your position."
+      description: "Comprehensive valuation using appropriate methodologies that meet tax requirements and optimise your position."
     },
     {
       title: "Documentation",
