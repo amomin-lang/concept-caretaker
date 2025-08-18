@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookingForm } from "@/components/BookingForm";
+import { Link } from "react-router-dom";
 import { 
   CheckCircle, 
   Calculator, 
@@ -89,9 +90,9 @@ const FinancialReporting = () => {
         <div className="bg-muted/30 py-4">
           <div className="container mx-auto px-6">
             <Button variant="ghost" asChild className="text-primary hover:text-primary/80">
-              <a href="/services" className="inline-flex items-center">
+              <Link to="/services" className="inline-flex items-center">
                 ← Back to All Services
-              </a>
+              </Link>
             </Button>
           </div>
         </div>
