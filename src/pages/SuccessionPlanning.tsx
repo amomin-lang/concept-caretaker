@@ -61,7 +61,7 @@ const SuccessionPlanning = () => {
     },
     {
       title: "Tax Planning",
-      description: "Structuring succession plans to minimize tax implications and maximise after-tax proceeds."
+      description: "Structuring succession plans to minimise tax implications and maximise after-tax proceeds."
     },
     {
       title: "Timing Strategies",
