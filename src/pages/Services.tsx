@@ -40,7 +40,7 @@ const Services = () => {
     },
     {
       title: "Business Valuations for Tax Purposes",
-      description: "Comply with tax requirements while optimizing your position. Our tax-purpose valuations meet ATO standards and help you make informed decisions about capital gains, restructuring, and tax planning.",
+      description: "Comply with tax requirements while optimising your position. Our tax-purpose valuations meet ATO standards and help you make informed decisions about capital gains, restructuring, and tax planning.",
       benefits: [
         "ATO compliance assurance",
         "Tax optimization strategies",

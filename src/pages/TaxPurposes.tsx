@@ -119,7 +119,7 @@ const TaxPurposes = () => {
               </div>
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Tax Purpose Valuations</h1>
               <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
-                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Comply with tax requirements while optimizing your position</p>
+                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Comply with tax requirements while optimising your position</p>
               </div>
             </div>
           </div>
