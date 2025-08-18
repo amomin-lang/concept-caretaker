@@ -60,7 +60,7 @@ const MergersAcquisitions = () => {
   ];
 
   const sellSideServices = [
-    "Business optimization and value enhancement",
+    "Business optimisation and value enhancement",
     "Preparation of marketing materials",
     "Buyer identification and qualification",
     "Negotiation support and deal structuring",
