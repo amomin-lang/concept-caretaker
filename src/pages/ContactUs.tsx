@@ -32,14 +32,14 @@ const ContactUs = () => {
       address: "Suite 7, 1153 Burke Road, Kew, VIC 3101 Australia"
     },
     {
-      name: "Brisbane Office",
-      phone: "(07) 3088 6639", 
-      address: "Spring Hill, Qld 4004"
-    },
-    {
       name: "Adelaide Office",
       phone: "(08) 8472 3331",
       address: "Westpac House Level 30, 91 King William Street, Adelaide SA 5000"
+    },
+    {
+      name: "Brisbane Office",
+      phone: "(07) 3088 6639", 
+      address: "Spring Hill, Qld 4004"
     },
     {
       name: "Canberra Office",
