@@ -117,7 +117,7 @@ const LegalProceedings = () => {
 
                 {/* Key Features */}
                 <div className="mb-16">
-                  <h3 className="text-2xl font-bold text-primary mb-8">Key Features</h3>
+                  <h3 className="text-2xl font-bold text-primary mb-8">Key Features of our Business Valuations</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {keyFeatures.map((feature, index) => (
                       <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
