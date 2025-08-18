@@ -76,7 +76,7 @@ const AboutUs = () => {
             <div className="max-w-4xl mx-auto text-center text-primary-foreground">
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">About Us</h1>
               <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
-                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">A Team of Diverse Experts</p>
+                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Business Valuation Team of Diverse Experts</p>
               </div>
             </div>
           </div>
