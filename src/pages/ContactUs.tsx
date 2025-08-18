@@ -99,11 +99,6 @@ const ContactUs = () => {
                 {/* Introduction */}
                 <div className="mb-16 text-center">
                   <h2 className="text-3xl font-bold text-primary mb-6">Contact Information</h2>
-                  <div className="prose prose-lg max-w-none text-muted-foreground">
-                    <p className="text-xl mb-6">
-                      For information about buying or selling or any other questions, please feel free to contact us any day 24/7.
-                    </p>
-                  </div>
                 </div>
 
                 {/* Main Contact Information */}
