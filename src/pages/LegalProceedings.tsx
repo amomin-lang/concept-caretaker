@@ -102,7 +102,7 @@ const LegalProceedings = () => {
                 
                 {/* Introduction */}
                 <div className="mb-16">
-                  <h2 className="text-3xl font-bold text-primary mb-6">Court-Ready Valuations</h2>
+                  <h2 className="text-3xl font-bold text-primary mb-6">Court-Ready Business Valuations</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
                     <p className="text-xl mb-6">
                       Our legal valuation reports are prepared with the understanding that they may be scrutinized in court proceedings. 
