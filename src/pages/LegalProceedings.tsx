@@ -34,15 +34,15 @@ const LegalProceedings = () => {
   const processSteps = [
     {
       title: "Initial Assessment",
-      description: "We review the legal context and requirements to ensure our valuation meets the specific needs of your case."
+      description: "Review of legal context and requirements to ensure our valuation meets the specific needs of your case."
     },
     {
       title: "Collaborative Approach",
-      description: "We work closely with your legal team to understand the case strategy and provide relevant insights."
+      description: "Closely working with your legal team to understand the case strategy and provide relevant insights."
     },
     {
       title: "Defensible Results",
-      description: "Our final report includes comprehensive documentation and methodology that can withstand legal scrutiny."
+      description: "Final report includes comprehensive documentation and methodology that can withstand legal scrutiny."
     }
   ];
 
