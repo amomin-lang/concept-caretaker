@@ -175,21 +175,16 @@ const OurTeam = () => {
                 {/* Call to Action */}
                 <div className="mt-16 text-center">
                   <div className="bg-gradient-hero text-primary-foreground rounded-lg p-8">
-                    <h3 className="text-2xl font-bold mb-4">Work with Our Expert Team</h3>
+                    <h3 className="text-2xl font-bold mb-4">Work with Our Expert Team of Business Valuers</h3>
                     <p className="text-lg mb-6 opacity-90">
                       Our qualified professionals are ready to help you with your business valuation needs. 
                       Contact us today to discuss your requirements.
                     </p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <div className="flex justify-center">
                       <Button size="lg" variant="secondary" asChild>
                         <a href="tel:1800825831" className="inline-flex items-center">
                           📞 Call: 1800 825 831
                         </a>
-                      </Button>
-                      <Button size="lg" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20" asChild>
-                        <Link to="/contact" className="inline-flex items-center">
-                          📧 Contact Us
-                        </Link>
                       </Button>
                     </div>
                   </div>
