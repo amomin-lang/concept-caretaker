@@ -18,7 +18,7 @@ const MergersAcquisitions = () => {
     {
       icon: Target,
       title: "Sell-side preparation",
-      description: "Optimize business value and prepare for sale"
+      description: "Optimise business value and prepare for sale"
     },
     {
       icon: BarChart3,
