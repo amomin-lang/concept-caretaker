@@ -49,7 +49,7 @@ const ContactUs = () => {
     {
       name: "Perth Office",
       phone: "(08) 6311 3331",
-      address: ""
+      address: "Perth, WA 6000"
     },
     {
       name: "Central West NSW",
