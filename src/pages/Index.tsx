@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { ExpertTeamSection } from "@/components/ExpertTeamSection";
 import { ServicesSection } from "@/components/ServicesSection";
 import { TrustSection } from "@/components/TrustSection";
+import { BookingForm } from "@/components/BookingForm";
 import { Footer } from "@/components/Footer";
 import { useEffect } from "react";
 
@@ -46,6 +47,15 @@ const Index = () => {
         <ExpertTeamSection />
         <TrustSection />
         <ServicesSection />
+        
+        {/* Contact Form Section */}
+        <section className="py-16 bg-gradient-subtle">
+          <div className="container mx-auto px-6">
+            <div className="max-w-md mx-auto">
+              <BookingForm />
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
