@@ -272,10 +272,7 @@ const TaxPurposes = () => {
                     Our experienced team ensures your valuations meet ATO requirements while optimising your tax position. 
                     Contact us to discuss your tax valuation needs.
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Button size="lg" className="px-8">
-                      Get Started Today
-                    </Button>
+                  <div className="flex justify-center">
                     <Button variant="outline" size="lg" className="px-8" asChild>
                       <a href="tel:1800825831">📞 Call: 1800 825 831</a>
                     </Button>
