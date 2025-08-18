@@ -71,7 +71,7 @@ export const ExpertTeamSection = () => {
               <div className="relative mb-4">
                 <img
                   src={member.image}
-                  alt={member.name}
+                  alt={`${member.name} - Expert Business Valuations Specialist and Certified Valuer`}
                   className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full mx-auto border-4 border-primary shadow-lg"
                 />
                 {member.certification && (
@@ -87,14 +87,14 @@ export const ExpertTeamSection = () => {
                       } target="_blank" rel="noopener noreferrer">
                         <img 
                           src="/lovable-uploads/91d0d7ff-b4d4-4f8c-89fb-a30d3f58cbea.png" 
-                          alt="LinkedIn" 
+                          alt="LinkedIn profile for Business Valuations expert"
                           className="w-8 h-8 object-contain hover:opacity-80 transition-opacity"
                         />
                       </a>
                     ) : (
                       <img 
                         src="/lovable-uploads/91d0d7ff-b4d4-4f8c-89fb-a30d3f58cbea.png" 
-                        alt="LinkedIn" 
+                        alt="LinkedIn profile for Business Valuations professional"
                         className="w-8 h-8 object-contain"
                       />
                     )}

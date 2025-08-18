@@ -20,7 +20,7 @@ export const Header = () => {
             <Link to="/" className="flex items-center space-x-3">
               <img 
                 src="/lovable-uploads/300a8c6d-7f41-4ebb-a026-38c30f636ecc.png" 
-                alt="Xcllusive Business Valuations Logo" 
+                alt="Australia Wide Business Valuations - Expert Business Valuation Services Logo" 
                 className="h-12 w-12 object-contain"
               />
               <span className="text-2xl font-bold text-primary">

@@ -181,31 +181,31 @@ const AboutUs = () => {
                         {/* CPA Logo for Bernetta Lee */}
                         {member.name === "Bernetta Lee" && (
                           <div className="absolute top-4 right-4 w-20 h-20">
-                            <img
-                              src="/lovable-uploads/d5a2696d-9a30-49bd-ad61-c48147b5d4a8.png"
-                              alt="CPA Australia"
-                              className="w-full h-full object-contain"
-                            />
+                             <img
+                               src="/lovable-uploads/d5a2696d-9a30-49bd-ad61-c48147b5d4a8.png"
+                               alt="CPA Australia certified Business Valuations professional"
+                               className="w-full h-full object-contain"
+                             />
                           </div>
                         )}
                         {/* AVI Logo for AAJ */}
                         {member.name === "Denise Hall" && (
                           <div className="absolute top-4 right-4 w-32 h-24">
-                            <img
-                              src="/lovable-uploads/59bfffa4-4329-4413-8181-4f6e614c9962.png"
-                              alt="Australian Valuers Institute"
-                              className="w-full h-full object-contain"
-                            />
+                             <img
+                               src="/lovable-uploads/59bfffa4-4329-4413-8181-4f6e614c9962.png"
+                               alt="Australian Valuers Institute Business Valuations expert certification"
+                               className="w-full h-full object-contain"
+                             />
                           </div>
                         )}
                         {/* RBV Logo for multiple members */}
                         {(member.name === "Adeel Momin" || member.name === "Zoran Sarabaca" || member.name === "Choon Ng" || member.name === "Fred Fareau") && (
                           <div className="absolute top-4 right-4 w-24 h-24">
-                            <img
-                              src="/lovable-uploads/83487612-3fb6-4afa-8538-3edceebb2578.png"
-                              alt="Registered Business Valuer"
-                              className="w-full h-full object-contain"
-                            />
+                             <img
+                               src="/lovable-uploads/83487612-3fb6-4afa-8538-3edceebb2578.png"
+                               alt="Registered Business Valuer professional Business Valuations certification"
+                               className="w-full h-full object-contain"
+                             />
                           </div>
                         )}
                         <CardContent className="p-6">
