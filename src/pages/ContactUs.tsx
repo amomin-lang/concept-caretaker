@@ -57,7 +57,7 @@ const ContactUs = () => {
       address: ""
     },
     {
-      name: "Central Coast Office (and Newcastle & Surrounds)",
+      name: "central coast",
       phone: "(02) 4323 3433",
       address: "Gosford NSW 2250"
     }
