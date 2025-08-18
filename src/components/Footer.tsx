@@ -12,7 +12,7 @@ export const Footer = () => {
     <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-6">
         <div className="text-center">
-          <h3 className="text-2xl font-bold mb-6">Australia-Wide Coverage</h3>
+          <h3 className="text-2xl font-bold mb-6">Australia-Wide Business Valuations Coverage</h3>
           <div className="flex flex-wrap justify-center items-center gap-4 text-lg">
             {locations.map((location, index) => (
               <span key={location} className="flex items-center">
