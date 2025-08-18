@@ -109,7 +109,7 @@ export const ExpertTeamSection = () => {
                 </p>
               )}
               {member.additional && (
-                <p className={`text-xs ${member.name === "Denise Hall" ? "text-blue-600 font-bold" : "text-muted-foreground"}`}>
+                <p className={`text-xs ${member.name === "Denise Hall" ? "text-primary font-semibold" : "text-muted-foreground"}`}>
                   {member.additional}
                 </p>
               )}
