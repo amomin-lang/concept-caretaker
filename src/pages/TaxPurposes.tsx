@@ -269,7 +269,7 @@ const TaxPurposes = () => {
                 <div className="bg-muted/30 rounded-lg p-8 text-center">
                   <h3 className="text-2xl font-bold text-primary mb-4">Need Business Valuations for Tax Purposes?</h3>
                   <p className="text-lg text-muted-foreground mb-6">
-                    Our experienced team ensures your valuations meet ATO requirements while optimizing your tax position. 
+                    Our experienced team ensures your valuations meet ATO requirements while optimising your tax position. 
                     Contact us to discuss your tax valuation needs.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
