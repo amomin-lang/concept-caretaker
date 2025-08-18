@@ -117,7 +117,7 @@ const TaxPurposes = () => {
                   <span>Back to All Services</span>
                 </Link>
               </div>
-              <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Tax Purpose Valuations</h1>
+              <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Business Valuations for Tax Purposes</h1>
               <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
                 <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Comply with tax requirements while optimising your position</p>
               </div>
@@ -267,7 +267,7 @@ const TaxPurposes = () => {
 
                 {/* CTA Section */}
                 <div className="bg-muted/30 rounded-lg p-8 text-center">
-                  <h3 className="text-2xl font-bold text-primary mb-4">Need Tax Purpose Valuations?</h3>
+                  <h3 className="text-2xl font-bold text-primary mb-4">Need Business Valuations for Tax Purposes?</h3>
                   <p className="text-lg text-muted-foreground mb-6">
                     Our experienced team ensures your valuations meet ATO requirements while optimizing your tax position. 
                     Contact us to discuss your tax valuation needs.
