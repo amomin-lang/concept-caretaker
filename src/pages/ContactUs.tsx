@@ -47,14 +47,14 @@ const ContactUs = () => {
       address: "Canberra, NSW 2601"
     },
     {
-      name: "Regional Office (Central West NSW)",
-      phone: "(02) 6699 3339",
-      address: "Bathurst, Orange, Dubbo NSW"
-    },
-    {
       name: "Perth Office",
       phone: "(08) 6311 3331",
       address: ""
+    },
+    {
+      name: "Regional Office (Central West NSW)",
+      phone: "(02) 6699 3339",
+      address: "Bathurst, Orange, Dubbo NSW"
     },
     {
       name: "Central Coast Office",
