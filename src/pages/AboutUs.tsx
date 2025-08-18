@@ -10,43 +10,43 @@ const AboutUs = () => {
   {
     name: "Zoran Sarabaca",
     title: "Principal",
-    subtitle: "Certified Practicing Business Broker (CPBB®) – AIBB",
-    experience: "",
+    subtitle: "- Certified Practicing Business Broker (CPBB®) – AIBB\n- Registered Business Valuer (RBV®) – AIBB\n- Board Member - AIBB",
+    experience: "- Experience in the Industry = 20 Years\n- Professional Experience = 30 years",
     image: "/team/team-zoran.png",
   },
   {
     name: "Adeel Momin",
     title: "Chief Valuations Officer",
-    subtitle: "Registered Business Valuer (RBV®) – AIBV",
-    experience: "Experience in the Industry = 11 years, Professional Experience = 48 Years",
+    subtitle: "- M.Com (UNSW), MBA (UCP), BBA (UCP)\n- Registered Business Valuer (RBV®) – AIBB\n- Certified Practicing Business Broker (CPBB®) – AIBB",
+    experience: "- Experience in the Industry = 11 years\n- Professional Experience = 28 Years",
     image: "/team/team-adeel.png",
   },
   {
     name: "Bernetta Lee",
-    title: "CPA",
-    subtitle: "Certified Public Accountant – CPA Australia",
-    experience: "",
+    title: "CPA - Certified Public Accountant",
+    subtitle: "- Certified Public Accountant – CPA Australia",
+    experience: "- Experience in the Industry = 13 years\n- Professional Experience = 26 Years",
     image: "/team/team-bernetta.png",
   },
   {
     name: "Choon Ng",
-    title: "AIBV RBV",
-    subtitle: "Bachelors of Engineering, Masters of Business",
-    experience: "Registered Business Valuer (RBV®) – AIBV, Certified Practicing Business Broker (CPBB®) – AIBB",
+    title: "Registered Business Valuer - AIBB",
+    subtitle: "- Masters of Business, Bachelors of Engineering\n- Certified Practicing Business Broker (CPBB®) – AIBB",
+    experience: "- Experience in the Industry = 21 Years\n- Professional Experience = 30 Years",
     image: "/team/team-choon.png",
   },
   {
     name: "Fred Fareau",
-    title: "Master of Business Management",
-    subtitle: "Registered Business Valuer (RBV®) – AIBV",
-    experience: "Certified Practicing Business Broker (CPBB®) – AIBB, Certified Business Coach, Experience in the Industry = 12 Years",
+    title: "Registered Business Valuer - AIBB",
+    subtitle: "- Master of Business Management\n- Certified Practicing Business Broker (CPBB®) – AIBB\n- Certified Business Coach",
+    experience: "- Experience in the industry = 4 Years\n- Professional Experience = 25 Years",
     image: "/team/team-fred.png",
   },
   {
-    name: "AAJ",
-    title: "Bachelors of Training and Development",
-    subtitle: "Masters, Entrepreneurship and Innovation",
-    experience: "Certified Business Valuer - Australian Valuers Institute Coop Limited, Certified Practicing Business Broker (CPBB®) – AIBB",
+    name: "Denise Hall",
+    title: "Certified Business Valuer - AVI",
+    subtitle: "- Masters, Entrepreneurship and Innovation\n- Bachelors of Training and Development\n- Certified Practicing Business Broker (CPBB®) – AIBB",
+    experience: "- Experience in the Industry = 13 years\n- Professional Experience = 30 years",
     image: "/team/team-denise.png",
   }
 ];
@@ -57,7 +57,9 @@ const AboutUs = () => {
     "Tax restructures",
     "Litigation support",
     "Strategic planning",
-    "Business sales"
+    "Business sales",
+    "Restructuring",
+    "Insolvency"
   ];
 
   return (
@@ -118,22 +120,44 @@ const AboutUs = () => {
 
                 {/* Extensive Experience */}
                 <div className="mb-16">
-                  <h2 className="text-3xl font-bold text-primary mb-6">Extensive Experience Across Various Scenarios</h2>
-                  <p className="text-muted-foreground mb-6 text-xl">
-                    To date, we've completed over 500 business valuations for a wide range of purposes, including:
-                  </p>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                    {scenarios.map((scenario, index) => (
-                      <div key={index} className="flex items-center space-x-3">
-                        <div className="w-2 h-2 bg-gradient-accent rounded-full"></div>
-                        <span className="text-muted-foreground">{scenario}</span>
+                  <div className="relative bg-gradient-subtle rounded-3xl p-12 shadow-elegant border border-primary/10">
+                    {/* Background decoration */}
+                    <div className="absolute top-6 right-6 w-32 h-32 bg-gradient-accent rounded-full opacity-10"></div>
+                    <div className="absolute bottom-6 left-6 w-24 h-24 bg-gradient-hero rounded-full opacity-10"></div>
+                    
+                    <div className="relative z-10">
+                      <h2 className="text-4xl font-bold text-primary mb-8 text-center">
+                        Extensive Experience Across Various Scenarios
+                      </h2>
+                      <p className="text-muted-foreground mb-10 text-xl text-center max-w-3xl mx-auto">
+                        To date, we've completed over <span className="text-primary font-bold text-2xl">500+</span> business valuations for a wide range of purposes, including:
+                      </p>
+                      
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+                        {scenarios.map((scenario, index) => (
+                          <div 
+                            key={index} 
+                            className="group flex items-center space-x-4 p-4 bg-card/50 backdrop-blur-sm rounded-xl border border-primary/10 hover:border-primary/20 hover:bg-card/70 transition-all duration-300 hover-scale"
+                            style={{ animationDelay: `${index * 100}ms` }}
+                          >
+                            <div className="w-3 h-3 bg-gradient-accent rounded-full group-hover:scale-125 transition-transform duration-300 flex-shrink-0"></div>
+                            <span className="text-foreground font-medium text-lg group-hover:text-primary transition-colors duration-300">
+                              {scenario}
+                            </span>
+                          </div>
+                        ))}
                       </div>
-                    ))}
+                      
+                      <div className="text-center">
+                        <div className="inline-block bg-primary/5 border border-primary/20 rounded-2xl px-8 py-6">
+                          <p className="text-primary text-xl font-semibold">
+                            Our valuations are tailored to meet the specific needs of each scenario, ensuring 
+                            relevance and reliability.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <p className="text-muted-foreground text-xl">
-                    Our valuations are tailored to meet the specific needs of each scenario, ensuring 
-                    relevance and reliability.
-                  </p>
                 </div>
 
                 {/* Court-tested */}
@@ -146,37 +170,6 @@ const AboutUs = () => {
                   </p>
                 </div>
 
-                {/* Meet Our Team */}
-                <div className="mb-16">
-                  <h2 className="text-3xl font-bold text-primary mb-8 text-center">
-                    Meet Our Key Valuation Professionals
-                  </h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {teamMembers.map((member, index) => (
-                      <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
-                        <CardContent className="p-6">
-                          <div className="flex items-start space-x-4">
-                            <img
-                              src={member.image}
-                              alt={member.name}
-                              className="w-16 h-16 rounded-full object-cover border-2 border-primary shadow flex-shrink-0"
-                            />
-                            <div className="flex-1">
-                              <h3 className="font-bold text-foreground text-xl mb-2">{member.name}</h3>
-                              <Badge variant="outline" className="mb-2 text-base">{member.title}</Badge>
-                              {member.subtitle && (
-                                <p className="text-base text-muted-foreground mb-2">{member.subtitle}</p>
-                              )}
-                              {member.experience && (
-                                <p className="text-sm text-muted-foreground">{member.experience}</p>
-                              )}
-                            </div>
-                          </div>
-                        </CardContent>
-                      </Card>
-                    ))}
-                  </div>
-                </div>
 
               </div>
               

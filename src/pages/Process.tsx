@@ -83,7 +83,7 @@ const Process = () => {
         >
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center text-primary-foreground">
-              <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Process</h1>
+              <h1 className="text-3xl lg:text-6xl font-bold mb-6 drop-shadow-lg whitespace-nowrap">The Valuation Process - What to Expect</h1>
               <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
                 <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">A Structured Process That Delivers Real, Defendable Business Value</p>
               </div>
@@ -126,7 +126,13 @@ const Process = () => {
                           1
                         </div>
                         <h4 className="font-bold text-foreground mb-2">Clear Setup & Next Steps</h4>
-                        <p className="text-sm text-muted-foreground">It all starts with clarity - the scope, purpose, timeframes, and exactly what's needed.</p>
+                        <p className="text-sm text-muted-foreground mb-3">It all starts with clarity - the scope, purpose, timeframes, and exactly what's needed.</p>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm">
+                            <span className="text-primary font-medium">What's in it for you: </span>
+                            <span className="text-foreground">No confusion. No delays. Just a clear roadmap from day one.</span>
+                          </p>
+                        </div>
                       </CardContent>
                     </Card>
 
@@ -135,8 +141,17 @@ const Process = () => {
                         <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
                           2
                         </div>
-                        <h4 className="font-bold text-foreground mb-2">Financial Info Collected</h4>
-                        <p className="text-sm text-muted-foreground">Gathering key business documents - profit and loss statements, balance sheets, and available records.</p>
+                        <h4 className="font-bold text-foreground mb-2">
+                          Financial Info Collected<br />
+                          <span className="text-sm font-bold text-muted-foreground">(Clean or Not)</span>
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-3">The process begins by gathering key business documents - profit and loss statements, balance sheets, and whatever else is available.</p>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm">
+                            <span className="text-primary font-medium">What's in it for you: </span>
+                            <span className="text-foreground">Even if records are incomplete, the right questions help fill the gaps and avoid misinterpretation.</span>
+                          </p>
+                        </div>
                       </CardContent>
                     </Card>
 
@@ -145,8 +160,17 @@ const Process = () => {
                         <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
                           3
                         </div>
-                        <h4 className="font-bold text-foreground mb-2">Numbers Reviewed</h4>
-                        <p className="text-sm text-muted-foreground">Thorough review of financials, benchmarking against industry standards, identifying gaps.</p>
+                        <h4 className="font-bold text-foreground mb-2">
+                          Numbers Reviewed<br />
+                          <span className="text-sm font-bold text-muted-foreground">(Gaps Identified)</span>
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-3">Financials are reviewed thoroughly. Trends are benchmarked against industry standards, and any red flags or missing pieces are flagged early.</p>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm">
+                            <span className="text-primary font-medium">What's in it for you: </span>
+                            <span className="text-foreground">A valuation that sees what others might miss - and tells the real story behind the numbers.</span>
+                          </p>
+                        </div>
                       </CardContent>
                     </Card>
 
@@ -155,8 +179,17 @@ const Process = () => {
                         <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
                           4
                         </div>
-                        <h4 className="font-bold text-foreground mb-2">Business Interview</h4>
-                        <p className="text-sm text-muted-foreground">Focused discussion on value drivers, risks, dependencies, and operational realities.</p>
+                        <h4 className="font-bold text-foreground mb-2">
+                          Business Interview<br />
+                          <span className="text-sm font-bold text-muted-foreground">(Focused & Insightful)</span>
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-3">An interview follows with the owner or key personnel. By this point, the business and its industry have already been researched, so the discussion goes straight into the value drivers, risks, dependencies, and operational realities.</p>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm">
+                            <span className="text-primary font-medium">What's in it for you: </span>
+                            <span className="text-foreground">A tailored conversation that cuts through generic questions and focuses on what actually influences the business's value.</span>
+                          </p>
+                        </div>
                       </CardContent>
                     </Card>
 
@@ -165,8 +198,17 @@ const Process = () => {
                         <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
                           5
                         </div>
-                        <h4 className="font-bold text-foreground mb-2">Supporting Documents</h4>
-                        <p className="text-sm text-muted-foreground">Additional documents like contracts, staff arrangements, or client relationships as needed.</p>
+                        <h4 className="font-bold text-foreground mb-2">
+                          Supporting Documents<br />
+                          <span className="text-sm font-bold text-muted-foreground">(Only What Matters)</span>
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-3">Additional documents like key contracts, staff arrangements, or client relationships may be requested, depending on what's uncovered.</p>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm">
+                            <span className="text-primary font-medium">What's in it for you: </span>
+                            <span className="text-foreground">A valuation that reflects the actual structure and strengths/weaknesses of the business, not just surface-level financials.</span>
+                          </p>
+                        </div>
                       </CardContent>
                     </Card>
 
@@ -175,8 +217,17 @@ const Process = () => {
                         <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
                           6
                         </div>
-                        <h4 className="font-bold text-foreground mb-2">Clarifications</h4>
-                        <p className="text-sm text-muted-foreground">Quick follow-ups for additional context or clarification where needed.</p>
+                        <h4 className="font-bold text-foreground mb-2">
+                          Clarifications<br />
+                          <span className="text-sm font-bold text-muted-foreground">(Where Needed)</span>
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-3">If something doesn't add up or more context is required, a quick follow-up with the right person - whether it's a manager, bookkeeper, or advisor - keeps things on track.</p>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm">
+                            <span className="text-primary font-medium">What's in it for you: </span>
+                            <span className="text-foreground">The end result is accurate and balanced, not rushed or assumptive.</span>
+                          </p>
+                        </div>
                       </CardContent>
                     </Card>
 
@@ -185,8 +236,26 @@ const Process = () => {
                         <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
                           7
                         </div>
-                        <h4 className="font-bold text-foreground mb-2">Best-Method Valuation</h4>
-                        <p className="text-sm text-muted-foreground">Selecting the appropriate valuation approach: market-based, earnings-based, DCF, or asset-based.</p>
+                        <h4 className="font-bold text-foreground mb-2">
+                          Best-Method Valuation<br />
+                          <span className="text-sm font-bold text-muted-foreground">(Not One-Size-Fits-All)</span>
+                        </h4>
+                        <div className="text-sm text-muted-foreground mb-3">
+                          <p className="mb-2">The valuation approach is selected based on the purpose and the type of business. This may include:</p>
+                          <ul className="list-disc list-inside mb-2 space-y-1">
+                            <li>Market-based comparisons</li>
+                            <li>Future maintainable earnings</li>
+                            <li>Discounted cash flow</li>
+                            <li>Net asset value</li>
+                          </ul>
+                          <p>Sometimes multiple methods are used to ensure accuracy. Real-world sales data is used - from within the same industry - and often directly from deals handled across the country.</p>
+                        </div>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm">
+                            <span className="text-primary font-medium">What's in it for you: </span>
+                            <span className="text-foreground">A valuation that's not just theoretically correct - but relevant, defensible, and matched to real-world outcomes.</span>
+                          </p>
+                        </div>
                       </CardContent>
                     </Card>
 
@@ -195,8 +264,17 @@ const Process = () => {
                         <div className="w-8 h-8 bg-gradient-hero rounded-full flex items-center justify-center text-white text-sm font-bold mb-4">
                           8
                         </div>
-                        <h4 className="font-bold text-foreground mb-2">Draft Review</h4>
-                        <p className="text-sm text-muted-foreground">For strategic planning scenarios, draft review and feedback incorporation.</p>
+                        <h4 className="font-bold text-foreground mb-2">
+                          Draft Review<br />
+                          <span className="text-sm font-bold text-muted-foreground">(If Strategic)</span>
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-3">In sale or strategic planning scenarios, a draft version may be shared first. Feedback is welcomed, and minor clarifications are addressed before finalising.</p>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm">
+                            <span className="text-primary font-medium">What's in it for you: </span>
+                            <span className="text-foreground">No surprises. Just confidence that the final result aligns with the facts and the purpose behind it.</span>
+                          </p>
+                        </div>
                       </CardContent>
                     </Card>
 
@@ -206,7 +284,13 @@ const Process = () => {
                           9
                         </div>
                         <h4 className="font-bold text-foreground mb-2">Final Valuation Delivered</h4>
-                        <p className="text-sm text-muted-foreground">Complete, clearly structured report delivered for your specific purpose.</p>
+                        <p className="text-sm text-muted-foreground mb-3">A complete, clearly structured report is delivered - whether for legal use, tax planning, negotiation, or internal decision-making.</p>
+                        <div className="mt-3 p-3 bg-primary/5 border-l-4 border-primary rounded-r-md">
+                          <p className="text-sm">
+                            <span className="text-primary font-medium">What's in it for you: </span>
+                            <span className="text-foreground">A valuation that does the job it's meant to - one you can rely on, defend, and move forward with.</span>
+                          </p>
+                        </div>
                       </CardContent>
                     </Card>
                   </div>

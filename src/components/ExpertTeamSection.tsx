@@ -33,14 +33,14 @@ const teamMembers = [
   {
     id: 4,
     name: "Bernetta Lee",
-    credentials: "CPA",
+    credentials: "",
     certification: "CPA",
     image: "/team/team-bernetta.png",
   },
   {
     id: 5,
-    name: "Denise",
-    credentials: "B.Train & Dev",
+    name: "Denise Hall",
+    credentials: "",
     certification: "M.Entrep & Innov",
     additional: "CBV (AAVI)",
     image: "/team/team-denise.png",
@@ -60,7 +60,7 @@ export const ExpertTeamSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-primary mb-4">
-            Team of Certified Expert Valuers
+            Team of Certified Expert Business Valuers
           </h2>
           <div className="w-24 h-1 bg-accent mx-auto"></div>
         </div>
@@ -71,23 +71,30 @@ export const ExpertTeamSection = () => {
               <div className="relative mb-4">
                 <img
                   src={member.image}
-                  alt={member.name}
+                  alt={`${member.name} - Expert Business Valuations Specialist and Certified Valuer`}
                   className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full mx-auto border-4 border-primary shadow-lg"
                 />
                 {member.certification && (
                   <div className="absolute -bottom-2 -right-2 bg-white rounded-full p-2">
-                    {member.name === "Adeel Momin" ? (
-                      <a href="https://www.linkedin.com/in/adeelmomin" target="_blank" rel="noopener noreferrer">
+                    {(member.name === "Adeel Momin" || member.name === "Choon Ng" || member.name === "Zoran Sarabaca" || member.name === "Bernetta Lee" || member.name === "Denise Hall" || member.name === "Fred Fardeman") ? (
+                      <a href={
+                        member.name === "Adeel Momin" ? "https://www.linkedin.com/in/adeelmomin" : 
+                        member.name === "Choon Ng" ? "https://au.linkedin.com/in/choonng" :
+                        member.name === "Zoran Sarabaca" ? "https://au.linkedin.com/in/zoran-sarabaca-bba2a38" :
+                        member.name === "Bernetta Lee" ? "https://au.linkedin.com/in/bsylee" :
+                        member.name === "Denise Hall" ? "https://au.linkedin.com/in/denisehall" :
+                        "https://au.linkedin.com/in/fred-fardeau-b4496251"
+                      } target="_blank" rel="noopener noreferrer">
                         <img 
                           src="/lovable-uploads/91d0d7ff-b4d4-4f8c-89fb-a30d3f58cbea.png" 
-                          alt="LinkedIn" 
+                          alt="LinkedIn profile for Business Valuations expert"
                           className="w-8 h-8 object-contain hover:opacity-80 transition-opacity"
                         />
                       </a>
                     ) : (
                       <img 
                         src="/lovable-uploads/91d0d7ff-b4d4-4f8c-89fb-a30d3f58cbea.png" 
-                        alt="LinkedIn" 
+                        alt="LinkedIn profile for Business Valuations professional"
                         className="w-8 h-8 object-contain"
                       />
                     )}
@@ -97,10 +104,14 @@ export const ExpertTeamSection = () => {
               <h3 className="font-bold text-sm text-foreground">{member.name}</h3>
               <p className="text-xs text-muted-foreground">{member.credentials}</p>
               {member.certification && (
-                <p className="text-xs text-primary font-semibold">{member.certification}</p>
+                <p className={`text-xs ${member.name === "Denise Hall" ? "text-black" : "text-primary font-semibold"}`}>
+                  {member.certification}
+                </p>
               )}
               {member.additional && (
-                <p className="text-xs text-muted-foreground">{member.additional}</p>
+                <p className={`text-xs ${member.name === "Denise Hall" ? "text-primary font-semibold" : "text-muted-foreground"}`}>
+                  {member.additional}
+                </p>
               )}
             </div>
           ))}

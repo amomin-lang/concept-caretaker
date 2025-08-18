@@ -14,42 +14,42 @@ export const ServicesSection = () => {
   const services = [
     {
       icon: HandHeart,
-      title: "Partnership Dissolution",
+      title: "Business Valuations for Partner Dissolution",
       description: "Fair and accurate valuations for partnership disputes"
     },
     {
       icon: Home,
-      title: "Family Settlement",
+      title: "Business Valuations for Family Settlement",
       description: "Comprehensive business valuations for family law matters"
     },
     {
       icon: ShoppingBag,
-      title: "Buying a Business",
+      title: "Business Valuations for Buying a Business",
       description: "Due diligence and valuation for acquisition decisions"
     },
     {
       icon: TrendingUp,
-      title: "Selling a Business",
+      title: "Business Valuations for Selling a Business",
       description: "Maximize value with professional business appraisals"
     },
     {
       icon: Calculator,
-      title: "Business Planning",
+      title: "Business Valuations for Business Planning",
       description: "Strategic valuations for business growth and planning"
     },
     {
       icon: FileText,
-      title: "Tax Reasons",
+      title: "Business Valuations for Tax Reasons",
       description: "Compliant valuations for tax and regulatory purposes"
     },
     {
       icon: RefreshCw,
-      title: "Restructuring",
+      title: "Business Valuations for Restructuring",
       description: "Professional valuations for business restructuring scenarios"
     },
     {
       icon: AlertTriangle,
-      title: "Insolvency",
+      title: "Business Valuations for Insolvency",
       description: "Expert valuations for insolvency and liquidation proceedings"
     }
   ];
