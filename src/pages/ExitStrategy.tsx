@@ -46,7 +46,7 @@ const ExitStrategy = () => {
     },
     {
       title: "Timing Strategy",
-      description: "Optimize exit timing based on market conditions"
+      description: "Optimise exit timing based on market conditions"
     }
   ];
 
