@@ -52,7 +52,7 @@ const ExitStrategy = () => {
 
   const valueEnhancements = [
     {
-      title: "Financial Optimization",
+      title: "Financial Optimisation",
       description: "Improving financial performance and reporting to attract buyers and command premium pricing."
     },
     {
