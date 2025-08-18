@@ -12,7 +12,7 @@ export const BookingForm = () => {
         <CardTitle className="text-2xl text-center">Book a Free Session with Business Valuer</CardTitle>
       </CardHeader>
       <CardContent className="p-6 space-y-4">
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <Label htmlFor="firstName">First Name</Label>
             <Input id="firstName" placeholder="First" />
@@ -21,16 +21,14 @@ export const BookingForm = () => {
             <Label htmlFor="lastName">Last Name</Label>
             <Input id="lastName" placeholder="Last" />
           </div>
-        </div>
-        
-        <div>
-          <Label htmlFor="phone">Phone Number</Label>
-          <Input id="phone" type="tel" placeholder="Your phone number" />
-        </div>
-        
-        <div>
-          <Label htmlFor="email">Email Address</Label>
-          <Input id="email" type="email" placeholder="your.email@example.com" />
+          <div>
+            <Label htmlFor="phone">Phone Number</Label>
+            <Input id="phone" type="tel" placeholder="Your phone number" />
+          </div>
+          <div>
+            <Label htmlFor="email">Email Address</Label>
+            <Input id="email" type="email" placeholder="your.email@example.com" />
+          </div>
         </div>
         
         <Button variant="hero" className="w-full text-lg py-6">
