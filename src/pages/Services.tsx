@@ -121,7 +121,7 @@ const Services = () => {
                   <h2 className="text-3xl font-bold text-primary mb-6">Professional Business Valuation Services</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
                     <p className="text-xl mb-6">
-                      Each valuation is backed by real market data and extensive industry experience. 
+                      Each business valuation is backed by real market data and extensive industry experience. 
                       We provide detailed, defensible valuations that meet the highest professional standards.
                     </p>
                   </div>
