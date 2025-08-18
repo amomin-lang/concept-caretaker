@@ -176,14 +176,14 @@ const Services = () => {
 
                 {/* Why Choose Us Section */}
                 <div className="bg-muted/30 rounded-lg p-8 mb-16">
-                  <h3 className="text-2xl font-bold text-primary mb-6 text-center">Why Choose Our Valuation Services?</h3>
+                  <h3 className="text-2xl font-bold text-primary mb-6 text-center">Why Choose Our Business Valuation Services?</h3>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="text-center">
                       <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
                         ✓
                       </div>
                       <h4 className="font-bold text-foreground mb-2">Real Market Data</h4>
-                      <p className="text-sm text-muted-foreground">Our valuations are backed by extensive real-world transaction data and market intelligence.</p>
+                      <p className="text-sm text-muted-foreground">Our business valuations are backed by extensive real-world transaction data and market intelligence.</p>
                     </div>
                     <div className="text-center">
                       <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
