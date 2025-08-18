@@ -9,7 +9,7 @@ export const BookingForm = () => {
   return (
     <Card className="shadow-hero sticky top-24">
       <CardHeader className="bg-gradient-hero text-primary-foreground rounded-t-lg">
-        <CardTitle className="text-2xl text-center">Book a Free Session</CardTitle>
+        <CardTitle className="text-2xl text-center">Book a Free Session with Business Valuer</CardTitle>
       </CardHeader>
       <CardContent className="p-6 space-y-4">
         <div className="grid grid-cols-2 gap-4">
