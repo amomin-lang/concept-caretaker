@@ -104,10 +104,14 @@ export const ExpertTeamSection = () => {
               <h3 className="font-bold text-sm text-foreground">{member.name}</h3>
               <p className="text-xs text-muted-foreground">{member.credentials}</p>
               {member.certification && (
-                <p className="text-xs text-primary font-semibold">{member.certification}</p>
+                <p className={`text-xs font-semibold ${member.name === "Denise Hall" ? "text-black" : "text-primary"}`}>
+                  {member.certification}
+                </p>
               )}
               {member.additional && (
-                <p className="text-xs text-muted-foreground">{member.additional}</p>
+                <p className={`text-xs ${member.name === "Denise Hall" ? "text-blue-600" : "text-muted-foreground"}`}>
+                  {member.additional}
+                </p>
               )}
             </div>
           ))}
