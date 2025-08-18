@@ -139,7 +139,7 @@ const ExitStrategy = () => {
                       A successful business exit requires careful planning and strategic preparation. Our comprehensive exit strategy valuations don't just tell you what your business is worth today—they identify specific opportunities to enhance value before you go to market.
                     </p>
                     <p className="text-lg mb-8">
-                      We analyze market conditions, competitive positioning, and buyer expectations to help you time your exit optimally and position your business for maximum value realization. Our detailed reports provide actionable insights for value enhancement initiatives.
+                      We analyse market conditions, competitive positioning, and buyer expectations to help you time your exit optimally and position your business for maximum value realization. Our detailed reports provide actionable insights for value enhancement initiatives.
                     </p>
                   </div>
                 </div>
