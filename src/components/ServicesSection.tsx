@@ -45,7 +45,7 @@ export const ServicesSection = () => {
     {
       icon: RefreshCw,
       title: "Business Valuations for Restructuring",
-      description: "Professional valuations for business restructuring scenarios"
+      description: "Professional business valuations for business restructuring scenarios"
     },
     {
       icon: AlertTriangle,
