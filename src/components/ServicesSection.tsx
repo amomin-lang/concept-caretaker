@@ -15,7 +15,7 @@ export const ServicesSection = () => {
     {
       icon: HandHeart,
       title: "Business Valuations for Partner Dissolution",
-      description: "Fair and accurate valuations for partnership disputes"
+      description: "Fair and accurate business valuations for partnership disputes"
     },
     {
       icon: Home,
@@ -25,32 +25,32 @@ export const ServicesSection = () => {
     {
       icon: ShoppingBag,
       title: "Business Valuations for Buying a Business",
-      description: "Due diligence and valuation for acquisition decisions"
+      description: "Business valuations for acquisition decisions"
     },
     {
       icon: TrendingUp,
       title: "Business Valuations for Selling a Business",
-      description: "Maximize value with professional business appraisals"
+      description: "Maximise value with professional business valuations"
     },
     {
       icon: Calculator,
       title: "Business Valuations for Business Planning",
-      description: "Strategic valuations for business growth and planning"
+      description: "Strategic business valuations for business growth and planning"
     },
     {
       icon: FileText,
       title: "Business Valuations for Tax Reasons",
-      description: "Compliant valuations for tax and regulatory purposes"
+      description: "Compliant business valuations for tax and regulatory purposes"
     },
     {
       icon: RefreshCw,
       title: "Business Valuations for Restructuring",
-      description: "Professional valuations for business restructuring scenarios"
+      description: "Professional business valuations for business restructuring scenarios"
     },
     {
       icon: AlertTriangle,
       title: "Business Valuations for Insolvency",
-      description: "Expert valuations for insolvency and liquidation proceedings"
+      description: "Expert business valuations for insolvency and liquidation proceedings"
     }
   ];
 
@@ -59,7 +59,7 @@ export const ServicesSection = () => {
       <div className="container mx-auto px-6">
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center text-primary mb-8">
-            Valuations for
+            Business Valuations for
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => {
