@@ -133,7 +133,7 @@ const TaxPurposes = () => {
                 
                 {/* Introduction */}
                 <div className="mb-16">
-                  <h2 className="text-3xl font-bold text-primary mb-6">ATO-Compliant Valuations</h2>
+                  <h2 className="text-3xl font-bold text-primary mb-6">ATO-Compliant Business Valuations</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
                     <p className="text-xl mb-6">
                       Tax valuations require strict adherence to Australian Taxation Office guidelines and relevant tax legislation. Our experienced team understands the specific requirements for different tax scenarios and ensures your valuations meet all regulatory standards.
