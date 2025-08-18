@@ -40,7 +40,7 @@ const teamMembers = [
   {
     id: 5,
     name: "Denise Hall",
-    credentials: "B.Train & Dev",
+    credentials: "",
     certification: "M.Entrep & Innov",
     additional: "CBV (AAVI)",
     image: "/team/team-denise.png",
