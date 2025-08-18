@@ -80,8 +80,8 @@ const TaxPurposes = () => {
       icon: "📋"
     },
     {
-      title: "Tax Optimization",
-      description: "Strategic positioning to minimize tax liability while maintaining compliance.",
+      title: "Tax Optimisation",
+      description: "Strategic positioning to minimise tax liability while maintaining compliance.",
       icon: "💰"
     },
     {
@@ -245,7 +245,7 @@ const TaxPurposes = () => {
                     
                     <Card className="shadow-card">
                       <CardContent className="p-6">
-                        <h4 className="font-bold text-foreground mb-4">Tax Optimization</h4>
+                        <h4 className="font-bold text-foreground mb-4">Tax Optimisation</h4>
                         <ul className="space-y-2 text-sm text-muted-foreground">
                           <li className="flex items-center">
                             <div className="w-2 h-2 bg-primary rounded-full mr-3 flex-shrink-0"></div>
