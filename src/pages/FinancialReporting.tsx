@@ -201,40 +201,6 @@ const FinancialReporting = () => {
                   </div>
                 </div>
 
-                {/* Benefits */}
-                <div className="mb-16">
-                  <h3 className="text-2xl font-bold text-primary mb-6">Why Choose Our Financial Reporting Services?</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className="space-y-4">
-                      <div className="flex items-start space-x-3">
-                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                        <p className="text-muted-foreground">Comprehensive compliance with accounting standards</p>
-                      </div>
-                      <div className="flex items-start space-x-3">
-                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                        <p className="text-muted-foreground">Detailed documentation for audit purposes</p>
-                      </div>
-                      <div className="flex items-start space-x-3">
-                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                        <p className="text-muted-foreground">Expert guidance on complex reporting requirements</p>
-                      </div>
-                    </div>
-                    <div className="space-y-4">
-                      <div className="flex items-start space-x-3">
-                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                        <p className="text-muted-foreground">Timely delivery to meet reporting deadlines</p>
-                      </div>
-                      <div className="flex items-start space-x-3">
-                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                        <p className="text-muted-foreground">Professional support throughout the process</p>
-                      </div>
-                      <div className="flex items-start space-x-3">
-                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                        <p className="text-muted-foreground">Cost-effective solutions for ongoing compliance</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
 
                 {/* Call to Action */}
                 <div className="text-center bg-gradient-hero text-primary-foreground rounded-lg p-8">
