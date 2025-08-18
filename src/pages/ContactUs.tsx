@@ -165,8 +165,8 @@ const ContactUs = () => {
                 {/* Quick Contact Options */}
                 <div className="mb-16">
                   <h3 className="text-2xl font-bold text-primary mb-8">Get In Touch</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
+                  <div className="flex justify-center">
+                    <Card className="shadow-card hover:shadow-elegant transition-all duration-300 max-w-md">
                       <CardContent className="p-8 text-center">
                         <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
                           📞
@@ -176,21 +176,6 @@ const ContactUs = () => {
                         <Button size="lg" className="w-full" asChild>
                           <a href="tel:1800825831">
                             Call {mainContact.phone}
-                          </a>
-                        </Button>
-                      </CardContent>
-                    </Card>
-                    
-                    <Card className="shadow-card hover:shadow-elegant transition-all duration-300">
-                      <CardContent className="p-8 text-center">
-                        <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
-                          ✉️
-                        </div>
-                        <h4 className="font-bold text-foreground mb-4">Email Us</h4>
-                        <p className="text-muted-foreground mb-6">Send your enquiry and we'll respond promptly</p>
-                        <Button size="lg" variant="outline" className="w-full" asChild>
-                          <a href={`mailto:${mainContact.email}`}>
-                            Send Email
                           </a>
                         </Button>
                       </CardContent>
