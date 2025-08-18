@@ -85,7 +85,7 @@ const FamilyLaw = () => {
 
                 {/* Services Section */}
                 <div className="mb-16">
-                  <h2 className="text-3xl font-bold text-primary mb-8">Our Family Law Valuation Services</h2>
+                  <h2 className="text-3xl font-bold text-primary mb-8">Our Family Law Business Valuation Services</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {services.map((service, index) => (
                       <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-300">
