@@ -53,7 +53,7 @@ const TaxPurposes = () => {
     },
     {
       title: "Small Business Concessions",
-      description: "Qualifying for and maximizing small business CGT concessions including the 15-year exemption and retirement exemption."
+      description: "Qualifying for and maximising small business CGT concessions including the 15-year exemption and retirement exemption."
     },
     {
       title: "Business Restructuring",
