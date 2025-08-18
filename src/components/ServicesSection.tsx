@@ -25,7 +25,7 @@ export const ServicesSection = () => {
     {
       icon: ShoppingBag,
       title: "Business Valuations for Buying a Business",
-      description: "Due diligence and valuation for acquisition decisions"
+      description: "Business valuations for acquisition decisions"
     },
     {
       icon: TrendingUp,
