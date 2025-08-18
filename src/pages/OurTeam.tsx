@@ -53,7 +53,7 @@ const OurTeam = () => {
       name: "Denise Hall",
       title: "Certified Business Valuer - AVI",
       subtitle: "- Masters, Entrepreneurship and Innovation\n- Bachelors of Training and Development\n- Certified Practicing Business Broker (CPBB®) – AIBB",
-      experience: "- Experience in the Industry = \n- Professional Experience = ",
+      experience: "- Experience in the Industry = 13 years\n- Professional Experience = 30 years",
       image: "/team/team-denise.png",
       logo: "/lovable-uploads/d5a2696d-9a30-49bd-ad61-c48147b5d4a8.png"
     }
