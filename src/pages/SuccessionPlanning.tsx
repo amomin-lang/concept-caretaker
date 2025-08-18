@@ -61,11 +61,11 @@ const SuccessionPlanning = () => {
     },
     {
       title: "Tax Planning",
-      description: "Structuring succession plans to minimize tax implications and maximize after-tax proceeds."
+      description: "Structuring succession plans to minimize tax implications and maximise after-tax proceeds."
     },
     {
       title: "Timing Strategies",
-      description: "Determining the optimal timing for succession to maximize business value and personal outcomes."
+      description: "Determining the optimal timing for succession to maximise business value and personal outcomes."
     },
     {
       title: "Value Enhancement",
@@ -116,7 +116,7 @@ const SuccessionPlanning = () => {
                       Succession planning is one of the most critical decisions a business owner will make. Our comprehensive valuations provide the foundation for fair and effective transition strategies, whether you're planning to pass the business to family members, sell to employees, or prepare for an external sale.
                     </p>
                     <p className="text-lg mb-8">
-                      We consider both tangible and intangible assets, including goodwill, customer relationships, and intellectual property, to ensure a complete picture of your business value. Our analysis also identifies potential value enhancement opportunities to maximize your transition outcomes.
+                       We consider both tangible and intangible assets, including goodwill, customer relationships, and intellectual property, to ensure a complete picture of your business value. Our analysis also identifies potential value enhancement opportunities to maximise your transition outcomes.
                     </p>
                   </div>
                 </div>
@@ -212,7 +212,7 @@ const SuccessionPlanning = () => {
                 <div className="bg-muted/30 rounded-lg p-8 text-center">
                   <h3 className="text-2xl font-bold text-primary mb-4">Ready to Plan Your Succession?</h3>
                   <p className="text-lg text-muted-foreground mb-6">
-                    Let our experienced team help you create a succession strategy that protects your legacy and maximizes value. 
+                    Let our experienced team help you create a succession strategy that protects your legacy and maximises value. 
                     Contact us to discuss your succession planning needs.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
