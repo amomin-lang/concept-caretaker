@@ -52,7 +52,7 @@ const ContactUs = () => {
       address: ""
     },
     {
-      name: "Regional Office (Central West NSW)",
+      name: "Central West NSW",
       phone: "(02) 6699 3339",
       address: "Bathurst, Orange, Dubbo NSW"
     },
