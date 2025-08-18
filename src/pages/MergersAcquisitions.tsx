@@ -300,8 +300,8 @@ const MergersAcquisitions = () => {
                   <p className="text-lg mb-6 opacity-90">
                     Contact us today to discuss your M&A strategy and valuation needs.
                   </p>
-                  <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90">
-                    Schedule M&A Consultation
+                  <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90" asChild>
+                    <a href="tel:1800825831">📞 Call: 1800 825 831</a>
                   </Button>
                 </div>
 
