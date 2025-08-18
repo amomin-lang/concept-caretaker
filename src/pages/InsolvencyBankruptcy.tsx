@@ -21,7 +21,7 @@ const InsolvencyBankruptcy = () => {
     },
     {
       icon: <Target className="h-6 w-6" />,
-      title: "Asset realization estimates",
+      title: "Asset realisation estimates",
       description: "Realistic recovery estimates for creditors"
     },
     {

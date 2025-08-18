@@ -28,7 +28,7 @@ const MergersAcquisitions = () => {
     {
       icon: Handshake,
       title: "Post-merger integration planning",
-      description: "Support successful integration and value realization"
+      description: "Support successful integration and value realisation"
     }
   ];
 
