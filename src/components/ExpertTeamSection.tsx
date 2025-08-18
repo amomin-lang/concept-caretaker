@@ -33,7 +33,7 @@ const teamMembers = [
   {
     id: 4,
     name: "Bernetta Lee",
-    credentials: "CPA",
+    credentials: "",
     certification: "CPA",
     image: "/team/team-bernetta.png",
   },
