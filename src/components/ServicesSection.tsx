@@ -19,37 +19,37 @@ export const ServicesSection = () => {
     },
     {
       icon: Home,
-      title: "Family Settlement Business Valuations",
+      title: "Family Settlement",
       description: "Comprehensive business valuations for family law matters"
     },
     {
       icon: ShoppingBag,
-      title: "Buying a Business Valuations",
+      title: "Buying a Business",
       description: "Due diligence and valuation for acquisition decisions"
     },
     {
       icon: TrendingUp,
-      title: "Selling a Business Valuations",
+      title: "Selling a Business",
       description: "Maximize value with professional business appraisals"
     },
     {
       icon: Calculator,
-      title: "Business Planning Valuations",
+      title: "Business Planning",
       description: "Strategic valuations for business growth and planning"
     },
     {
       icon: FileText,
-      title: "Tax Reasons Business Valuations",
+      title: "Tax Reasons",
       description: "Compliant valuations for tax and regulatory purposes"
     },
     {
       icon: RefreshCw,
-      title: "Restructuring Business Valuations",
+      title: "Restructuring",
       description: "Professional valuations for business restructuring scenarios"
     },
     {
       icon: AlertTriangle,
-      title: "Insolvency Business Valuations",
+      title: "Insolvency",
       description: "Expert valuations for insolvency and liquidation proceedings"
     }
   ];
