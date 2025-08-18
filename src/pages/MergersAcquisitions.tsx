@@ -112,7 +112,7 @@ const MergersAcquisitions = () => {
               <Badge variant="secondary" className="mb-4 bg-white/10 text-white border-white/20">
                 M&A Advisory Services
               </Badge>
-              <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Mergers & Acquisitions</h1>
+              <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Business Valuations for Mergers & Acquisitions</h1>
               <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
                 <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">
                   Make informed M&A decisions with accurate valuations and strategic advisory
