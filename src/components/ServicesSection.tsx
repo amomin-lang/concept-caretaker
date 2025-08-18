@@ -40,7 +40,7 @@ export const ServicesSection = () => {
     {
       icon: FileText,
       title: "Business Valuations for Tax Reasons",
-      description: "Compliant valuations for tax and regulatory purposes"
+      description: "Compliant business valuations for tax and regulatory purposes"
     },
     {
       icon: RefreshCw,
