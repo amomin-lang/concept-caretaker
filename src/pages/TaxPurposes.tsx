@@ -57,7 +57,7 @@ const TaxPurposes = () => {
     },
     {
       title: "Business Restructuring",
-      description: "Tax-effective restructuring including corporate reorganizations, trust distributions, and ownership changes."
+      description: "Tax-effective restructuring including corporate reorganisations, trust distributions, and ownership changes."
     },
     {
       title: "Division 7A Issues",
