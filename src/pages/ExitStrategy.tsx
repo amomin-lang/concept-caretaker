@@ -26,7 +26,7 @@ const ExitStrategy = () => {
     },
     {
       icon: <Clock className="h-6 w-6" />,
-      title: "Exit timing optimization",
+      title: "Exit timing optimisation",
       description: "Strategic timing recommendations for maximum value"
     }
   ];
