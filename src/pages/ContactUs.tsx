@@ -76,12 +76,12 @@ const ContactUs = () => {
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center text-primary-foreground">
               <div className="mb-6">
-                <h1 className="text-4xl lg:text-6xl font-bold mb-4 drop-shadow-lg">Contact Us</h1>
-                <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-8 py-4 border border-white/20">
-                  <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">
+                <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">Contact Us</h1>
+                <div className="bg-white/15 backdrop-blur-md rounded-2xl px-12 py-8 border-2 border-white/30 shadow-2xl">
+                  <h2 className="text-2xl lg:text-4xl font-bold text-white drop-shadow-lg mb-2">
                     Australia Wide Coverage
-                  </p>
-                  <p className="text-base lg:text-lg text-white/90 drop-shadow-lg mt-1">
+                  </h2>
+                  <p className="text-lg lg:text-2xl text-white/95 drop-shadow-lg font-semibold">
                     by Xcllusive Business Valuations
                   </p>
                 </div>
