@@ -39,7 +39,7 @@ const teamMembers = [
   },
   {
     id: 5,
-    name: "Denise",
+    name: "Denise Hall",
     credentials: "B.Train & Dev",
     certification: "M.Entrep & Innov",
     additional: "CBV (AAVI)",
@@ -76,13 +76,13 @@ export const ExpertTeamSection = () => {
                 />
                 {member.certification && (
                   <div className="absolute -bottom-2 -right-2 bg-white rounded-full p-2">
-                    {(member.name === "Adeel Momin" || member.name === "Choon Ng" || member.name === "Zoran Sarabaca" || member.name === "Bernetta Lee" || member.name === "Denise" || member.name === "Fred Fardeman") ? (
+                    {(member.name === "Adeel Momin" || member.name === "Choon Ng" || member.name === "Zoran Sarabaca" || member.name === "Bernetta Lee" || member.name === "Denise Hall" || member.name === "Fred Fardeman") ? (
                       <a href={
                         member.name === "Adeel Momin" ? "https://www.linkedin.com/in/adeelmomin" : 
                         member.name === "Choon Ng" ? "https://au.linkedin.com/in/choonng" :
                         member.name === "Zoran Sarabaca" ? "https://au.linkedin.com/in/zoran-sarabaca-bba2a38" :
                         member.name === "Bernetta Lee" ? "https://au.linkedin.com/in/bsylee" :
-                        member.name === "Denise" ? "https://au.linkedin.com/in/denisehall" :
+                        member.name === "Denise Hall" ? "https://au.linkedin.com/in/denisehall" :
                         "https://au.linkedin.com/in/fred-fardeau-b4496251"
                       } target="_blank" rel="noopener noreferrer">
                         <img 
