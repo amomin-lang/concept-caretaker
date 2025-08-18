@@ -180,10 +180,7 @@ const InsolvencyBankruptcy = () => {
                   <p className="text-lg text-muted-foreground mb-6">
                     Time-sensitive insolvency matters require expert analysis. Contact us for urgent valuation support.
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Button size="lg" className="px-8">
-                      Get Started Today
-                    </Button>
+                  <div className="flex justify-center">
                     <Button variant="outline" size="lg" className="px-8" asChild>
                       <a href="tel:1300520121">📞 Call: 1300 520 121</a>
                     </Button>
