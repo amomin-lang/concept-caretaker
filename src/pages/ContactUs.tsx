@@ -52,14 +52,14 @@ const ContactUs = () => {
       address: "Bathurst, Orange, Dubbo NSW"
     },
     {
-      name: "Central Coast Office (and Newcastle & Surrounds)",
-      phone: "(02) 4323 3433",
-      address: "Gosford NSW 2250"
-    },
-    {
       name: "Perth Office",
       phone: "(08) 6311 3331",
       address: ""
+    },
+    {
+      name: "Central Coast Office (and Newcastle & Surrounds)",
+      phone: "(02) 4323 3433",
+      address: "Gosford NSW 2250"
     }
   ];
 
