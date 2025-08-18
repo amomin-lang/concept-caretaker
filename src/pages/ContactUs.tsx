@@ -59,7 +59,7 @@ const ContactUs = () => {
     {
       name: "Central Coast Office",
       phone: "(02) 4323 3433",
-      address: "Gosford NSW 2250"
+      address: "Suite 1, 86 Mann Street, Gosford NSW 2250"
     },
     {
       name: "Newcastle Office",
