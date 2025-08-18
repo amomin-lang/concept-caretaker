@@ -123,16 +123,11 @@ const FamilyLaw = () => {
                   <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
                     We understand the sensitive nature of family law matters. Contact us for professional, independent business valuations.
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <div className="flex justify-center">
                     <Button size="lg" asChild>
                       <a href="tel:1300520121" className="text-lg px-8">
                         📞 Call: 1300 520 121
                       </a>
-                    </Button>
-                    <Button variant="outline" size="lg" asChild>
-                      <Link to="/contact" className="text-lg px-8">
-                        Get Quote Online
-                      </Link>
                     </Button>
                   </div>
                 </div>
