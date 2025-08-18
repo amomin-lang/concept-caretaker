@@ -59,11 +59,11 @@ const FamilyLaw = () => {
                 </Link>
               </div>
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">
-                Family Law Matters
+                Business Valuations for Family Law Matters
               </h1>
               <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
                 <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">
-                  Fair, independent valuations for family law proceedings
+                  Fair, independent business valuations for family law proceedings
                 </p>
               </div>
             </div>
