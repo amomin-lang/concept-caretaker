@@ -7,11 +7,12 @@ export const HeroSection = () => {
     <section 
       className="relative min-h-[600px] flex items-center justify-center bg-cover bg-center"
       style={{ backgroundImage: `linear-gradient(rgba(33, 150, 243, 0.8), rgba(21, 101, 192, 0.9)), url(${heroImage})` }}
+      aria-label="Hero section featuring business valuation services"
     >
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[600px]">
           {/* Left side - Hero content */}
-          <div className="text-center lg:text-left text-primary-foreground">
+          <article className="text-center lg:text-left text-primary-foreground">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">
               Australia Wide Business Valuations
             </h1>
@@ -21,16 +22,22 @@ export const HeroSection = () => {
               </p>
             </div>
             <div className="flex justify-center lg:justify-start">
-              <Button variant="accent" size="lg" className="text-lg px-8" asChild>
+              <Button 
+                variant="accent" 
+                size="lg" 
+                className="text-lg px-8" 
+                asChild
+                aria-label="Call Australia Wide Business Valuations"
+              >
                 <a href="tel:+61180082583">Call us on 1800 825 831</a>
               </Button>
             </div>
-          </div>
+          </article>
           
           {/* Right side - Booking Form */}
-          <div className="lg:block">
+          <aside className="lg:block">
             <BookingForm />
-          </div>
+          </aside>
         </div>
       </div>
     </section>
