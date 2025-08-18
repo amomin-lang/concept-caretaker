@@ -164,7 +164,7 @@ const ContactUs = () => {
 
                 {/* Quick Contact Options */}
                 <div className="mb-16">
-                  <h3 className="text-2xl font-bold text-primary mb-8">Get In Touch</h3>
+                  <h3 className="text-2xl font-bold text-primary mb-8 text-center">Get In Touch</h3>
                   <div className="flex justify-center">
                     <Card className="shadow-card hover:shadow-elegant transition-all duration-300 max-w-md">
                       <CardContent className="p-8 text-center">
