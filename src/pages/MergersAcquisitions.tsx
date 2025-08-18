@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookingForm } from "@/components/BookingForm";
+import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, TrendingUp, Users, BarChart3, Target, Handshake } from "lucide-react";
 import heroImage from "@/assets/hero-business.jpg";
@@ -91,6 +92,16 @@ const MergersAcquisitions = () => {
       <Header />
       
       <main className="pt-20">
+        {/* Back to Services Link */}
+        <div className="bg-muted/30 py-4">
+          <div className="container mx-auto px-6">
+            <Button variant="ghost" asChild className="text-primary hover:text-primary/80">
+              <Link to="/services" className="inline-flex items-center">
+                ← Back to All Services
+              </Link>
+            </Button>
+          </div>
+        </div>
         {/* Hero Section */}
         <section 
           className="relative min-h-[400px] flex items-center justify-center bg-cover bg-center"
