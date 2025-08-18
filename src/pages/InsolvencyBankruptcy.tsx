@@ -102,10 +102,10 @@ const InsolvencyBankruptcy = () => {
                 
                 {/* Introduction */}
                 <div className="mb-16">
-                  <h2 className="text-3xl font-bold text-primary mb-6">Expert Insolvency Valuations</h2>
+                  <h2 className="text-3xl font-bold text-primary mb-6">Expert Insolvency Business Valuations</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
                     <p className="text-xl mb-6">
-                      Get accurate valuations in challenging circumstances. Our insolvency valuations help administrators, 
+                      Get accurate business valuations in challenging circumstances. Our insolvency business valuations help administrators, 
                       creditors, and stakeholders make informed decisions with realistic assessments based on current market conditions.
                     </p>
                     <p className="text-lg mb-8">
