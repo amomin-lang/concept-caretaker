@@ -59,7 +59,7 @@ export const ServicesSection = () => {
       <div className="container mx-auto px-6">
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center text-primary mb-8">
-            Valuations for
+            Business Valuations for
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => {
