@@ -14,7 +14,7 @@ export const ServicesSection = () => {
   const services = [
     {
       icon: HandHeart,
-      title: "Partnership Dissolution Business Valuations",
+      title: "Business Valuations for Partner Dissolution",
       description: "Fair and accurate valuations for partnership disputes"
     },
     {
