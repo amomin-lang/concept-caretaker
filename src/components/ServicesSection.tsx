@@ -55,25 +55,25 @@ export const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
-      <div className="container mx-auto px-6">
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center text-primary mb-8">
+    <section className="py-8 sm:py-12 lg:py-20 bg-background">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="mb-8 sm:mb-12 lg:mb-16">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-center text-primary mb-6 sm:mb-8">
             Business Valuations for
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {services.map((service, index) => {
               const Icon = service.icon;
               return (
                 <Card key={index} className="text-center shadow-card hover:shadow-elegant transition-all duration-300 transform hover:-translate-y-1">
-                  <CardHeader className="pb-4">
-                    <div className="w-16 h-16 bg-gradient-hero rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <Icon className="h-8 w-8 text-primary-foreground" />
+                  <CardHeader className="pb-3 sm:pb-4 p-4 sm:p-6">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-hero rounded-full mx-auto mb-3 sm:mb-4 flex items-center justify-center">
+                      <Icon className="h-6 w-6 sm:h-8 sm:w-8 text-primary-foreground" />
                     </div>
-                    <CardTitle className="text-lg text-primary">{service.title}</CardTitle>
+                    <CardTitle className="text-base sm:text-lg text-primary leading-tight">{service.title}</CardTitle>
                   </CardHeader>
-                  <CardContent className="pt-0">
-                    <p className="text-muted-foreground">{service.description}</p>
+                  <CardContent className="pt-0 p-4 sm:p-6">
+                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">{service.description}</p>
                   </CardContent>
                 </Card>
               );

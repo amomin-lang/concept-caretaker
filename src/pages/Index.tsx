@@ -48,8 +48,8 @@ const Index = () => {
         <TrustSection />
         
         {/* Contact Form Section */}
-        <section className="py-16 pb-4 bg-gradient-subtle">
-          <div className="container mx-auto px-6">
+        <section className="py-8 sm:py-12 lg:py-16 pb-4 bg-gradient-subtle">
+          <div className="container mx-auto px-4 sm:px-6">
             <div className="max-w-2xl mx-auto">
               <BookingForm />
             </div>
