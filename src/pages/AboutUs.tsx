@@ -69,30 +69,30 @@ const AboutUs = () => {
       <main className="pt-20">
         {/* Hero Section */}
         <section 
-          className="relative min-h-[400px] flex items-center justify-center bg-cover bg-center"
+          className="relative min-h-[300px] sm:min-h-[400px] lg:min-h-[500px] flex items-center justify-center bg-cover bg-center"
           style={{ backgroundImage: `linear-gradient(rgba(33, 150, 243, 0.8), rgba(21, 101, 192, 0.9)), url(${heroImage})` }}
         >
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto px-4 sm:px-6">
             <div className="max-w-4xl mx-auto text-center text-primary-foreground">
-              <h1 className="text-4xl lg:text-6xl font-bold mb-6 drop-shadow-lg">About Us</h1>
-              <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
-                <p className="text-lg lg:text-xl font-bold text-white drop-shadow-lg">Business Valuation Team of Diverse Experts</p>
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl font-bold mb-4 sm:mb-6 drop-shadow-lg">About Us</h1>
+              <div className="inline-block bg-white/10 backdrop-blur-sm rounded-full px-4 sm:px-6 py-2 sm:py-3 border border-white/20">
+                <p className="text-sm sm:text-base lg:text-lg xl:text-xl font-bold text-white drop-shadow-lg">Business Valuation Team of Diverse Experts</p>
               </div>
             </div>
           </div>
         </section>
 
         {/* Main Content */}
-        <section className="py-16 relative">
-          <div className="container mx-auto px-6">
-            <div className="flex gap-8">
+        <section className="py-8 sm:py-12 lg:py-16 relative">
+          <div className="container mx-auto px-4 sm:px-6">
+            <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
               <div className="flex-1 max-w-4xl">
               
                 {/* Team Overview */}
-                <div className="mb-16">
-                  <h2 className="text-3xl font-bold text-primary mb-6">Business Valuation Team of Diverse Experts</h2>
+                <div className="mb-8 sm:mb-12 lg:mb-16">
+                  <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary mb-4 sm:mb-6">Business Valuation Team of Diverse Experts</h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
-                    <p className="mb-6 text-xl">
+                    <p className="mb-4 sm:mb-6 text-base sm:text-lg lg:text-xl leading-relaxed">
                       Our team comprises over 40 professionals across Australia, including registered 
                       business valuers, mergers and acquisitions specialists, business sales experts, MBAs, 
                       Commerce Graduates and CPAs. This diverse blend of academic knowledge and hands-
@@ -102,12 +102,12 @@ const AboutUs = () => {
                 </div>
 
                 {/* Bridging Theory and Reality */}
-                <div className="mb-16">
-                  <h2 className="text-3xl font-bold text-primary mb-6">
+                <div className="mb-8 sm:mb-12 lg:mb-16">
+                  <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary mb-4 sm:mb-6">
                     From Business Sales to Valuations: Bridging the Gap Between Theory and Reality
                   </h2>
                   <div className="prose prose-lg max-w-none text-muted-foreground">
-                    <p className="mb-6 text-xl">
+                    <p className="mb-4 sm:mb-6 text-base sm:text-lg lg:text-xl leading-relaxed">
                       Our journey began with a focus on business sales, where we identified a significant gap 
                       in the market: the need for business valuations that are not only academically sound but 
                       also grounded in real-world market conditions. Traditional valuations often relied heavily 
@@ -119,25 +119,25 @@ const AboutUs = () => {
                 </div>
 
                 {/* Extensive Experience */}
-                <div className="mb-16">
-                  <div className="relative bg-gradient-subtle rounded-3xl p-12 shadow-elegant border border-primary/10">
+                <div className="mb-8 sm:mb-12 lg:mb-16">
+                  <div className="relative bg-gradient-subtle rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12 shadow-elegant border border-primary/10">
                     {/* Background decoration */}
-                    <div className="absolute top-6 right-6 w-32 h-32 bg-gradient-accent rounded-full opacity-10"></div>
-                    <div className="absolute bottom-6 left-6 w-24 h-24 bg-gradient-hero rounded-full opacity-10"></div>
+                    <div className="absolute top-3 right-3 sm:top-6 sm:right-6 w-16 h-16 sm:w-24 sm:h-24 lg:w-32 lg:h-32 bg-gradient-accent rounded-full opacity-10"></div>
+                    <div className="absolute bottom-3 left-3 sm:bottom-6 sm:left-6 w-12 h-12 sm:w-16 sm:h-16 lg:w-24 lg:h-24 bg-gradient-hero rounded-full opacity-10"></div>
                     
                     <div className="relative z-10">
-                      <h2 className="text-4xl font-bold text-primary mb-8 text-center">
+                      <h2 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-primary mb-4 sm:mb-6 lg:mb-8 text-center">
                         Extensive Experience Across Various Scenarios
                       </h2>
-                      <p className="text-muted-foreground mb-10 text-xl text-center max-w-3xl mx-auto">
-                        To date, we've completed over <span className="text-primary font-bold text-2xl">500+</span> business valuations for a wide range of purposes, including:
+                      <p className="text-muted-foreground mb-6 sm:mb-8 lg:mb-10 text-base sm:text-lg lg:text-xl text-center max-w-3xl mx-auto">
+                        To date, we've completed over <span className="text-primary font-bold text-lg sm:text-xl lg:text-2xl">500+</span> business valuations for a wide range of purposes, including:
                       </p>
                       
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-6 sm:mb-8 lg:mb-10">
                         {scenarios.map((scenario, index) => (
                           <div 
                             key={index} 
-                            className="group flex items-center space-x-4 p-4 bg-card/50 backdrop-blur-sm rounded-xl border border-primary/10 hover:border-primary/20 hover:bg-card/70 transition-all duration-300 hover-scale"
+                            className="group flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 bg-card/50 backdrop-blur-sm rounded-lg sm:rounded-xl border border-primary/10 hover:border-primary/20 hover:bg-card/70 transition-all duration-300 hover-scale"
                             style={{ animationDelay: `${index * 100}ms` }}
                           >
                             <div className="w-3 h-3 bg-gradient-accent rounded-full group-hover:scale-125 transition-transform duration-300 flex-shrink-0"></div>
@@ -161,21 +161,20 @@ const AboutUs = () => {
                 </div>
 
                 {/* Court-tested */}
-                <div className="mb-16">
-                  <h2 className="text-3xl font-bold text-primary mb-6">Court-tested and Defensible Valuations</h2>
-                  <p className="text-muted-foreground text-xl">
+                <div className="mb-8 sm:mb-12 lg:mb-16">
+                  <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary mb-4 sm:mb-6">Court-tested and Defensible Valuations</h2>
+                  <p className="text-muted-foreground text-base sm:text-lg lg:text-xl leading-relaxed">
                     Our valuations have stood up in court, with our experts serving as credible witnesses in 
                     legal proceedings. This track record underscores our commitment to delivering 
                     assessments that are not only accurate but also defensible under scrutiny.
                   </p>
                 </div>
 
-
               </div>
               
               {/* Sliding Form */}
-              <div className="hidden lg:block w-80">
-                <div className="sticky top-24 transform transition-transform duration-300 ease-out">
+              <div className="lg:w-80 lg:flex-shrink-0">
+                <div className="lg:sticky lg:top-24 transform transition-transform duration-300 ease-out">
                   <BookingForm />
                 </div>
               </div>

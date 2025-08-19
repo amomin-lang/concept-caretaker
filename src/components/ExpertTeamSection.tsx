@@ -56,26 +56,26 @@ const teamMembers = [
 
 export const ExpertTeamSection = () => {
   return (
-    <section className="py-16 bg-background">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-primary mb-4">
+    <section className="py-8 sm:py-12 lg:py-16 bg-background">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-4">
             Team of Certified Expert Business Valuers
           </h2>
-          <div className="w-24 h-1 bg-accent mx-auto"></div>
+          <div className="w-16 sm:w-24 h-1 bg-accent mx-auto"></div>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 sm:gap-8 mb-8 sm:mb-12">
           {teamMembers.map((member) => (
             <div key={member.id} className="text-center">
               <div className="relative mb-4">
                 <img
                   src={member.image}
                   alt={`${member.name} - Expert Business Valuations Specialist and Certified Valuer`}
-                  className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full mx-auto border-4 border-primary shadow-lg"
+                  className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 object-cover rounded-full mx-auto border-4 border-primary shadow-lg"
                 />
                 {member.certification && (
-                  <div className="absolute -bottom-2 -right-2 bg-white rounded-full p-2">
+                  <div className="absolute -bottom-1 -right-1 sm:-bottom-2 sm:-right-2 bg-white rounded-full p-1 sm:p-2">
                     {(member.name === "Adeel Momin" || member.name === "Choon Ng" || member.name === "Zoran Sarabaca" || member.name === "Bernetta Lee" || member.name === "Denise Hall" || member.name === "Fred Fardeman") ? (
                       <a href={
                         member.name === "Adeel Momin" ? "https://www.linkedin.com/in/adeelmomin" : 
@@ -88,20 +88,20 @@ export const ExpertTeamSection = () => {
                         <img 
                           src="/lovable-uploads/91d0d7ff-b4d4-4f8c-89fb-a30d3f58cbea.png" 
                           alt="LinkedIn profile for Business Valuations expert"
-                          className="w-8 h-8 object-contain hover:opacity-80 transition-opacity"
+                          className="w-6 h-6 sm:w-8 sm:h-8 object-contain hover:opacity-80 transition-opacity"
                         />
                       </a>
                     ) : (
                       <img 
                         src="/lovable-uploads/91d0d7ff-b4d4-4f8c-89fb-a30d3f58cbea.png" 
                         alt="LinkedIn profile for Business Valuations professional"
-                        className="w-8 h-8 object-contain"
+                        className="w-6 h-6 sm:w-8 sm:h-8 object-contain"
                       />
                     )}
                   </div>
                 )}
               </div>
-              <h3 className="font-bold text-sm text-foreground">{member.name}</h3>
+              <h3 className="font-bold text-xs sm:text-sm text-foreground">{member.name}</h3>
               <p className="text-xs text-muted-foreground">{member.credentials}</p>
               {member.certification && (
                 <p className={`text-xs ${member.name === "Denise Hall" ? "text-black" : "text-primary font-semibold"}`}>
@@ -118,7 +118,7 @@ export const ExpertTeamSection = () => {
         </div>
         
         <div className="text-center">
-          <p className="text-lg leading-relaxed text-muted-foreground max-w-4xl mx-auto">
+          <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-muted-foreground max-w-4xl mx-auto px-2">
             With over <span className="font-bold text-primary">500 valuations completed</span> across Australia, 
             our team of certified experts combines real-world business sales experience with academic precision. 
             Trusted by lawyers, accountants, and business owners alike, our valuations are tailored, 

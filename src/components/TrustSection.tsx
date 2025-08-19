@@ -60,46 +60,46 @@ export const TrustSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-secondary/30">
-      <div className="container mx-auto px-6">
+    <section className="py-8 sm:py-12 lg:py-20 bg-secondary/30">
+      <div className="container mx-auto px-4 sm:px-6">
         {/* Header section */}
-        <div className="text-center mb-16">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-primary mb-6 leading-tight whitespace-nowrap">
+        <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-primary mb-4 sm:mb-6 leading-tight">
             Why Clients Trust us with their Business Valuations
           </h2>
           
-          <div className="w-24 h-1 bg-accent mx-auto mb-6"></div>
+          <div className="w-16 sm:w-24 h-1 bg-accent mx-auto mb-4 sm:mb-6"></div>
           
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-2">
             Our proven methodology and expert team deliver valuations you can confidently rely on for any business decision
           </p>
         </div>
 
         {/* Trust factors grid */}
-        <div className="grid grid-cols-1 gap-10 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 gap-6 sm:gap-8 lg:gap-10 max-w-5xl mx-auto">
           {trustFactors.map((factor, index) => {
             const Icon = factor.icon;
             return (
               <div key={index} className="group">
-                <div className="flex items-start gap-8">
+                <div className="flex items-start gap-4 sm:gap-6 lg:gap-8">
                   {/* Icon section */}
                   <div className="flex-shrink-0 pt-1">
-                     <Icon className="h-8 w-8 text-primary font-bold" strokeWidth={3} />
+                     <Icon className="h-6 w-6 sm:h-8 sm:w-8 text-primary font-bold" strokeWidth={3} />
                   </div>
                   
                   {/* Text content */}
                   <div className="flex-1">
-                    <h3 className="text-xl md:text-2xl font-bold text-foreground mb-4 group-hover:text-primary transition-colors duration-300 leading-tight">
+                    <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-foreground mb-2 sm:mb-3 lg:mb-4 group-hover:text-primary transition-colors duration-300 leading-tight">
                       {factor.title}
                     </h3>
-                    <p className="text-lg text-foreground/90 leading-relaxed font-medium">
+                    <p className="text-sm sm:text-base lg:text-lg text-foreground/90 leading-relaxed font-medium">
                       {factor.description}
                     </p>
                   </div>
                 </div>
                 {/* Subtle divider */}
                 {index < trustFactors.length - 1 && (
-                  <div className="w-full h-px bg-border/30 mt-10"></div>
+                  <div className="w-full h-px bg-border/30 mt-6 sm:mt-8 lg:mt-10"></div>
                 )}
               </div>
             );
